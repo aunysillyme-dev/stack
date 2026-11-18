@@ -45,36 +45,42 @@ class ScopeTests(unittest.TestCase):
         self.assertEqual(result.returncode == 0, expected, result.stderr.decode())
 
     def test_valid_contributions_and_maintainer(self):
-        self.check_scope("Alice", ["A", "stacks/design/community/alice/my-workflow.json"], True)
-        self.check_scope("alice", ["M", "stacks/video/community/alice/a.json"], True)
-        self.check_scope("aunysillyme", ["M", "stacks/video/canonical.json"], True)
-        self.check_scope("alice", ["R100", "stacks/design/community/alice/a.json",
-                                   "stacks/design/community/alice/b.json"], True)
+        self.check_scope("Alice", ["A", "design/community/alice/my-workflow.json"], True)
+        self.check_scope("alice", ["M", "video/community/alice/a.json"], True)
+        self.check_scope("aunysillyme", ["M", "video/canonical.json"], True)
+        self.check_scope("alice", ["R100", "design/community/alice/a.json",
+                                   "design/community/alice/b.json"], True)
+
+    def test_root_categories_only(self):
+        for path in ("stacks/video/community/alice/work.json", "templates/community/alice/work.json",
+                     "scripts/community/alice/work.json", "catalog.json", "/video/community/alice/work.json",
+                     "video/community/../alice/work.json", "video//community/alice/work.json"):
+            self.check_scope("alice", ["A", path], False)
 
     def test_invalid_authors_and_paths(self):
-        for author, path in (("", "stacks/design/community/alice/a.json"),
-                             ("alice/../bob", "stacks/design/community/bob/a.json"),
-                             ("K", "stacks/design/community/k/a.json"),
-                             ("alice", "stacks/design/community/bob/a.json"),
-                             ("alice", "stacks/video/canonical.json"),
+        for author, path in (("", "design/community/alice/a.json"),
+                             ("alice/../bob", "design/community/bob/a.json"),
+                             ("K", "design/community/k/a.json"),
+                             ("alice", "design/community/bob/a.json"),
+                             ("alice", "video/canonical.json"),
                              ("alice", ".github/workflows/checks.yml"),
-                             ("alice", "stacks/fake/community/alice/a.json"),
-                             ("alice", "stacks/design/community/alice/nested/a.json")):
+                             ("alice", "fake/community/alice/a.json"),
+                             ("alice", "design/community/alice/nested/a.json")):
             with self.subTest(author=author, path=path):
                 self.check_scope(author, ["M", path], False)
 
     def test_cross_folder_rename_rejected_in_both_directions(self):
-        own = "stacks/design/community/alice/a.json"
-        other = "stacks/design/community/bob/a.json"
+        own = "design/community/alice/a.json"
+        other = "design/community/bob/a.json"
         self.check_scope("alice", ["R100", other, own], False)
         self.check_scope("alice", ["R100", own, other], False)
-        self.check_scope("alice", ["R100", own, "stacks/video/community/alice/a.json"], False)
-        self.check_scope("alice", ["D", own, "A", "stacks/video/community/alice/a.json"], False)
-        self.check_scope("alice", ["D", own, "A", "stacks/design/community/alice/b.json"], True)
+        self.check_scope("alice", ["R100", own, "video/community/alice/a.json"], False)
+        self.check_scope("alice", ["D", own, "A", "video/community/alice/a.json"], False)
+        self.check_scope("alice", ["D", own, "A", "design/community/alice/b.json"], True)
 
     def test_malformed_diff_is_rejected(self):
-        for entries in (["R100", "stacks/design/community/alice/a.json"],
-                        ["U", "stacks/design/community/alice/a.json"],
+        for entries in (["R100", "design/community/alice/a.json"],
+                        ["U", "design/community/alice/a.json"],
                         ["M", ""]):
             with self.subTest(entries=entries):
                 self.check_scope("alice", entries, False)

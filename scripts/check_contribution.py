@@ -1,5 +1,6 @@
 """Check a NUL-delimited git diff --name-status against the PR author's scope."""
 
+import json
 import os
 from pathlib import Path
 import re
@@ -21,14 +22,17 @@ def check(root, author, data):
     if data and not data.endswith(b"\0"):
         raise ValueError("unterminated changed-file list")
     tokens = data[:-1].split(b"\0") if data else []
-    categories = {p.name for p in (root / "stacks").iterdir()
-                  if p.is_dir() and not p.is_symlink() and (p / "stack.json").is_file()}
+    # The workflow passes the trusted base checkout, including its category catalog.
+    catalog = root / "catalog.json"
+    if catalog.is_symlink() or not catalog.is_file():
+        raise ValueError("missing or unsafe category catalog")
+    categories = json.loads(catalog.read_text())
 
     def allowed(path):
         parts = path.split("/")
-        return (len(parts) == 5 and parts[0] == "stacks" and parts[1] in categories
-                and parts[2] == "community" and parts[3] == author
-                and WORKFLOW.fullmatch(parts[4]) is not None)
+        return (len(parts) == 4 and parts[0] in categories
+                and parts[1] == "community" and parts[2] == author
+                and WORKFLOW.fullmatch(parts[3]) is not None)
 
     added_folders = set()
     deleted_folders = set()

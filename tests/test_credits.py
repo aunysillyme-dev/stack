@@ -23,14 +23,14 @@ class CreditTests(unittest.TestCase):
         self.proposed = Path(self.tmp.name) / "proposed"
         shutil.copytree(ROOT, self.base, ignore=shutil.ignore_patterns(".git", "__pycache__"))
         shutil.copytree(self.base, self.proposed)
-        self.path = self.proposed / "stacks/design/community/alice/work.json"
+        self.path = self.proposed / "design/community/alice/work.json"
         self.path.parent.mkdir()
         self.obj = json.loads((ROOT / "templates/workflow.json").read_text())
         self.obj["author"] = "alice"
         self.obj["reviewed"] = "2020-01-01"
         self.obj["credits"] = [{"handle": "alice", "contribution": "Wrote the lighting workflow"}]
         self.save()
-        self.diff = b"A\0stacks/design/community/alice/work.json\0M\0README.md\0"
+        self.diff = b"A\0design/community/alice/work.json\0M\0README.md\0"
 
     def save(self):
         self.path.write_text(json.dumps(self.obj), encoding="utf-8")
@@ -89,12 +89,12 @@ class CreditTests(unittest.TestCase):
         previous.parent.mkdir(parents=True, exist_ok=True)
         original = dict(self.obj, credits=self.obj["credits"] + [{"handle": "bob", "contribution": "Checked exports"}])
         previous.write_text(json.dumps(original))
-        self.diff = b"M\0stacks/design/community/alice/work.json\0"
+        self.diff = b"M\0design/community/alice/work.json\0"
         self.update_readme()
         self.assertNotEqual(self.check().returncode, 0)
         self.path.unlink()
         self.path.parent.rmdir()
-        self.diff = b"D\0stacks/design/community/alice/work.json\0"
+        self.diff = b"D\0design/community/alice/work.json\0"
         self.update_readme()
         self.assertNotEqual(self.check().returncode, 0)
 
@@ -108,6 +108,19 @@ class CreditTests(unittest.TestCase):
         self.update_readme()
         self.assertNotEqual(self.check().returncode, 0)
 
+    def test_root_registry_and_links(self):
+        self.update_readme()
+        self.assertIn("(design/community/alice/work.json)", (self.proposed / "README.md").read_text())
+        for bad in (["design", "video", "../outside"], ["design", "video", "scripts"],
+                    ["design"], ["design", "video", "video"]):
+            (self.proposed / "catalog.json").write_text(json.dumps(bad))
+            with self.assertRaises(ValueError):
+                credits.validator.validate(self.proposed)
+        (self.proposed / "catalog.json").write_text('["design","video"]')
+        (self.proposed / "stacks").mkdir()
+        with self.assertRaises(ValueError):
+            credits.validator.validate(self.proposed)
+
     def test_credit_validation(self):
         for items in ([{"handle": "bob", "contribution": "Helped"}],
                       [{"handle": "alice", "contribution": "a\nb"}],
@@ -120,7 +133,7 @@ class CreditTests(unittest.TestCase):
     def test_scope_still_restricts_paths(self):
         script = ROOT / "scripts/check_contribution.py"
         for diff, ok in ((b'M\0README.md\0', True),
-                         (b'M\0stacks/design/community/bob/work.json\0', False),
+                         (b'M\0design/community/bob/work.json\0', False),
                          (b'A\0README.md\0', False),
                          (b'M\0scripts/credits.py\0', False)):
             result = subprocess.run([sys.executable, '-I', str(script), str(self.base)], input=diff,

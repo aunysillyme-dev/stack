@@ -22,8 +22,10 @@ def escape(value):
 def render(root):
     validator.validate(root)
     lines = ["<!-- credits:start -->", "## Credits", "",
-             "- [@aunysillyme](https://github.com/aunysillyme): Curated the [Video tools and workflows](stacks/video/canonical.json), including the production pipeline and creative techniques."]
-    for path in sorted((root / "stacks").glob("*/community/*/*.json")):
+             "- [@aunysillyme](https://github.com/aunysillyme): Curated the [Video tools and workflows](video/canonical.json), including the production pipeline and creative techniques."]
+    paths = (path for name in validator.category_names(root)
+             for path in (root / name / "community").glob("*/*.json"))
+    for path in sorted(paths):
         obj = validator.read(path)
         for credit in obj.get("credits", [{"handle": obj["author"], "contribution": "Submitted " + obj["title"]}]):
             handle = credit["handle"]
@@ -56,6 +58,7 @@ def check_changed(base, root, data, outside, author, confirmed):
     if tokens[-1] != b"":
         raise ValueError("unterminated changed-file list")
     tokens.pop()
+    categories = set(validator.category_names(root))
     while tokens:
         status = tokens.pop(0).decode("ascii")
         count = 2 if re.fullmatch(r"[RC][0-9]{1,3}", status) else 1
@@ -63,7 +66,9 @@ def check_changed(base, root, data, outside, author, confirmed):
             raise ValueError("incomplete changed-file list")
         paths, tokens = tokens[:count], tokens[count:]
         path = os.fsdecode(paths[-1])
-        if not (path.startswith("stacks/") and "/community/" in path and path.endswith(".json")):
+        parts = path.split("/")
+        if not (len(parts) == 4 and parts[0] in categories and parts[1] == "community"
+                and parts[3].endswith(".json")):
             continue
         if status == "D":
             if outside:

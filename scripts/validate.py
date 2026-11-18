@@ -176,11 +176,26 @@ def category(path):
                 raise Invalid(f"{item}: {error}") from error
 
 
+def category_names(root):
+    names = read(root / "catalog.json")
+    require(isinstance(names, list) and names, "catalog.json must list category names")
+    reserved = {"scripts", "tests", "templates", "stacks", "licenses", "docs"}
+    for name in names:
+        require(isinstance(name, str) and re.fullmatch(r"[a-z][a-z0-9-]*", name)
+                and name not in reserved, "invalid root category name")
+    require(len(set(names)) == len(names), "duplicate root category")
+    require({"design", "video"} <= set(names), "missing a required root category")
+    return names
+
+
 def validate(root):
-    stacks = root / "stacks"
-    require(not stacks.is_symlink() and stacks.is_dir(), "missing or unsafe stacks directory")
-    categories = sorted(stacks.iterdir())
-    require(bool(categories), "at least one stack category is required")
+    names = category_names(root)
+    require(not (root / "stacks").exists() and not (root / "stacks").is_symlink(),
+            "obsolete nested category directory")
+    unexpected = [p.name for p in root.iterdir() if not p.is_symlink() and p.is_dir()
+                  and (p / "stack.json").exists() and p.name not in names]
+    require(not unexpected, "unregistered root categories: " + ", ".join(unexpected))
+    categories = [root / name for name in names]
     for folder in categories:
         require(not folder.is_symlink(), f"symlink: {folder}")
         try:
