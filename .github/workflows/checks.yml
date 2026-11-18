@@ -1,0 +1,60 @@
+name: Stack review
+on:
+  pull_request:
+    types: [opened, reopened, edited, synchronize]
+permissions:
+  contents: read
+jobs:
+  data:
+    name: Validate stack data
+    runs-on: ubuntu-latest
+    steps:
+      - name: Read the base branch validator
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: trusted
+          persist-credentials: false
+      - name: Read the proposed files
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          path: proposed
+          fetch-depth: 2
+          persist-credentials: false
+      - name: Check contribution scope
+        env:
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          MERGE_SHA: ${{ github.sha }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git -C proposed rev-parse HEAD)" = "$MERGE_SHA"
+          test "$(git -C proposed rev-parse HEAD^1)" = "$BASE_SHA"
+          git -C proposed rev-parse --verify 'HEAD^2' >/dev/null
+          git -C proposed diff --no-ext-diff --no-textconv --name-status -z -M HEAD^1 HEAD -- |
+            python3 -I trusted/scripts/check_contribution.py trusted
+      - name: Check the proposed stack data
+        run: python3 -I trusted/scripts/validate.py proposed
+  cla:
+    name: Contributor agreement
+    runs-on: ubuntu-latest
+    permissions: {}
+    steps:
+      - name: Check the agreement in the pull request
+        env:
+          PR_BODY: ${{ github.event.pull_request.body }}
+        shell: python
+        run: |
+          import os
+          import re
+          body = re.sub(r"<!--[\s\S]*?(?:-->|$)", "", os.environ.get("PR_BODY", ""))
+          required = [
+              "I agree to the Contributor License Agreement in CLA.md",
+              "I can grant the rights required for my contribution and have identified its sources and coauthors.",
+          ]
+          for statement in required:
+              line = r"^[ \t]*[-*] \[[xX]\] " + re.escape(statement) + r"[ \t]*$"
+              if not re.search(line, body.replace("\r\n", "\n"), re.MULTILINE):
+                  raise SystemExit("Check the agreement and rights boxes in the pull request.")

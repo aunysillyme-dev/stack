@@ -1,0 +1,180 @@
+"""Validate the curated catalog and contributor documents without fetching any URLs."""
+
+import ipaddress
+import json
+import re
+import sys
+from datetime import date, datetime, timezone
+from pathlib import Path
+from urllib.parse import urlsplit
+
+
+class Invalid(ValueError):
+    pass
+
+
+def require(condition, message):
+    if not condition:
+        raise Invalid(message)
+
+
+def read(path):
+    require(path.is_file() and not path.is_symlink(), f"expected regular file: {path}")
+    require(path.stat().st_size <= 256_000, f"file exceeds 256 KB: {path}")
+    return json.loads(path.read_text(encoding="utf-8"), object_pairs_hook=unique_keys)
+
+
+def unique_keys(pairs):
+    obj = {}
+    for key, value in pairs:
+        require(key not in obj, f"duplicate JSON field: {key}")
+        obj[key] = value
+    return obj
+
+
+def fields(obj, names):
+    require(isinstance(obj, dict) and set(obj) == set(names.split()), "expected fields: " + names)
+
+
+def string(value):
+    require(isinstance(value, str) and value.strip(), "expected nonempty text")
+
+
+def sequence(items, check):
+    require(isinstance(items, list) and items, "expected a nonempty list")
+    for item in items:
+        check(item)
+
+
+def url(value):
+    string(value)
+    parsed = urlsplit(value)
+    host = (parsed.hostname or "").rstrip(".").lower()
+    try:
+        ipaddress.ip_address(host)
+        is_ip = True
+    except ValueError:
+        is_ip = False
+    labels = host.split(".")
+    hostname = (len(host) <= 253 and len(labels) >= 2 and all(
+        1 <= len(label) <= 63 and re.fullmatch(r"[a-z0-9]+(?:[a-z0-9-]*[a-z0-9])?", label)
+        for label in labels))
+    # Browsers also interpret decimal, octal, hexadecimal and shortened numeric
+    # hosts as IP addresses. A numeric final label is sufficient to reject them.
+    numeric_end = re.fullmatch(r"(?:[0-9]+|0x[0-9a-f]*)", labels[-1]) is not None
+    require(hostname and not is_ip and not numeric_end
+            and not host.endswith((".localhost", ".local", ".internal", ".test"))
+            and parsed.scheme == "https" and parsed.hostname and not parsed.username
+            and not parsed.password and not re.search(r"[\s\\]", value), "expected a public HTTPS source link")
+
+
+def day(value):
+    string(value)
+    reviewed = date.fromisoformat(value)
+    require(reviewed.isoformat() == value, "expected YYYY-MM-DD")
+    require(reviewed <= datetime.now(timezone.utc).date(), "review date cannot be in the future (UTC)")
+
+
+def tool(obj):
+    fields(obj, "name url access")
+    string(obj["name"])
+    url(obj["url"])
+    string(obj["access"])
+
+
+def workflow(obj, handle):
+    fields(obj, "author title purpose reviewed inputs tools steps output verification")
+    require(obj["author"] == handle, "author must match the contributor folder")
+    for key in ("title", "purpose", "output", "verification"):
+        string(obj[key])
+    day(obj["reviewed"])
+    sequence(obj["inputs"], string)
+    sequence(obj["steps"], string)
+    sequence(obj["tools"], tool)
+
+
+def curated(obj):
+    fields(obj, "author reviewed source tools workflows")
+    require(obj["author"] == "aunysillyme", "unexpected curated author")
+    url(obj["source"])
+    day(obj["reviewed"])
+    for item in obj["tools"]:
+        fields(item, "name url use")
+        string(item["name"])
+        url(item["url"])
+        string(item["use"])
+    for item in obj["workflows"]:
+        fields(item, "name source steps")
+        string(item["name"])
+        url(item["source"])
+        sequence(item["steps"], string)
+    require(isinstance(obj["tools"], list) and obj["tools"] and isinstance(obj["workflows"], list)
+            and obj["workflows"], "curated category needs tools and workflows")
+
+
+def inventory(obj):
+    fields(obj, "source reviewed entries")
+    url(obj["source"])
+    day(obj["reviewed"])
+    def entry(item):
+        fields(item, "name type route status cost_class model_id notes link")
+        for field in ("name", "type", "route", "status", "cost_class", "notes"):
+            string(item[field])
+        require(isinstance(item["model_id"], str), "model ID must be a string")
+        url(item["link"])
+    sequence(obj["entries"], entry)
+
+
+def category(path):
+    require(path.is_dir() and re.fullmatch(r"[a-z][a-z0-9-]*", path.name), "invalid category")
+    for entry in path.rglob("*"):
+        require(not entry.is_symlink(), f"symlink: {entry}")
+    obj = read(path / "stack.json")
+    fields(obj, "id title status guide canonical inventory community")
+    require(obj["id"] == path.name and obj["community"] == "community/", "category paths mismatch")
+    string(obj["title"])
+    require(obj["status"] in ("planned", "published"), "invalid category status")
+    if obj["status"] == "published":
+        url(obj["guide"])
+        require(obj["canonical"] == "canonical.json", "published category requires canonical.json")
+        curated(read(path / "canonical.json"))
+    else:
+        require(obj["guide"] is None and obj["canonical"] is None, "planned category cannot advertise a guide")
+    if obj["inventory"] is not None:
+        require(obj["inventory"] == "inventory.json", "unexpected inventory path")
+        inventory(read(path / "inventory.json"))
+    allowed = {"README.md", "stack.json", "community"} | {s for s in (obj["canonical"], obj["inventory"]) if s}
+    require({p.name for p in path.iterdir()} == allowed, f"unexpected or missing category files: {path}")
+    for author in (path / "community").iterdir():
+        if author.name == "README.md" and author.is_file():
+            continue
+        require(author.is_dir() and len(author.name) <= 39 and re.fullmatch(
+            r"[a-z0-9]+(?:-[a-z0-9]+)*", author.name), f"invalid contributor handle: {author.name}")
+        require(any(author.iterdir()), f"empty contributor directory: {author.name}")
+        for item in author.iterdir():
+            require(re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*\.json", item.name), f"invalid entry path: {item}")
+            try:
+                workflow(read(item), author.name)
+            except (ValueError, TypeError, KeyError, OSError) as error:
+                raise Invalid(f"{item}: {error}") from error
+
+
+def validate(root):
+    stacks = root / "stacks"
+    require(not stacks.is_symlink() and stacks.is_dir(), "missing or unsafe stacks directory")
+    categories = sorted(stacks.iterdir())
+    require(bool(categories), "at least one stack category is required")
+    for folder in categories:
+        require(not folder.is_symlink(), f"symlink: {folder}")
+        try:
+            category(folder)
+        except (ValueError, TypeError, KeyError, OSError) as error:
+            raise Invalid(f"{folder}: {error}") from error
+    return len(categories)
+
+
+if __name__ == "__main__":
+    try:
+        print(f"Validated {validate(Path(sys.argv[1]) if len(sys.argv) > 1 else Path.cwd())} stack categories.")
+    except (ValueError, OSError, TypeError, KeyError) as error:
+        sys.exit(str(error))

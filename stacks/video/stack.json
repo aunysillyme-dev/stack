@@ -1,0 +1,9 @@
+{
+  "id": "video",
+  "title": "Video",
+  "status": "published",
+  "guide": "https://aunysillyme.dev/stack/video/",
+  "canonical": "canonical.json",
+  "inventory": "inventory.json",
+  "community": "community/"
+}

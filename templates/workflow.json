@@ -1,0 +1,22 @@
+{
+  "author": "your-github-login",
+  "title": "Give the workflow a descriptive title",
+  "purpose": "Describe the result and who needs it.",
+  "reviewed": "2026-11-18",
+  "inputs": [
+    "List one required input."
+  ],
+  "tools": [
+    {
+      "name": "Tool name",
+      "url": "https://example.org/",
+      "access": "Describe the free, paid or mixed access route."
+    }
+  ],
+  "steps": [
+    "Describe the first action.",
+    "Describe the next action."
+  ],
+  "output": "Describe the finished result.",
+  "verification": "Explain how you checked the result."
+}

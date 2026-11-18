@@ -1,0 +1,133 @@
+{
+  "author": "aunysillyme",
+  "reviewed": "2026-11-18",
+  "source": "https://aunysillyme.dev/stack/video/",
+  "tools": [
+    {
+      "name": "ChatGPT Images",
+      "url": "https://chatgpt.com/",
+      "use": "GPT Image for detailed scenes, character reference sheets, infographics and thumbnails."
+    },
+    {
+      "name": "Grok Imagine",
+      "url": "https://grok.com/imagine",
+      "use": "Cinematic and surreal images, character visuals, storyboards and short animated clips."
+    },
+    {
+      "name": "Adobe Firefly",
+      "url": "https://firefly.adobe.com/",
+      "use": "An image and video studio where I generate, edit and animate. My preferred documented music-video route uses Google Veo 3.1 Fast in Firefly."
+    },
+    {
+      "name": "Google Flow",
+      "url": "https://flow.google.com/",
+      "use": "Another workspace for Google video models. I have tested it for music-video shots."
+    },
+    {
+      "name": "Fuser",
+      "url": "https://app.fuser.studio/",
+      "use": "A node-based creative canvas. I have experimented with image nodes and a Kling node for character animation."
+    },
+    {
+      "name": "Midjourney",
+      "url": "https://www.midjourney.com/",
+      "use": "Image creation and visual exploration. An archive of earlier work is useful for studying palette, light, texture and composition."
+    },
+    {
+      "name": "CapCut / Firefly editor",
+      "url": "https://www.capcut.com/",
+      "use": "Arrange the selected clips, add the finished audio, trim and export."
+    },
+    {
+      "name": "HyperFrames",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "use": "My default programmatic video toolkit for building editable scenes, motion graphics, explainers and videos from HTML, assets and a timeline."
+    },
+    {
+      "name": "Tesseract",
+      "url": "https://github.com/mirage-hq/Tesseract",
+      "use": "An agent-assisted editing toolkit for cuts, editable motion graphics, 3D and shot-by-shot color work. It builds an editable .tsrct project; it is not an image-to-video generator."
+    },
+    {
+      "name": "Real-ESRGAN",
+      "url": "https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan",
+      "use": "Open-source image upscaling. I have used it to enlarge selected album art before preparing the final dimensions."
+    },
+    {
+      "name": "FFmpeg",
+      "url": "https://ffmpeg.org/",
+      "use": "Open-source media toolkit for assembling, scaling, color adjustment, encoding and checking the finished file."
+    },
+    {
+      "name": "ElevenLabs",
+      "url": "https://elevenlabs.io/",
+      "use": "Voiceover, transcription and sound effects when a project calls for them. The workspace also exposes creative image and video routes."
+    },
+    {
+      "name": "Remotion",
+      "url": "https://www.remotion.dev/",
+      "use": "Reference material for animation techniques and templates that can be rebuilt in HyperFrames; check the applicable license before reuse."
+    }
+  ],
+  "workflows": [
+    {
+      "name": "Video production from brief to delivery",
+      "source": "https://aunysillyme.dev/stack/video/#pipeline",
+      "steps": [
+        "Start with the idea and purpose. Write what the video is about, who it is for, what the viewer should understand or feel, and where it will be watched. Decide the format, approximate duration, aspect ratio, deadline and available budget.",
+        "Collect the inputs. Gather the song or script, source footage, approved reference images, character details, brand assets and any examples. Keep the original files. For an explainer, verify claims and collect the real screen captures or demonstrations.",
+        "Develop the concept. Choose the story, visual world, emotional direction, color palette, typography and camera language. Decide what should be literal, symbolic or shown with graphics. Create a short brief a collaborator or agent can follow.",
+        "Write and time the structure. Make a scene-by-scene storyboard with the message or lyric, visual, action, sound and estimated time. For music, map the actual vocal phrases and musical changes; listen to verify automated timing. For explainers, structure a hook, explanation, demonstration and close.",
+        "Produce the ingredients. Generate or gather stills, characters, B-roll, screenshots, footage, narration, music and sound effects. Make character reference sheets where useful. Label each asset by scene and keep the prompt, model and reference together.",
+        "Test a small sample. Finish one representative still and one short motion test. Check the composition, character, real movement, aspect ratio and estimated cost before generating a batch. Regenerate or change tools when the result misses.",
+        "Make the clips and graphics. Animate selected stills with any suitable image-to-video model. For diagrams, titles, screenshots or real footage, use editable motion graphics or an editor instead. Choose the model based on the shot, available controls, quality and cost.",
+        "Build the edit. Place shots on a timeline, match them to the music or narration, and trim for pacing. In HyperFrames, build editable scenes and transitions; in Tesseract, cut footage and add editable layers; Firefly or CapCut can also handle an edit. Avoid a generic effect on every cut.",
+        "Finish picture and sound. Correct white balance, unwanted color casts, contrast and shot-to-shot consistency while preserving intentional light and natural skin. Upscale only when needed. Mix dialogue, music and effects so the important sound stays clear.",
+        "Review, revise and deliver. Watch and listen through the export. Check timing, character and anatomy, motion, text legibility, captions if requested, color, audio sync, duration and dimensions. Revise weak shots, make the needed orientation versions and thumbnail, and save the editable project, assets and final exports."
+      ]
+    },
+    {
+      "name": "Create a still image",
+      "source": "https://aunysillyme.dev/stack/video/#image",
+      "steps": [
+        "Define the idea. What are you making, for whom, and what should the viewer see or understand? Note the story or message and the feeling it should carry.",
+        "Build the visual direction. Choose a subject, setting, palette, lighting, composition and texture that support that feeling.",
+        "Set the shape. Choose square for cover art, landscape for a video frame or thumbnail, or portrait for a vertical post.",
+        "Generate and refine. Make a few options. Check the face, hands, objects, color and composition; edit or regenerate what does not fit.",
+        "Keep your ingredients. Save the final image, prompt, references and settings together so you can return to the look."
+      ]
+    },
+    {
+      "name": "Keep a character consistent",
+      "source": "https://aunysillyme.dev/stack/video/#character",
+      "steps": [
+        "Create a reference sheet. In GPT Image, describe the character’s defining features, wardrobe, personality and world. Ask for front, side, three-quarter and back views, plus expressions and poses.",
+        "Choose a clean reference. Check that the views look like the same character. If the sheet is busy, save a clear individual image too.",
+        "Make and animate a scene. Use the reference to create a scene still, then upload that still to an image-to-video tool such as Grok Imagine, Veo through Firefly or Flow, Kling in Fuser, or another suitable model. Describe the action and camera movement.",
+        "Review the whole shot. Watch for changes to the face, clothes and anatomy. Keep the original reference and repeat the key details when generating another shot."
+      ]
+    },
+    {
+      "name": "Animate stills to a finished song",
+      "source": "https://aunysillyme.dev/stack/video/#music",
+      "steps": [
+        "Plan to the track. Listen to the finished song, identify its sections and make a shot list tied to the story, lyrics and musical changes.",
+        "Generate fresh stills. Mix character shots with environments and details. Keep identity, wardrobe, palette and story consistent.",
+        "Compose for the format. Make separate landscape and portrait visuals when both are needed. For one Flatline production run, I used 15 stills per orientation. Choose the amount your story and edit need.",
+        "Animate each still. In Firefly, choose an available image-to-video model, upload the matching still and describe plausible subject and environmental movement. I prefer Veo 3.1 Fast for this route.",
+        "Inspect and select. Check multiple moments for actual motion, facial drift, distorted hands, flicker and unwanted changes. Regenerate weak clips.",
+        "Edit to the music. Arrange and trim the clips to the track and lyrics. Vary shot types, use the mastered audio and check sync, color, playback and dimensions before export."
+      ]
+    },
+    {
+      "name": "Build a lyric-led storyboard",
+      "source": "https://aunysillyme.dev/stack/video/#storyboard",
+      "steps": [
+        "Share the brief. Provide the title, genre, mood, palette, album art and lyrics. Ask for an image for each lyric line.",
+        "Fill the gaps. Ask for additional images in the same style, without text, for intros, instrumental sections and outros.",
+        "Animate the selections. Generate clips from the images. Specify subject or environmental motion when the result needs more direction.",
+        "Cut to the actual track. Export to CapCut, arrange the clips in order and trim them to the lyrics and music. For strict continuity, use the character-reference workflow and review each shot closely."
+      ]
+    }
+  ]
+}
