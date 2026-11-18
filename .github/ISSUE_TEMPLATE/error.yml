@@ -1,0 +1,14 @@
+name: Report an error
+description: Report a problem in a workflow or repository content
+body:
+  - type: textarea
+    id: location
+    attributes:
+      label: Location and problem
+      description: Link the entry and describe what is wrong. Do not include sensitive data.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Source or steps to verify

@@ -37,6 +37,16 @@ jobs:
             python3 -I trusted/scripts/check_contribution.py trusted
       - name: Check the proposed stack data
         run: python3 -I trusted/scripts/validate.py proposed
+      - name: Check credits against the trusted base
+        env:
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git -C proposed diff --no-ext-diff --no-textconv --name-status -z -M HEAD^1 HEAD -- |
+            python3 -I trusted/scripts/credits.py --check trusted proposed
   cla:
     name: Contributor agreement
     runs-on: ubuntu-latest

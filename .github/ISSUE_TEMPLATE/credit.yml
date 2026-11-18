@@ -1,0 +1,10 @@
+name: Request a credit correction
+description: Request a correction to an existing byline or contribution description
+body:
+  - type: textarea
+    id: correction
+    attributes:
+      label: Entry and requested correction
+      description: Link the entry and explain the correction. Say whether you are the person credited or have their agreement. To request private follow-up, leave out names, reasons, sensitive details and private email addresses.
+    validations:
+      required: true

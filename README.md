@@ -9,4 +9,12 @@ A collection of creative workflows from Auny and contributors. Browse a stack by
 
 Each category keeps Auny’s curated entries alongside independently credited community submissions. An accepted community entry stays under its author’s handle. The website guide is maintained separately. Merging a pull request updates this repository. A maintainer can select a change for the guide and publish it through the website’s own review process.
 
-[Submit a workflow](CONTRIBUTING.md) · [Contribution template](templates/workflow.json) · [Licenses](LICENSE.md)
+[Submit a workflow](CONTRIBUTING.md) · [Open an issue](https://github.com/aunysillyme-dev/stack/issues) · [Join a discussion](https://github.com/aunysillyme-dev/stack/discussions)
+
+[Contribution template](templates/workflow.json) · [Licenses](LICENSE.md)
+
+<!-- credits:start -->
+## Credits
+
+- [@aunysillyme](https://github.com/aunysillyme): Curated the [Video tools and workflows](stacks/video/canonical.json), including the production pipeline and creative techniques.
+<!-- credits:end -->

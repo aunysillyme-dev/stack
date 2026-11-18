@@ -1,5 +1,11 @@
 {
   "author": "your-github-login",
+  "credits": [
+    {
+      "handle": "your-github-login",
+      "contribution": "Describe your specific contribution to this workflow."
+    }
+  ],
   "title": "Give the workflow a descriptive title",
   "purpose": "Describe the result and who needs it.",
   "reviewed": "2026-11-18",

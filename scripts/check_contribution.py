@@ -7,7 +7,7 @@ import sys
 
 
 # Keep this list in the trusted base branch and aligned with repository ownership.
-MAINTAINERS = {"aunysillyme"}
+MAINTAINERS = set(Path(__file__).with_name("maintainers.txt").read_text().splitlines())
 HANDLE = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*\Z")
 WORKFLOW = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*\.json\Z")
 
@@ -47,7 +47,7 @@ def check(root, author, data):
         if any(not path for path in paths):
             raise ValueError("empty changed path")
         if author not in MAINTAINERS:
-            if not all(allowed(path) for path in paths):
+            if not all(allowed(path) or (status == "M" and path == "README.md") for path in paths):
                 raise ValueError("change outside the PR author's community folder")
             if count == 2 and paths[0].rsplit("/", 1)[0] != paths[1].rsplit("/", 1)[0]:
                 raise ValueError("cross-folder rename or copy")

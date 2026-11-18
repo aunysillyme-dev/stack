@@ -4,6 +4,7 @@ import ipaddress
 import json
 import re
 import sys
+import unicodedata
 from datetime import date, datetime, timezone
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -83,8 +84,24 @@ def tool(obj):
 
 
 def workflow(obj, handle):
-    fields(obj, "author title purpose reviewed inputs tools steps output verification")
+    require(isinstance(obj, dict), "expected workflow object")
+    fields({k: v for k, v in obj.items() if k != "credits"},
+           "author title purpose reviewed inputs tools steps output verification")
     require(obj["author"] == handle, "author must match the contributor folder")
+    if "credits" in obj:
+        def credit(item):
+            fields(item, "handle contribution")
+            require(isinstance(item["handle"], str) and len(item["handle"]) <= 39
+                    and re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", item["handle"]),
+                    "invalid credit handle")
+            string(item["contribution"])
+            require(len(item["contribution"]) <= 300 and
+                    not any(unicodedata.category(c).startswith("C") for c in item["contribution"]),
+                    "credit contribution must be a single line of at most 300 characters")
+        sequence(obj["credits"], credit)
+        handles = [item["handle"] for item in obj["credits"]]
+        require(len(handles) == len(set(handles)) and handle in handles,
+                "credits must include the author once and have unique handles")
     for key in ("title", "purpose", "output", "verification"):
         string(obj[key])
     day(obj["reviewed"])

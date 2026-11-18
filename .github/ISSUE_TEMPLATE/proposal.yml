@@ -1,0 +1,10 @@
+name: Propose a workflow or feature
+description: Suggest a workflow or improvement
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Describe the need and any useful public sources. Do not include sensitive data.
+    validations:
+      required: true
