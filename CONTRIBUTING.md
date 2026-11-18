@@ -19,7 +19,7 @@ Credit is specific and durable. Keep existing bylines and descriptions when impr
 
 ## Help and conduct
 
-Use [issues](https://github.com/aunysillyme-dev/stack/issues) for errors, workflow or feature proposals, and credit corrections. Use [Discussions](https://github.com/aunysillyme-dev/stack/discussions) for questions and ideas. These public spaces and PRs follow the [organization Code of Conduct](https://github.com/aunysillyme-dev/.github/blob/main/CODE_OF_CONDUCT.md), including its moderation expectations. Do not post sensitive information in public. No private reporting route has been verified for this repository; maintainers should refer an evidence or privacy concern to the repository owner without publishing the sensitive material.
+Use [issues](https://github.com/aunysillyme-dev/stack/issues) for errors, workflow or feature proposals, and credit corrections. Use [Discussions](https://github.com/aunysillyme-dev/stack/discussions) for questions and ideas. These public spaces and PRs follow the [organization Code of Conduct](https://github.com/aunysillyme-dev/.github/blob/main/CODE_OF_CONDUCT.md), including its moderation expectations. Do not post sensitive information in public. For a security vulnerability, use the repository’s Security tab and select “Report a vulnerability.” For sensitive rights or attribution evidence, ask a maintainer to arrange a private exchange before sharing details.
 
 ## Maintainers
 
