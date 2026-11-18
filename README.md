@@ -1,17 +1,31 @@
 # Stack
 
-A collection of creative workflows from Auny and contributors. Browse a stack by the work you want to make, then see which tools its author uses, in what order, and why.
+**Stack is a collection of creative workflows showing which tools to use, in what order, and how to check the result.** Start with Auny’s video workflows or share a process you use for video or design.
 
-| Stack | What you can do |
-| --- | --- |
-| [Video](video/) | Turn an idea, a song or a set of stills into an edited video. See the tools, workflows and model inventory behind [Auny’s guide](https://aunysillyme.dev/stack/video/). |
-| [Design](design/) | Submit a design workflow. Auny’s curated design collection is planned. |
+[Browse the guides](https://aunysillyme.dev/stack/) · [Submit a workflow](CONTRIBUTING.md) · [Open an issue](https://github.com/aunysillyme-dev/stack/issues) · [Join a discussion](https://github.com/aunysillyme-dev/stack/discussions)
 
-Each category keeps Auny’s curated entries alongside independently credited community submissions. An accepted community entry stays under its author’s handle. The website guide is maintained separately. Merging a pull request updates this repository. A maintainer can select a change for the guide and publish it through the website’s own review process.
+## Choose a stack
 
-[Submit a workflow](CONTRIBUTING.md) · [Open an issue](https://github.com/aunysillyme-dev/stack/issues) · [Join a discussion](https://github.com/aunysillyme-dev/stack/discussions)
+| Stack | Start here | What’s available |
+| --- | --- | --- |
+| [Video](video/) | [Read the video guide](https://aunysillyme.dev/stack/video/) | Auny’s tools and step-by-step workflows for storyboarding, consistent characters, animation and editing. The [model inventory](video/inventory.json) records dated access routes and evaluation notes. |
+| [Design](design/) | [Share a design workflow](CONTRIBUTING.md) | Community submissions are open. Auny’s curated design collection is planned. |
 
-[Contribution template](templates/workflow.json) · [Licenses](LICENSE.md)
+## Make a music video from stills
+
+![Video Stack, from idea to finished video. A practical guide by Auny.](https://aunysillyme.dev/assets/video-stack-preview.png)
+
+Start with a finished track. Mark the changes in the song, plan a shot for each section and create stills that keep the character and palette consistent. Animate the selected stills, check motion and facial continuity, then cut the clips to the mastered audio. [Follow the music-video walkthrough](https://aunysillyme.dev/stack/video/#music) or [read the steps as JSON](video/canonical.json).
+
+## Use the collection as data
+
+Start with [the catalog](catalog.json). Each listed folder contains a `stack.json` with its publication status and the paths available for that category. For example, [Video’s metadata](video/stack.json) points to [curated workflows](video/canonical.json), the model inventory and the [community folder](video/community/). These committed files can be read offline. Check current pricing and terms with the provider when choosing a model.
+
+## Share and reuse a workflow
+
+Start with [the template](templates/workflow.json). Record the inputs, tools, access, steps, output and how you verified it. Workflows can use free tools, paid tools or both. An accepted entry stays under its author’s GitHub handle. The [generated credits](#credits) describe each contributor’s work. [Contribution and credit instructions](CONTRIBUTING.md)
+
+A maintainer can select a merged workflow for the separately published website guide and preserve its attribution there. See the [licenses for data and code](LICENSE.md) and the [contributor agreement](CLA.md). Use [private vulnerability reporting](https://github.com/aunysillyme-dev/stack/security/advisories/new) for security reports.
 
 <!-- credits:start -->
 ## Credits
