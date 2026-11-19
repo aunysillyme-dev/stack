@@ -1,9 +1,12 @@
 """Offline regression tests for contribution scope and catalog validation."""
 import importlib.util
+import json
 import os
 from pathlib import Path
+import shutil
 import subprocess
 import sys
+import tempfile
 import unittest
 from datetime import datetime, timedelta, timezone
 
@@ -84,6 +87,56 @@ class ScopeTests(unittest.TestCase):
                         ["M", ""]):
             with self.subTest(entries=entries):
                 self.check_scope("alice", entries, False)
+
+
+class PublishedStackTests(unittest.TestCase):
+    def test_video_and_design_are_published_and_valid(self):
+        self.assertEqual(validator.validate(ROOT), 2)
+        for name in ("video", "design"):
+            meta = json.loads((ROOT / name / "stack.json").read_text(encoding="utf-8"))
+            self.assertEqual(meta["status"], "published")
+            self.assertEqual(meta["canonical"], "canonical.json")
+            self.assertEqual(meta["inventory"], "inventory.json")
+
+    def test_design_canonical_and_inventory_policies(self):
+        canonical = json.loads((ROOT / "design/canonical.json").read_text(encoding="utf-8"))
+        inventory = json.loads((ROOT / "design/inventory.json").read_text(encoding="utf-8"))
+        tool_urls = [item["url"] for item in canonical["tools"]]
+        self.assertEqual(len(tool_urls), len(set(tool_urls)))
+        self.assertTrue(canonical["workflows"])
+
+        links = [entry["link"] for entry in inventory["entries"]]
+        self.assertEqual(len(links), len(set(links)))
+        cost_classes = [entry["cost_class"] for entry in inventory["entries"]]
+        self.assertTrue(set(cost_classes) <= {"free", "freemium", "paid"})
+        seen_paid = False
+        for cost_class in cost_classes:
+            if cost_class == "paid":
+                seen_paid = True
+            else:
+                self.assertFalse(seen_paid, "non-paid entry cannot appear after paid entries")
+
+        def normalize(value):
+            return value.rstrip("/").lower()
+
+        paid_links = {normalize(e["link"]) for e in inventory["entries"] if e["cost_class"] == "paid"}
+        for tool in canonical["tools"]:
+            self.assertNotIn(normalize(tool["url"]), paid_links)
+
+    def test_published_guide_nullable_but_must_be_https_when_set(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp) / "repo"
+            shutil.copytree(ROOT, root, ignore=shutil.ignore_patterns(".git", "__pycache__"))
+            stack_path = root / "design/stack.json"
+            meta = json.loads(stack_path.read_text(encoding="utf-8"))
+            meta["guide"] = None
+            stack_path.write_text(json.dumps(meta), encoding="utf-8")
+            validator.category(root / "design")
+
+            meta["guide"] = "http://example.com"
+            stack_path.write_text(json.dumps(meta), encoding="utf-8")
+            with self.assertRaises(ValueError):
+                validator.category(root / "design")
 
 
 if __name__ == "__main__":

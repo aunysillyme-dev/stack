@@ -152,7 +152,8 @@ def category(path):
     string(obj["title"])
     require(obj["status"] in ("planned", "published"), "invalid category status")
     if obj["status"] == "published":
-        url(obj["guide"])
+        if obj["guide"] is not None:
+            url(obj["guide"])
         require(obj["canonical"] == "canonical.json", "published category requires canonical.json")
         curated(read(path / "canonical.json"))
     else:

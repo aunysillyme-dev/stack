@@ -1,9 +1,9 @@
 {
   "id": "design",
   "title": "Design",
-  "status": "planned",
+  "status": "published",
   "guide": null,
-  "canonical": null,
-  "inventory": null,
+  "canonical": "canonical.json",
+  "inventory": "inventory.json",
   "community": "community/"
 }

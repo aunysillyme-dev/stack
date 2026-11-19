@@ -1,0 +1,2916 @@
+{
+  "source": "https://github.com/aunysillyme-dev/stack/blob/main/design/README.md#inventory",
+  "reviewed": "2026-11-18",
+  "entries": [
+    {
+      "name": "Stageshow",
+      "type": "Agent skill",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Build faux product UI and animated cursor demos for hero images and feature cards.",
+      "link": "https://github.com/benjitaylor/skills"
+    },
+    {
+      "name": "frontend-design",
+      "type": "Agent skill",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Anthropic's skill for distinctive, production-grade front ends.",
+      "link": "https://github.com/anthropics/skills/tree/main/skills/frontend-design"
+    },
+    {
+      "name": "Apple design skill",
+      "type": "Agent skill",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Interface and motion guidance in the Apple idiom.",
+      "link": "https://github.com/emilkowalski/skills/tree/main/skills/apple-design"
+    },
+    {
+      "name": "Emil Kowalski's design-engineering skills",
+      "type": "Agent skill",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Animation vocabulary, animation review and prototyping skills.",
+      "link": "https://github.com/emilkowalski/skills/"
+    },
+    {
+      "name": "Impeccable",
+      "type": "Agent skill",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Design-quality commands and guardrails for front-end work.",
+      "link": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "name": "Taste Skill",
+      "type": "Agent skill",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "A taste layer for AI-built interfaces.",
+      "link": "https://github.com/Leonxlnx/taste-skill"
+    },
+    {
+      "name": "UI UX Pro Max",
+      "type": "Agent skill",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Broad UI and UX rule set for agents.",
+      "link": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
+    },
+    {
+      "name": "oklch-skill",
+      "type": "Agent skill",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Colour work in the OKLCH space.",
+      "link": "https://github.com/jakubkrehel/oklch-skill"
+    },
+    {
+      "name": "diagram-design",
+      "type": "Agent skill",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Diagram construction for agents.",
+      "link": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "name": "ai-design-skills",
+      "type": "Agent skill",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Design skills for AI coding tools.",
+      "link": "https://github.com/elayadesign/ai-design-skills"
+    },
+    {
+      "name": "Claude Code Templates",
+      "type": "Agent skill",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Large catalogue of agent templates, skills and commands.",
+      "link": "https://github.com/davila7/claude-code-templates"
+    },
+    {
+      "name": "web-design-guidelines",
+      "type": "Agent skill",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Web design guidelines packaged as an agent skill, from the Vercel Labs org.",
+      "link": "https://github.com/vercel-labs/web-design-guidelines"
+    },
+    {
+      "name": "design-refinement skill",
+      "type": "Agent skill",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Design-refinement skill that reviews and fixes an existing UI without redesigning it.",
+      "link": "https://github.com/kubre/skills"
+    },
+    {
+      "name": "appllama-skills",
+      "type": "Agent skill",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Agent skills that turn iOS app patterns into native-quality mobile screens.",
+      "link": "https://github.com/Appllama/appllama-skills"
+    },
+    {
+      "name": "unslop",
+      "type": "Agent skill",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Claude Code and Codex skill that turns AI-looking UI into a designed interface.",
+      "link": "https://github.com/heydamir/unslop"
+    },
+    {
+      "name": "Impeccable Style",
+      "type": "Agent skill",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Open-source frontend craft playbook, anti-slop detect checks and quality commands.",
+      "link": "https://impeccable.style/"
+    },
+    {
+      "name": "GradientDeck UI",
+      "type": "DESIGN.md collection",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "No-signup directory of 1,270+ DESIGN.md token and rule files extracted from real sites.",
+      "link": "https://ui.gradientdeck.com/"
+    },
+    {
+      "name": "DesignMD",
+      "type": "DESIGN.md collection",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Searchable directory of extracted DESIGN.md system files for AI coding agents.",
+      "link": "https://designmd.app/"
+    },
+    {
+      "name": "shadcn.io Design",
+      "type": "DESIGN.md collection",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Curated collection of DESIGN.md reference themes compatible with shadcn/ui setups.",
+      "link": "https://www.shadcn.io/design"
+    },
+    {
+      "name": "awesome-design-md",
+      "type": "DESIGN.md collection",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Community repository indexing open DESIGN.md examples for coding agents.",
+      "link": "https://github.com/VoltAgent/awesome-design-md"
+    },
+    {
+      "name": "design-md-library",
+      "type": "DESIGN.md collection",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Public GitHub library of per-brand DESIGN.md specifications.",
+      "link": "https://github.com/albemala/design-md-library"
+    },
+    {
+      "name": "DesignEng Interface Design Skills",
+      "type": "Skill index",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Curated directory of interface-design skills for layout, color, typography and motion.",
+      "link": "https://www.designeng.tools/categories/resources/skills/interface-design"
+    },
+    {
+      "name": "Chrome Modern Web Guidance",
+      "type": "Agent skill",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Google Chrome team's official Apache-2.0 agent skill for modern web engineering craft.",
+      "link": "https://github.com/GoogleChrome/modern-web-guidance"
+    },
+    {
+      "name": "garden-skills",
+      "type": "Agent skill",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT skill pack covering motion showreels, frame-capture rendering, web design and video decks.",
+      "link": "https://github.com/ConardLi/garden-skills"
+    },
+    {
+      "name": "make-interfaces-feel-better",
+      "type": "Agent skill",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Agent skill focused on micro-interactions, tactile UI responsiveness and interface polish.",
+      "link": "https://github.com/jakubkrehel/make-interfaces-feel-better"
+    },
+    {
+      "name": "Uizze",
+      "type": "Agent skill",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Anti-slop UI design skill and tooling for coding agents; verify tier limits on site.",
+      "link": "https://uizze.com/"
+    },
+    {
+      "name": "React Bits",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Animated React components.",
+      "link": "https://reactbits.dev"
+    },
+    {
+      "name": "Magic UI",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Animated UI components for React and Tailwind.",
+      "link": "https://magicui.design"
+    },
+    {
+      "name": "Uiverse",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Community UI elements in CSS and Tailwind.",
+      "link": "https://uiverse.io"
+    },
+    {
+      "name": "21st.dev",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Community React component registry.",
+      "link": "https://21st.dev"
+    },
+    {
+      "name": "IBM Carbon",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "IBM's open design system.",
+      "link": "https://carbondesignsystem.com"
+    },
+    {
+      "name": "Atlassian Design System",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Atlassian's design system.",
+      "link": "https://atlassian.design"
+    },
+    {
+      "name": "IBM Design Language",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "IBM Design Language guides, downloads and visual resources.",
+      "link": "https://www.ibm.com/design/language/resources"
+    },
+    {
+      "name": "elaya.design",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Design engineering tools, templates and visual resources.",
+      "link": "https://elaya.design/"
+    },
+    {
+      "name": "transitions.dev",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "44+ copy-paste UI transitions and 30+ interactive components, also as a skill and MCP.",
+      "link": "https://transitions.dev"
+    },
+    {
+      "name": "Bencho",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Live, editable React UI blocks and micro-interactions you can copy into projects.",
+      "link": "https://bencho.dev"
+    },
+    {
+      "name": "shadcn/ui",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT copy-paste React and Tailwind component primitives built on accessible headless patterns.",
+      "link": "https://ui.shadcn.com/"
+    },
+    {
+      "name": "Radix UI Primitives",
+      "type": "UI primitives",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT unstyled, accessible React UI primitives for dialogs, popovers, menus and tabs.",
+      "link": "https://www.radix-ui.com/primitives"
+    },
+    {
+      "name": "Tailwind CSS",
+      "type": "CSS framework",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT utility-first CSS framework for rapid layout, tokens and responsive styling.",
+      "link": "https://tailwindcss.com/"
+    },
+    {
+      "name": "Storybook",
+      "type": "UI workbench",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT frontend workshop for building, documenting and testing UI components in isolation.",
+      "link": "https://storybook.js.org/"
+    },
+    {
+      "name": "Astryx",
+      "type": "Design system",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT customizable React 19 and StyleX design system from Meta with CLI and MCP support.",
+      "link": "https://astryx.atmeta.com/"
+    },
+    {
+      "name": "Obsidian UI",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT animated React, Tailwind, Motion, GSAP and WebGL UI component collection.",
+      "link": "https://obsidianui.dev/"
+    },
+    {
+      "name": "affectUI",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Single-file zero-dependency React components, blocks and animations for SaaS and AI apps.",
+      "link": "https://affectui.com/"
+    },
+    {
+      "name": "Arc UI",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Animated React and Next.js blocks with CLI and MCP install plus Pro templates.",
+      "link": "https://uiarc.dev/"
+    },
+    {
+      "name": "Detent",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Product and AI-interface UI blocks (free subset plus full Pro library).",
+      "link": "https://detentui.com/"
+    },
+    {
+      "name": "BoardUI",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "MIT React and Tailwind dashboard components and Recharts cards with optional paid Pro pack.",
+      "link": "https://boardui.com/"
+    },
+    {
+      "name": "Aceternity UI",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "100+ free animated Next.js/Tailwind components with optional paid Pro templates.",
+      "link": "https://ui.aceternity.com/"
+    },
+    {
+      "name": "Snapblocks",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Scroll-driven cinematic React components with copyable code and paid tiers.",
+      "link": "https://snapblocks.site/"
+    },
+    {
+      "name": "Animate UI",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Animated React UI primitives; MIT with Commons Clause (check terms before component resale).",
+      "link": "https://animate-ui.com/"
+    },
+    {
+      "name": "Motion Primitives",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT open-source motion primitives and animated UI building blocks for React and Tailwind.",
+      "link": "https://motion-primitives.com/"
+    },
+    {
+      "name": "Lenis",
+      "type": "Scroll engine",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT smooth-scroll engine (about 5.4 KB gzipped) for synchronized web scrolling.",
+      "link": "https://github.com/darkroomengineering/lenis"
+    },
+    {
+      "name": "NumberFlow",
+      "type": "Micro-interaction",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT rolling animated digits component for stats, counters and pricing displays.",
+      "link": "https://number-flow.barvian.me/"
+    },
+    {
+      "name": "Rough Notation",
+      "type": "Micro-interaction",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT hand-drawn SVG underline, circle and bracket annotations powered by RoughJS.",
+      "link": "https://roughnotation.com/"
+    },
+    {
+      "name": "AutoAnimate",
+      "type": "Micro-interaction",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT zero-config DOM insert, remove and reorder transition utility.",
+      "link": "https://auto-animate.formkit.com/"
+    },
+    {
+      "name": "Atropos",
+      "type": "Micro-interaction",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT lightweight touch-friendly 3D parallax hover tilt cards.",
+      "link": "https://atroposjs.com/"
+    },
+    {
+      "name": "Sonner",
+      "type": "UI primitive",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT opinionated stacked toast notification component for React.",
+      "link": "https://sonner.emilkowal.ski/"
+    },
+    {
+      "name": "Vaul",
+      "type": "UI primitive",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT unstyled drawer component for React with gesture-driven snap physics.",
+      "link": "https://github.com/emilkowalski/vaul"
+    },
+    {
+      "name": "cmdk",
+      "type": "UI primitive",
+      "route": "UI libraries & systems",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT fast composable command-menu primitive for React.",
+      "link": "https://cmdk.paco.me/"
+    },
+    {
+      "name": "Three.js",
+      "type": "3D / shader",
+      "route": "Shaders & 3D",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "3D for the web.",
+      "link": "https://threejs.org"
+    },
+    {
+      "name": "postprocessing",
+      "type": "3D / shader",
+      "route": "Shaders & 3D",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Effects pipeline for three.js.",
+      "link": "https://github.com/pmndrs/postprocessing"
+    },
+    {
+      "name": "three.quarks",
+      "type": "3D / shader",
+      "route": "Shaders & 3D",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Particle system for three.js.",
+      "link": "https://github.com/Alchemist0823/three.quarks"
+    },
+    {
+      "name": "Tweakpane",
+      "type": "3D / shader",
+      "route": "Shaders & 3D",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Compact control panel for tuning parameters live.",
+      "link": "https://tweakpane.github.io/docs/"
+    },
+    {
+      "name": "blender-mcp",
+      "type": "3D / shader",
+      "route": "Shaders & 3D",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Connects Blender to AI assistants.",
+      "link": "https://github.com/ahujasid/blender-mcp"
+    },
+    {
+      "name": "Spline",
+      "type": "3D / shader",
+      "route": "Shaders & 3D",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Browser-based 3D design tool.",
+      "link": "https://spline.design"
+    },
+    {
+      "name": "3dicons",
+      "type": "3D / shader",
+      "route": "Shaders & 3D",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Free 3D icon set.",
+      "link": "https://3dicons.co"
+    },
+    {
+      "name": "three-gpu-pathtracer",
+      "type": "3D / shader",
+      "route": "Shaders & 3D",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Path-traced, physically based rendering for three.js scenes.",
+      "link": "https://github.com/gkjohnson/three-gpu-pathtracer"
+    },
+    {
+      "name": "Jolt Physics",
+      "type": "3D / shader",
+      "route": "Shaders & 3D",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Fast rigid-body physics engine, also usable on the web.",
+      "link": "https://github.com/jrouwe/JoltPhysics"
+    },
+    {
+      "name": "Paper Shaders",
+      "type": "Shader library",
+      "route": "Shaders & 3D",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Apache-2.0 zero-dependency React WebGL2 shaders (MeshGradient, FlutedGlass, halftone, rays).",
+      "link": "https://shaders.paper.design/"
+    },
+    {
+      "name": "ShaderGradient",
+      "type": "Shader tool",
+      "route": "Shaders & 3D",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Interactive animated 3D WebGL gradient designer with React export and Pro options.",
+      "link": "https://www.shadergradient.co/"
+    },
+    {
+      "name": "Shader Lab",
+      "type": "Shader playground",
+      "route": "Shaders & 3D",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Native SwiftUI/Metal playground with live params and Metal shader export (MIT code; check sample assets).",
+      "link": "https://github.com/fedesanchez0/shader-lab"
+    },
+    {
+      "name": "React Three Fiber",
+      "type": "3D renderer",
+      "route": "Shaders & 3D",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT declarative React renderer for Three.js 3D scenes.",
+      "link": "https://r3f.docs.pmnd.rs/"
+    },
+    {
+      "name": "Theatre.js",
+      "type": "3D timeline",
+      "route": "Shaders & 3D",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Apache-2.0 keyframe motion editor for Three.js, DOM and programmatic WebGL scenes.",
+      "link": "https://www.theatrejs.com/"
+    },
+    {
+      "name": "Rapier",
+      "type": "Physics engine",
+      "route": "Shaders & 3D",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Apache-2.0 fast 2D and 3D rigid-body physics engine with WebAssembly bindings.",
+      "link": "https://rapier.rs/"
+    },
+    {
+      "name": "p5.js",
+      "type": "Creative coding",
+      "route": "Shaders & 3D",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "LGPL/open-source JavaScript creative coding library for generative visuals and canvas sketches.",
+      "link": "https://p5js.org/"
+    },
+    {
+      "name": "tsParticles",
+      "type": "Particle engine",
+      "route": "Shaders & 3D",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT lightweight TypeScript library for interactive particle backgrounds and confetti bursts.",
+      "link": "https://particles.js.org/"
+    },
+    {
+      "name": "anatomy",
+      "type": "Diagram engine",
+      "route": "Shaders & 3D",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT zero-dependency interactive isometric SVG and WebGL exploded-view machine diagrams.",
+      "link": "https://github.com/wheresryan22/anatomy"
+    },
+    {
+      "name": "Remotion",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Make videos programmatically in React.",
+      "link": "https://github.com/remotion-dev/remotion"
+    },
+    {
+      "name": "HyperFrames",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Write video as HTML and render it to MP4.",
+      "link": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "name": "Anime.js",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Lightweight JavaScript animation engine.",
+      "link": "https://animejs.com"
+    },
+    {
+      "name": "Motion",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Animation library for JavaScript and React.",
+      "link": "https://motion.dev"
+    },
+    {
+      "name": "Manim",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Mathematical animation engine in Python.",
+      "link": "https://www.manim.community"
+    },
+    {
+      "name": "LottieFiles",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Lottie animation library and tooling.",
+      "link": "https://lottiefiles.com"
+    },
+    {
+      "name": "dotLottie",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "The compact dotLottie format and its player runtime.",
+      "link": "https://github.com/LottieFiles/dotlottie-rs/blob/main/CHANGELOG.md"
+    },
+    {
+      "name": "Airbnb Lottie After Effects guidance",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "What exports cleanly from After Effects to Lottie.",
+      "link": "https://github.com/airbnb/lottie/blob/master/after-effects.md"
+    },
+    {
+      "name": "LottieFiles After Effects compatibility",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Supported After Effects features for Lottie export.",
+      "link": "https://docs.lottiefiles.com/en/integrations/after-effects/09_lottie-compatibility"
+    },
+    {
+      "name": "video-shotcraft",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Shot-planning for generated video.",
+      "link": "https://github.com/Vincentwei1021/video-shotcraft"
+    },
+    {
+      "name": "FFmpeg",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Command-line video and audio processing.",
+      "link": "https://ffmpeg.org"
+    },
+    {
+      "name": "OBS Studio",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Open-source screen recording and streaming.",
+      "link": "https://obsproject.com"
+    },
+    {
+      "name": "LosslessCut",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Trim video without re-encoding.",
+      "link": "https://github.com/mifi/lossless-cut"
+    },
+    {
+      "name": "WhisperX",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Speech transcription with word-level timing.",
+      "link": "https://github.com/m-bain/whisperX"
+    },
+    {
+      "name": "librosa",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Audio analysis in Python.",
+      "link": "https://github.com/librosa/librosa"
+    },
+    {
+      "name": "60fps.design",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Collection of mobile UI animations.",
+      "link": "https://60fps.design"
+    },
+    {
+      "name": "snapcn",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "shadcn-style registry of 53 Remotion components for product demo videos.",
+      "link": "https://snapcn.dev"
+    },
+    {
+      "name": "CosyVoice",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Open-source multilingual voice generation and voice cloning.",
+      "link": "https://github.com/FunAudioLLM/CosyVoice"
+    },
+    {
+      "name": "Shot Cafe",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Film frames searchable by shot type.",
+      "link": "https://shot.cafe"
+    },
+    {
+      "name": "FilmGrab",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Film frames by title.",
+      "link": "https://film-grab.com"
+    },
+    {
+      "name": "Eyecannndy",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Visual effects and motion references.",
+      "link": "https://eyecannndy.com"
+    },
+    {
+      "name": "Melies cinematic techniques",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Guide to cinematic techniques.",
+      "link": "https://melies.co/cinematic-techniques"
+    },
+    {
+      "name": "AI Camera Movements",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Camera-move vocabulary for AI video prompts.",
+      "link": "https://aicameramovements.com"
+    },
+    {
+      "name": "Rive",
+      "type": "Interactive vector",
+      "route": "Animation, video & film",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "MIT open-source state-machine vector runtimes paired with paid editor plans.",
+      "link": "https://rive.app/"
+    },
+    {
+      "name": "Motion Canvas",
+      "type": "Programmatic motion",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT TypeScript generator-driven engine for technical explainer animations.",
+      "link": "https://motioncanvas.io/"
+    },
+    {
+      "name": "OpenMotion",
+      "type": "Motion studio",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Apache-2.0 HTML-to-Chromium-to-FFmpeg motion video studio built around Motion.md specs.",
+      "link": "https://github.com/nexu-io/openmotion"
+    },
+    {
+      "name": "OpenCreator",
+      "type": "Video localization",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Apache-2.0 subtitle translation and TTS dubbing pipeline (external TTS APIs optional).",
+      "link": "https://github.com/krillinai/OpenCreator"
+    },
+    {
+      "name": "react-spring",
+      "type": "Animation library",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT spring-physics animation library for React UI transitions.",
+      "link": "https://www.react-spring.dev/"
+    },
+    {
+      "name": "use-gesture",
+      "type": "Gesture hook",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT mouse and touch gesture hooks designed to pair with React animation engines.",
+      "link": "https://use-gesture.netlify.app/"
+    },
+    {
+      "name": "Matter.js",
+      "type": "2D physics",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT 2D rigid-body physics engine for interactive web canvases and motion graphics.",
+      "link": "https://brm.io/matter-js/"
+    },
+    {
+      "name": "canvas-confetti",
+      "type": "Micro-interaction",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "ISC lightweight canvas particle confetti burst utility.",
+      "link": "https://github.com/catdad/canvas-confetti"
+    },
+    {
+      "name": "Distortion Waves",
+      "type": "Motion reference",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT open-source screen-transition distortion wave reference.",
+      "link": "https://libraries.dev/waves"
+    },
+    {
+      "name": "AlignCanvas",
+      "type": "Motion templates",
+      "route": "Animation, video & film",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Browser animation canvas applying 3D and liquid-glass templates exported to MP4, WebM or GIF.",
+      "link": "https://aligncanvas.com/"
+    },
+    {
+      "name": "taylor.fyi/top",
+      "type": "Interactive generator",
+      "route": "Animation, video & film",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Free web generator rendering Top 10 media lists as cassettes, DVDs and vinyl with video/image export.",
+      "link": "https://taylor.fyi/top/"
+    },
+    {
+      "name": "Ideogram",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Image generation with strong in-image text.",
+      "link": "https://ideogram.ai"
+    },
+    {
+      "name": "Recraft",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Image and vector generation.",
+      "link": "https://www.recraft.ai/docs/trust-and-security/ownership"
+    },
+    {
+      "name": "Adobe Firefly",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Adobe's generative image and video models.",
+      "link": "https://business.adobe.com/products/firefly-business/firefly-ai-approach.html"
+    },
+    {
+      "name": "FLUX",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Open-weight image models.",
+      "link": "https://bfl.ai/legal/self-hosted-commercial-license-terms"
+    },
+    {
+      "name": "ComfyUI",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Node-based workflows for generative media.",
+      "link": "https://github.com/comfyanonymous/ComfyUI"
+    },
+    {
+      "name": "Canva",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Template-driven design in the browser.",
+      "link": "https://www.canva.com/policies/ai-product-terms/"
+    },
+    {
+      "name": "Adobe Express",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Quick design, templates and resizing.",
+      "link": "https://business.adobe.com/products/express-business/scale-on-brand-content.html"
+    },
+    {
+      "name": "Figma",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Collaborative interface design.",
+      "link": "https://www.figma.com/pricing/"
+    },
+    {
+      "name": "Modulify",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "AI website builder with a templates library.",
+      "link": "https://modulify.ai"
+    },
+    {
+      "name": "Penpot",
+      "type": "Design tool",
+      "route": "Software, type & colour tools",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Open-source design and prototyping.",
+      "link": "https://github.com/penpot/penpot"
+    },
+    {
+      "name": "Coolors",
+      "type": "Design tool",
+      "route": "Software, type & colour tools",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Palette generator.",
+      "link": "https://coolors.co"
+    },
+    {
+      "name": "Fontshare",
+      "type": "Design tool",
+      "route": "Software, type & colour tools",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Free quality fonts.",
+      "link": "https://fontshare.com"
+    },
+    {
+      "name": "SVGO",
+      "type": "Design tool",
+      "route": "Software, type & colour tools",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "SVG optimiser.",
+      "link": "https://github.com/svg/svgo/releases/tag/v4.0.0"
+    },
+    {
+      "name": "Satori",
+      "type": "Design tool",
+      "route": "Software, type & colour tools",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Render HTML and CSS to SVG or images.",
+      "link": "https://github.com/vercel/satori"
+    },
+    {
+      "name": "Style Dictionary",
+      "type": "Design tool",
+      "route": "Software, type & colour tools",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Build design tokens into any platform format.",
+      "link": "https://styledictionary.com/"
+    },
+    {
+      "name": "Playwright",
+      "type": "Design tool",
+      "route": "Software, type & colour tools",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Browser automation and headless rendering.",
+      "link": "https://github.com/microsoft/playwright"
+    },
+    {
+      "name": "agent-device",
+      "type": "Design tool",
+      "route": "Software, type & colour tools",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Drive mobile apps and devices from agents.",
+      "link": "https://github.com/callstack/agent-device"
+    },
+    {
+      "name": "Adobe desktop beta apps",
+      "type": "Design tool",
+      "route": "Software, type & colour tools",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Adobe Creative Cloud desktop beta applications portal.",
+      "link": "https://www.adobe.com/apps/beta-apps/desktop"
+    },
+    {
+      "name": "Adobe App Builder documentation",
+      "type": "Design tool",
+      "route": "Software, type & colour tools",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Adobe App Builder architecture and extensibility documentation.",
+      "link": "https://developer.adobe.com/app-builder/docs/intro_and_overview/"
+    },
+    {
+      "name": "Paper",
+      "type": "Design tool",
+      "route": "Software, type & colour tools",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Design canvas built on HTML and CSS that agents read and write through MCP.",
+      "link": "https://paper.design"
+    },
+    {
+      "name": "Realtime Colors",
+      "type": "Color & type tool",
+      "route": "Software, type & colour tools",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Free live contrast, palette and font-scale tester on a sample webpage layout.",
+      "link": "https://www.realtimecolors.com/"
+    },
+    {
+      "name": "Awwwards",
+      "type": "Gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Site of the Day and annual web design awards.",
+      "link": "https://www.awwwards.com"
+    },
+    {
+      "name": "CSS Design Awards",
+      "type": "Gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Web design awards and gallery.",
+      "link": "https://www.cssdesignawards.com"
+    },
+    {
+      "name": "D&AD",
+      "type": "Gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Design and advertising awards.",
+      "link": "https://www.dandad.org"
+    },
+    {
+      "name": "Brand New archive",
+      "type": "Gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Identity redesign reviews.",
+      "link": "https://www.underconsideration.com/brandnew/"
+    },
+    {
+      "name": "Pentagram",
+      "type": "Gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Studio portfolio.",
+      "link": "https://www.pentagram.com"
+    },
+    {
+      "name": "Nielsen Norman Group",
+      "type": "Gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Evidence-based UX research.",
+      "link": "https://www.nngroup.com"
+    },
+    {
+      "name": "Land-book",
+      "type": "Gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Landing page inspiration gallery.",
+      "link": "https://land-book.com"
+    },
+    {
+      "name": "Recent Design",
+      "type": "Gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Web design inspiration gallery.",
+      "link": "https://recent.design"
+    },
+    {
+      "name": "Landdding",
+      "type": "Gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Collection of landing page designs.",
+      "link": "https://landdding.com"
+    },
+    {
+      "name": "Godly",
+      "type": "Gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Gallery of award-winning websites.",
+      "link": "https://godly.website"
+    },
+    {
+      "name": "iconly.design",
+      "type": "Gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Icon inspiration library with over 2,400 app, game and web icons.",
+      "link": "https://iconly.design"
+    },
+    {
+      "name": "posts.design",
+      "type": "Gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Collection of social posts from big brands.",
+      "link": "https://posts.design"
+    },
+    {
+      "name": "Footer.design",
+      "type": "Section gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Curated archive of website footer layouts and link architectures.",
+      "link": "https://www.footer.design/"
+    },
+    {
+      "name": "CTA Gallery",
+      "type": "Section gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Curated call-to-action section gallery plus free web layout templates.",
+      "link": "https://www.cta.gallery/"
+    },
+    {
+      "name": "Minimal Gallery",
+      "type": "Design gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Curated showcase of restrained, typographic and minimalist websites.",
+      "link": "https://minimal.gallery/"
+    },
+    {
+      "name": "Devault",
+      "type": "UI inspiration",
+      "route": "Galleries & UI inspiration",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Curated real-world UIs, product flows, gradients and interface evolution timelines.",
+      "link": "https://devault.design/"
+    },
+    {
+      "name": "Refero Styles",
+      "type": "UI system gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Visual design-system and style reference library from shipped web products.",
+      "link": "https://styles.refero.design/"
+    },
+    {
+      "name": "Kombai Selects",
+      "type": "Design gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Daily curated web interface and motion picks paired with buildable examples.",
+      "link": "https://kombai.com/selects"
+    },
+    {
+      "name": "Best Designs on X",
+      "type": "Design feed",
+      "route": "Galleries & UI inspiration",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Curated stream of logo, brand and UI design posts shared on X.",
+      "link": "https://bestdesignsonx.com/"
+    },
+    {
+      "name": "Inspora",
+      "type": "Design archive",
+      "route": "Galleries & UI inspiration",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Free-to-browse visual inspiration archive (optional account to save boards).",
+      "link": "https://inspora.design/"
+    },
+    {
+      "name": "On.design",
+      "type": "Design gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Community-curated web, graphic and interaction design directory.",
+      "link": "https://on.design/"
+    },
+    {
+      "name": "Anatomy",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Interactive visual teardown exploring interface craft and structure.",
+      "link": "https://skills.wheresryan.sh/anatomy"
+    },
+    {
+      "name": "Moon",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Interactive long-form visual explainer with diagrams and custom canvases.",
+      "link": "https://ciechanow.ski/moon/"
+    },
+    {
+      "name": "An Interactive Guide to Flexbox",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Interactive visual guide and layout explainer for CSS Flexbox.",
+      "link": "https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/"
+    },
+    {
+      "name": "Butterick\u2019s Practical Typography",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Online book covering practical typography, hierarchy and page composition.",
+      "link": "https://practicaltypography.com/"
+    },
+    {
+      "name": "About This Website",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Design, typography and technical architecture notes behind gwern.net.",
+      "link": "https://gwern.net/about"
+    },
+    {
+      "name": "Shape Up",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Illustrated digital book on product shaping and delivery cycles.",
+      "link": "https://basecamp.com/shapeup"
+    },
+    {
+      "name": "Signal-A Studio",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Interactive studio site studied for layout, motion and art direction.",
+      "link": "https://signal-a.studio"
+    },
+    {
+      "name": "Belgrade Arbor",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Editorial site studied for typography, pacing and spatial composition.",
+      "link": "https://belgradearbor.rs/en"
+    },
+    {
+      "name": "OFFFForum",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Event site reference studied for visual identity and interaction.",
+      "link": "https://www.offforum.com/"
+    },
+    {
+      "name": "Overworld Audio",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Audio brand web experience studied for staging and interactive sound.",
+      "link": "https://overworldaudio.com/"
+    },
+    {
+      "name": "Neutomni",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Interactive web experience studied for layout and visual craft.",
+      "link": "https://neutomni.com/"
+    },
+    {
+      "name": "Heron AI",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Product landing page studied for narrative structure and visual polish.",
+      "link": "https://heronaiapp.com/"
+    },
+    {
+      "name": "Grids",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Interactive grid system study and layout showcase by Obys Agency.",
+      "link": "https://grids03.obys.agency/"
+    },
+    {
+      "name": "NOTHIN\u2019",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Experimental portfolio site studied for art direction and motion.",
+      "link": "https://www.noth.in/"
+    },
+    {
+      "name": "Cyera AI Guardian",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Interactive campaign experience studied for WebGL and story pacing.",
+      "link": "https://secure-the-unknown.cyera.com/"
+    },
+    {
+      "name": "Griflan Labs",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Experimental web design prototypes and interactive lab pieces by Griflan.",
+      "link": "https://labs.griflan.com/"
+    },
+    {
+      "name": "Le Mans Classic",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Editorial motorsport microsite studied for motion and typography.",
+      "link": "https://lemansclassic.richardmille.com/"
+    },
+    {
+      "name": "Zentry",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Award showcase reference featuring the Zentry interactive web experience.",
+      "link": "https://www.awwwards.com/websites/other/?mobile=1&page=71"
+    },
+    {
+      "name": "Disguised",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Awwwards site teardown for the Disguised web project.",
+      "link": "https://www.awwwards.com/sites/disguised"
+    },
+    {
+      "name": "AEXLAB & VAIL VR",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Awwwards site teardown for the AEXLAB and VAIL VR experience.",
+      "link": "https://www.awwwards.com/sites/aexlab-vail-vr"
+    },
+    {
+      "name": "Sonar Music",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Awwwards site teardown for Sonar Music studio site.",
+      "link": "https://www.awwwards.com/sites/sonar-music"
+    },
+    {
+      "name": "B/D JAMS",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Awwwards site teardown for B/D JAMS interactive music experience.",
+      "link": "https://www.awwwards.com/sites/b-d-r-jams"
+    },
+    {
+      "name": "Spotify Creator Wrapped",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "CSS Design Awards teardown for Spotify Creator Wrapped.",
+      "link": "https://www.cssdesignawards.com/sites/2022-creator-wrapped/43994/"
+    },
+    {
+      "name": "SoundWaves",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "CSS Design Awards teardown for the SoundWaves web project.",
+      "link": "https://cssdesignawards.com/sites/soundwaves/43477/"
+    },
+    {
+      "name": "UPPERGROUND",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Awwwards site teardown for UPPERGROUND visual experience.",
+      "link": "https://www.awwwards.com/sites/upperground"
+    },
+    {
+      "name": "Bangkok Pains board game",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Awwwards site teardown for Bangkok Pains interactive board game site.",
+      "link": "https://www.awwwards.com/sites/bangkok-pains-the-board-game"
+    },
+    {
+      "name": "Messenger website",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Engineering breakdown covering graphics and optimization behind an award-winning site.",
+      "link": "https://www.utsubo.com/blog/award-winning-website-design-guide"
+    },
+    {
+      "name": "Specimen Stack",
+      "type": "Teardown",
+      "route": "Site & craft teardowns",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Interactive lab demo of a fanned card stack that flips cards to data sheets.",
+      "link": "https://sanyam.sh/lab/specimen-stack"
+    },
+    {
+      "name": "Deezer identity",
+      "type": "Case study",
+      "route": "Identity case studies",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Brand New review of Koto's logo and visual identity redesign for Deezer.",
+      "link": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_deezer_by_koto.php"
+    },
+    {
+      "name": "Twitch identity",
+      "type": "Case study",
+      "route": "Identity case studies",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "COLLINS identity case study for Twitch brand system and type.",
+      "link": "https://wearecollins.com/case-studies/twitch/"
+    },
+    {
+      "name": "Porto Rocha Twitch identity",
+      "type": "Case study",
+      "route": "Identity case studies",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Porto Rocha campaign and art direction case study for Twitch.",
+      "link": "https://www.portorocha.com/twitch/"
+    },
+    {
+      "name": "Pentagram Reddit identity",
+      "type": "Case study",
+      "route": "Identity case studies",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Pentagram identity refresh case study for Reddit.",
+      "link": "https://www.pentagram.com/work/reddit"
+    },
+    {
+      "name": "Pentagram Mastercard identity",
+      "type": "Case study",
+      "route": "Identity case studies",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Pentagram brand identity case study for Mastercard.",
+      "link": "https://www.pentagram.com/work/mastercard"
+    },
+    {
+      "name": "Apple TV rebrand",
+      "type": "Case study",
+      "route": "Identity case studies",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Cannes Lions 2026 craft and design winners coverage including Apple TV rebrand.",
+      "link": "https://shots.net/news/view/cannes-lions-2026-film-craft-digital-craft-industry-craft-and-design-winners"
+    },
+    {
+      "name": "Caption with Intention",
+      "type": "Case study",
+      "route": "Identity case studies",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Cannes Lions 2025 design winners analysis featuring Caption with Intention.",
+      "link": "https://www.contagious.com/en/article/news-and-views/cannes-lions-2025-design-winners"
+    },
+    {
+      "name": "Designing Paris 2024",
+      "type": "Case study",
+      "route": "Identity case studies",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "D&AD 2025 Black and White Pencil identity roundup featuring Paris 2024.",
+      "link": "https://www.llllitl.fr/2025/05/d-and-ad-2025-black-white-pencils"
+    },
+    {
+      "name": "Spreadbeats",
+      "type": "Case study",
+      "route": "Identity case studies",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "One Club ADC 104th Annual Awards winners announcement featuring Spreadbeats.",
+      "link": "https://www.oneclub.org/press/-adc104-winners"
+    },
+    {
+      "name": "New York City FC identity",
+      "type": "Case study",
+      "route": "Identity case studies",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Type Directors Club TDC71 Best of Discipline winners including New York City FC.",
+      "link": "https://www.oneclub.org/press/-tdc71-bod"
+    },
+    {
+      "name": "ForestWave identity",
+      "type": "Case study",
+      "route": "Identity case studies",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Dizain visual identity and maritime brand system case study for ForestWave.",
+      "link": "https://www.dizain.nl/werk/forestwave"
+    },
+    {
+      "name": "The Revived",
+      "type": "Case study",
+      "route": "Identity case studies",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Peter Schmidt Group Red Dot Grand Prix case study for The Revived.",
+      "link": "https://www.peter-schmidt-group.de/en/peter-schmidt-group-wins-grand-prix-red-dot-award-revived"
+    },
+    {
+      "name": "JKR - Schweppes Unveils New Logo",
+      "type": "Case study",
+      "route": "Identity case studies",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Jones Knowles Ritchie identity case study on Schweppes logo redesign.",
+      "link": "https://d1s1.com/studio/JKR"
+    },
+    {
+      "name": "Spatial Festival 2025",
+      "type": "Case study",
+      "route": "Identity case studies",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "ADC 105th Annual Awards winners coverage featuring Spatial Festival 2025.",
+      "link": "https://www.mediaupdate.co.za/marketing/161208/global-adc-105th-annual-awards-winners-announced"
+    },
+    {
+      "name": "Tokyo TDC 2026 Grand Prize",
+      "type": "Case study",
+      "route": "Identity case studies",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Tokyo Type Directors Club 2026 competition results and Grand Prize selection.",
+      "link": "https://tokyotypedirectorsclub.org/en/news/tdc2026-results/"
+    },
+    {
+      "name": "Rise Wins 'Best of the Best' Red Dot Design Award",
+      "type": "Case study",
+      "route": "Identity case studies",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Red Dot Best of the Best identity case study for Rise.",
+      "link": "https://lbbonline.com/news/Branding-as-a-force-for-change-Rise-wins-a-Red-Dot-Best-of-the-Best"
+    },
+    {
+      "name": "Adobe 2026 Creative Trends",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Adobe 2026 annual creative trends forecast across design and visual media.",
+      "link": "https://business.adobe.com/uk/resources/creative-trends-report.html"
+    },
+    {
+      "name": "Adobe Firefly 2025 prompt trends",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Adobe report on aesthetic directions and prompt trends in Firefly.",
+      "link": "https://blog.adobe.com/en/publish/2026/01/08/halftone-nostalgia-more-2025-top-firefly-prompt-trends"
+    },
+    {
+      "name": "Canva design trends",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Canva annual visual design trends report and format breakdown.",
+      "link": "https://www.canva.com/design-trends/"
+    },
+    {
+      "name": "RGD branding trends to stop repeating",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Association of Registered Graphic Designers critique of overused branding tropes.",
+      "link": "https://rgd.ca/articles/2026-top-5-branding-trends-of-2025-we-should-stop-repeating-in-2026"
+    },
+    {
+      "name": "LogoLounge 2026 trend report",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Annual LogoLounge analysis of recurring geometric, typographic and mark trends.",
+      "link": "https://www.logolounge.com/trend/2026-logo-trend-report"
+    },
+    {
+      "name": "2024 Year in Review",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Brand New 2024 year-in-review archive covering notable and debated rebrands.",
+      "link": "https://www.underconsideration.com/brandnew/archives/tag/2024_year_in_review"
+    },
+    {
+      "name": "2025 Year in Review",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Brand New 2025 year-in-review archive covering notable and debated rebrands.",
+      "link": "https://www.underconsideration.com/brandnew/archives/tag/2025_year_in_review"
+    },
+    {
+      "name": "D&AD Awards 4 Black Pencils and Reveals 2026 Global Rankings",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "D&AD 2026 Black Pencil winners and global agency rankings report.",
+      "link": "https://lbbonline.com/news/d-and-ad-black-pencil-winners-and-agency-of-the-year-revealed"
+    },
+    {
+      "name": "D&AD Announces 2025 Pencil Winners",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "D&AD 2025 Pencil winners announcement across design and craft.",
+      "link": "https://lbbonline.com/news/DandAD-Announces-2025-Pencil-Winners"
+    },
+    {
+      "name": "D&AD Awards 2025: Who won what",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Creative Boom breakdown of 2025 D&AD winners and standout projects.",
+      "link": "https://www.creativeboom.com/news/dad-awards-2025-who-won-what/"
+    },
+    {
+      "name": "D&AD announces 2025 winners, including 3 coveted Black Pencils",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Creative Bloq report on 2025 D&AD winners and Black Pencil projects.",
+      "link": "https://www.creativebloq.com/creative-inspiration/d-and-ad-announces-2025-winners-including-3-coveted-black-pencils"
+    },
+    {
+      "name": "Cannes Lions 2026 Winners: Anthropic, KitKat, Apple, and More",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "DesignRush roundup of Cannes Lions 2026 Grand Prix winning work.",
+      "link": "https://news.designrush.com/cannes-lions-2026-grand-prix-winners"
+    },
+    {
+      "name": "The Top 5 Cannes Lions 2025 Winners and Why They Went Big",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Analysis of top Cannes Lions 2025 winning campaigns and creative mechanics.",
+      "link": "https://awards-experts.com/cannes-2025-top5-campaigns/"
+    },
+    {
+      "name": "AKQA wins 22 Cannes Lions including Grand Prix for Design and Glass: The Lion for Change",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "AKQA Cannes Lions wins summary including Grand Prix for Design.",
+      "link": "https://www.akqa.com/news/akqa-wins-22-cannes-lions-including-grand-prix-for-design-and-glass-the-lion/"
+    },
+    {
+      "name": "TDC71 Best of Discipline Winners Announced",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Type Directors Club TDC71 Best of Discipline typography and lettering winners.",
+      "link": "https://tdc.org/news/tdc71-best-of-discipline-winners-announced/"
+    },
+    {
+      "name": "TDC71 Exhibition & Winners Ceremony",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Type Directors Club TDC71 exhibition and awards archive.",
+      "link": "https://tdc.org/event/tdc71-exhibition-winners-ceremony/"
+    },
+    {
+      "name": "R/GA Japan and Fengkun Bai Win Best of Discipline Honors at ADC 104th Annual Awards",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "ADC 104th Annual Awards coverage highlighting Best of Discipline craft winners.",
+      "link": "https://www.brandinginasia.com/r-ga-japan-and-fengkun-bai-win-best-of-discipline-honors-at-adc-104th-annual-awards/"
+    },
+    {
+      "name": "ADC 103 Winners Announced APAC Wins Four Best of Disciplines and 22 Gold Cubes",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "ADC 103rd Annual Awards regional winners and discipline breakdown.",
+      "link": "https://www.brandinginasia.com/adc-103-winners-announced-apac-wins-four-best-of-disciplines-and-22-gold-cubes/"
+    },
+    {
+      "name": "Dizain named European Design Agency of the Year 2026",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "European Design Awards 2026 Agency of the Year coverage.",
+      "link": "https://dutchdesigndaily.com/stories/dizainnamed-european-design-agency-of-the-year-2026/"
+    },
+    {
+      "name": "2026 Winners",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "European Design Awards 2026 official winners database.",
+      "link": "https://awards.europeandesign.org/winners"
+    },
+    {
+      "name": "Annual Review 2025",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Red Dot Design Award annual review of winning identity and communication work.",
+      "link": "https://www.red-dot.org/magazine/annual-review-2025"
+    },
+    {
+      "name": "What are the measures you are taking to safeguard fairness, originality, and trust for the D&AD Impact Awards 2026",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "D&AD 2026 fairness, originality and AI safeguard guidelines.",
+      "link": "https://campaigns.dandad.org/knowledge-base/what-are-the-measures-you-are-taking-to-safeguard-fairness-originality-and-trust-for-the-dad-impact-awards-2026"
+    },
+    {
+      "name": "Entry Kit 2026",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Official D&AD Awards 2026 entry rules, credits and eligibility PDF.",
+      "link": "https://media.dandad.org/documents/Entry_Kit_2026_ENG.pdf"
+    },
+    {
+      "name": "What's New 2026",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Summary of 2026 D&AD category and AI rule updates.",
+      "link": "https://www.dandad.org/awards/d-ad-awards/whats-new"
+    },
+    {
+      "name": "FAQs 2026",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "D&AD 2026 awards FAQ covering credits, authenticity and submission rules.",
+      "link": "https://www.dandad.org/awards/d-ad-awards/faqs"
+    },
+    {
+      "name": "AI & Creativity Report 2026",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "D&AD AI and creativity report covering attribution and industry norms.",
+      "link": "https://www.dandad.org/insights/learning/ai-report-2026"
+    },
+    {
+      "name": "Integrity Standards",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Official Cannes Lions integrity, AI disclosure and verification standards.",
+      "link": "https://www.canneslions.com/awards/awards-support/integrity-standards"
+    },
+    {
+      "name": "Cannes Lions rolls out strict AI disclosure, detection and ethics review for future entries",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Overview of Cannes Lions mandatory AI disclosure and ethics review rules.",
+      "link": "https://bestmediainfo.com/mediainfo/advertising/cannes-lions-rolls-out-strict-ai-disclosure-detection-and-ethics-review-for-future-entries-9449151"
+    },
+    {
+      "name": "Cannes Lions Statement: DM9 Entries",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Official Cannes Lions statement regarding integrity enforcement on 2025 entries.",
+      "link": "https://www.canneslions.com/news/cannes-lions-statement-dm9-entries-into-cannes-lions-2025"
+    },
+    {
+      "name": "Responsive Logos",
+      "type": "Brand & icons",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Interactive reference showing how major brand marks adapt across breakpoints.",
+      "link": "https://responsivelogos.co.uk/"
+    },
+    {
+      "name": "CoVet logo guidelines",
+      "type": "Brand & icons",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Published logo construction, clearspace and usage guidelines for CoVet.",
+      "link": "https://co.vet/brand/logo/"
+    },
+    {
+      "name": "Scale logo guidelines",
+      "type": "Brand & icons",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Published Scale AI brand mark, lockup and color usage rules.",
+      "link": "https://brand.scale.com/logo"
+    },
+    {
+      "name": "NVIDIA logo brand usage",
+      "type": "Brand & icons",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "NVIDIA trademark and brand logo usage policy.",
+      "link": "https://www.nvidia.com/en-us/about-nvidia/legal-info/logo-brand-usage/"
+    },
+    {
+      "name": "BIMI Group",
+      "type": "Brand & icons",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Brand logos in email.",
+      "link": "https://bimigroup.org/"
+    },
+    {
+      "name": "Apple Human Interface Guidelines app icons",
+      "type": "Brand & icons",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Apple Human Interface Guidelines specification for app icons across platforms.",
+      "link": "https://developer.apple.com/design/Human-Interface-Guidelines/app-icons"
+    },
+    {
+      "name": "IBM UI icon usage",
+      "type": "Brand & icons",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "IBM Design Language grid, stroke and optical sizing rules for UI icons.",
+      "link": "https://www.ibm.com/design/language/iconography/ui-icons/usage/"
+    },
+    {
+      "name": "Evil Martians favicon guide",
+      "type": "Brand & icons",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Practical modern favicon recipe covering SVG, PNG, ICO and manifest files.",
+      "link": "https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs"
+    },
+    {
+      "name": "Adobe Fonts licensing FAQ",
+      "type": "Brand & icons",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Adobe Fonts licensing rules for web embedding, logos and client handoff.",
+      "link": "https://helpx.adobe.com/fonts/web/font-licensing/font-licensing.html"
+    },
+    {
+      "name": "Design Search Codes",
+      "type": "Brand & icons",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "USPTO Design Search Code portal for checking existing registered mark motifs.",
+      "link": "https://www.uspto.gov/trademarks/search/design-search-codes"
+    },
+    {
+      "name": "General Guidelines - Design Search Code Manual",
+      "type": "Brand & icons",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "USPTO Design Search Code Manual guidelines for figurative trademark search.",
+      "link": "https://tmdesigncodes.uspto.gov/general-guidelines"
+    },
+    {
+      "name": "Fontinlogo",
+      "type": "Brand & icons",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Lookup of the fonts used behind well-known brands and logos.",
+      "link": "https://fontinlogo.com"
+    },
+    {
+      "name": "Lucide",
+      "type": "Icon library",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "ISC crisp community-maintained open-source SVG icon set.",
+      "link": "https://lucide.dev/"
+    },
+    {
+      "name": "lucide-animated",
+      "type": "Icon library",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT animated Lucide icon components built with Motion for React and Tailwind.",
+      "link": "https://lucide-animated.com/"
+    },
+    {
+      "name": "Phosphor Icons",
+      "type": "Icon library",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT flexible multi-weight icon family across 6 weights.",
+      "link": "https://phosphoricons.com/"
+    },
+    {
+      "name": "itshover",
+      "type": "Icon library",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Open-source collection of 260+ hover-animated React icons installable via CLI.",
+      "link": "https://itshover.com/"
+    },
+    {
+      "name": "SVGL",
+      "type": "Logo catalog",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MIT catalog of clean developer and company brand SVGs (trademarks belong to owners).",
+      "link": "https://svgl.app/"
+    },
+    {
+      "name": "Hugeicons",
+      "type": "Icon library",
+      "route": "Logo, brand & icons",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Open free stroke icon pack paired with paid multi-style Pro icon library.",
+      "link": "https://hugeicons.com/"
+    },
+    {
+      "name": "Nucleo",
+      "type": "Icon library",
+      "route": "Logo, brand & icons",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Free open-source icon subset plus commercial 40,000+ SVG icon suite and manager.",
+      "link": "https://nucleoapp.com/"
+    },
+    {
+      "name": "Iconsax",
+      "type": "Icon library",
+      "route": "Logo, brand & icons",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Multi-style UI icon set with free core icons; check current commercial license terms.",
+      "link": "https://iconsax.io/"
+    },
+    {
+      "name": "Isocons",
+      "type": "Icon library",
+      "route": "Logo, brand & icons",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Isometric SVG icon library with free starter set and paid bundles.",
+      "link": "https://isocons.app/"
+    },
+    {
+      "name": "Morphicons",
+      "type": "Icon library",
+      "route": "Logo, brand & icons",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Morphing animated icon set; confirm free vs commercial license terms on site.",
+      "link": "https://morphicons.com/"
+    },
+    {
+      "name": "Design Tokens specification",
+      "type": "Standard & UX",
+      "route": "Tokens, a11y & UX",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "The W3C community specification for design tokens.",
+      "link": "https://www.designtokens.org/tr/2025.10/"
+    },
+    {
+      "name": "What are design tokens: A complete guide",
+      "type": "Standard & UX",
+      "route": "Tokens, a11y & UX",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Practical guide to structuring semantic, alias and component design tokens.",
+      "link": "https://penpot.app/blog/what-are-design-tokens-a-complete-guide/"
+    },
+    {
+      "name": "Design Tokens: Bringing consistency to your design workflow",
+      "type": "Standard & UX",
+      "route": "Tokens, a11y & UX",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Walkthrough on naming and syncing design tokens between design and code.",
+      "link": "https://www.designsystemscollective.com/design-tokens-bringing-consistency-to-your-design-workflow-5aba863ec13a"
+    },
+    {
+      "name": "Carbon 2x Grid",
+      "type": "Standard & UX",
+      "route": "Tokens, a11y & UX",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "IBM Carbon 2x Grid specification for columns, breakpoints and spatial rhythm.",
+      "link": "https://carbondesignsystem.com/elements/2x-grid/overview/"
+    },
+    {
+      "name": "Radix color scale",
+      "type": "Standard & UX",
+      "route": "Tokens, a11y & UX",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "How a 12-step colour scale is built.",
+      "link": "https://www.radix-ui.com/colors/docs/palette-composition/understanding-the-scale"
+    },
+    {
+      "name": "Carbon color overview",
+      "type": "Standard & UX",
+      "route": "Tokens, a11y & UX",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "IBM Carbon color token architecture and accessible surface pairing guide.",
+      "link": "https://www.carbondesignsystem.com/building-blocks/foundations/color/overview"
+    },
+    {
+      "name": "NN/g color guidance",
+      "type": "Standard & UX",
+      "route": "Tokens, a11y & UX",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Nielsen Norman Group research on using color for hierarchy and state.",
+      "link": "https://www.nngroup.com/articles/color-enhance-design/"
+    },
+    {
+      "name": "WCAG 2.2",
+      "type": "Standard & UX",
+      "route": "Tokens, a11y & UX",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "The accessibility standard.",
+      "link": "https://www.w3.org/TR/WCAG22/"
+    },
+    {
+      "name": "W3C contrast minimum guidance",
+      "type": "Standard & UX",
+      "route": "Tokens, a11y & UX",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "W3C WCAG 2.2 Understanding Contrast (Minimum) 4.5:1 and 3:1 specification.",
+      "link": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html"
+    },
+    {
+      "name": "W3C non-text contrast guidance",
+      "type": "Standard & UX",
+      "route": "Tokens, a11y & UX",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "W3C WCAG 2.2 Understanding Non-text Contrast for UI controls and graphics.",
+      "link": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html"
+    },
+    {
+      "name": "W3C use of color guidance",
+      "type": "Standard & UX",
+      "route": "Tokens, a11y & UX",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "W3C WCAG 2.2 Understanding Use of Color beyond color alone.",
+      "link": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color"
+    },
+    {
+      "name": "W3C text-over-image failure F83",
+      "type": "Standard & UX",
+      "route": "Tokens, a11y & UX",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "W3C WCAG failure F83 covering low contrast text placed over images or gradients.",
+      "link": "https://www.w3.org/WAI/WCAG22/Techniques/failures/F83"
+    },
+    {
+      "name": "APCA",
+      "type": "Standard & UX",
+      "route": "Tokens, a11y & UX",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Perceptual contrast model under evaluation for WCAG 3.",
+      "link": "https://www.w3.org/WAI/GL/task-forces/silver/wiki/APCA"
+    },
+    {
+      "name": "NN/g F-shaped reading pattern",
+      "type": "Standard & UX",
+      "route": "Tokens, a11y & UX",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Nielsen Norman Group eye-tracking study on scanning and F-shaped reading patterns.",
+      "link": "https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content"
+    },
+    {
+      "name": "EyeQuant eye-tracking analysis",
+      "type": "Standard & UX",
+      "route": "Tokens, a11y & UX",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Eye-tracking analysis comparing visual hierarchy against baseline scanning habits.",
+      "link": "https://www.eyequant.com/resources/eye-tracking-studies-does-the-famous-f-shape-pattern-really-exist"
+    },
+    {
+      "name": "NN/g heuristic evaluation",
+      "type": "Standard & UX",
+      "route": "Tokens, a11y & UX",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Nielsen Norman Group methodology for structured usability heuristic evaluations.",
+      "link": "https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/theory-heuristic-evaluations/"
+    },
+    {
+      "name": "NN/g severity ratings",
+      "type": "Standard & UX",
+      "route": "Tokens, a11y & UX",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Nielsen Norman Group framework for severity ratings in UX audits.",
+      "link": "https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/"
+    },
+    {
+      "name": "axe-core",
+      "type": "Accessibility engine",
+      "route": "Tokens, a11y & UX",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "MPL-2.0 automated WCAG 2.x accessibility testing engine for browsers and CI.",
+      "link": "https://github.com/dequelabs/axe-core"
+    },
+    {
+      "name": "StarVector",
+      "type": "Research",
+      "route": "Vector & generative research",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "StarVector research paper on generating scalable SVG code from images and text.",
+      "link": "https://arxiv.org/abs/2312.11556"
+    },
+    {
+      "name": "OmniSVG",
+      "type": "Research",
+      "route": "Vector & generative research",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "OmniSVG repository for unified vector graphics generation models.",
+      "link": "https://github.com/OmniSVG/OmniSVG"
+    },
+    {
+      "name": "UniSVG",
+      "type": "Research",
+      "route": "Vector & generative research",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "UniSVG research paper on multimodal vector graphics understanding and synthesis.",
+      "link": "https://arxiv.org/abs/2508.07766"
+    },
+    {
+      "name": "SArena",
+      "type": "Research",
+      "route": "Vector & generative research",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "SArena open benchmark dataset for evaluating SVG generation and editing models.",
+      "link": "https://huggingface.co/datasets/InternSVG/SArena"
+    },
+    {
+      "name": "DiffVG",
+      "type": "Research",
+      "route": "Vector & generative research",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "DiffVG paper on differentiable vector graphics rasterization for optimization and ML.",
+      "link": "https://arxiv.org/abs/2212.02122"
+    },
+    {
+      "name": "Graphic-Design-Bench",
+      "type": "Research",
+      "route": "Vector & generative research",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Graphic-Design-Bench research benchmark evaluating automated layout and poster design.",
+      "link": "https://arxiv.org/abs/2604.04192"
+    },
+    {
+      "name": "GDB-Reward",
+      "type": "Research",
+      "route": "Vector & generative research",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "GDB-Reward paper on reward modeling for graphic design quality.",
+      "link": "https://arxiv.org/abs/2609.02813"
+    },
+    {
+      "name": "Verbalized Sampling paper",
+      "type": "Research",
+      "route": "Vector & generative research",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Verbalized Sampling paper on recovering output diversity in aligned generative models.",
+      "link": "https://arxiv.org/abs/2510.01171"
+    },
+    {
+      "name": "W3C SVG 2",
+      "type": "Research",
+      "route": "Vector & generative research",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "The SVG 2 specification.",
+      "link": "https://www.w3.org/TR/SVG2/"
+    },
+    {
+      "name": "A Primer on B\u00e9zier Curves",
+      "type": "Research",
+      "route": "Vector & generative research",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Interactive primer on B\u00e9zier curves.",
+      "link": "https://pomax.github.io/bezierinfo/"
+    },
+    {
+      "name": "Scrolltide",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Scroll-driven web patterns.",
+      "link": "https://scrolltide.co"
+    },
+    {
+      "name": "Mobbin",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Library of real app screens and flows.",
+      "link": "https://mobbin.com"
+    },
+    {
+      "name": "motionin.design",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Premium physics and cursor-reactive web sections sold as spec files.",
+      "link": "https://motionin.design"
+    },
+    {
+      "name": "HorizonX",
+      "type": "UI kit & assets",
+      "route": "UI libraries & systems",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Subscription library of shader backgrounds, mockups, Figma kits and React blocks (free Drops + paid plans).",
+      "link": "https://horizonx.so/"
+    },
+    {
+      "name": "Three.js Journey",
+      "type": "3D / shader",
+      "route": "Shaders & 3D",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Course on building with three.js.",
+      "link": "https://threejs-journey.com"
+    },
+    {
+      "name": "Scroll Shaders",
+      "type": "Shader library",
+      "route": "Shaders & 3D",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Commercial library of animated WebGL shader hero backgrounds exported as code, video or images.",
+      "link": "https://scrollshaders.com/"
+    },
+    {
+      "name": "Grainient Supply",
+      "type": "Gradient & texture pack",
+      "route": "Shaders & 3D",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Commercial pack of animated gradients, grainy textures and background assets.",
+      "link": "https://grainient.supply/"
+    },
+    {
+      "name": "Reelfolio",
+      "type": "Showreel SaaS",
+      "route": "Animation, video & film",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Paid browser showreel studio converting UI screenshots and clips into motion reels.",
+      "link": "https://reelfolio.io/"
+    },
+    {
+      "name": "Uberdesigner",
+      "type": "Prompt library",
+      "route": "Animation, video & film",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Commercial library of prompts and recipes for UI motion films.",
+      "link": "https://uberdesigner.ai/"
+    },
+    {
+      "name": "Midjourney",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Image generation.",
+      "link": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans"
+    },
+    {
+      "name": "MotionSites Studio",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "AI tool that builds a website design from a business description.",
+      "link": "https://studio.motionsites.ai"
+    },
+    {
+      "name": "LogoLounge",
+      "type": "Gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Logo archive and annual trend report.",
+      "link": "https://www.logolounge.com/"
+    },
+    {
+      "name": "Appllama MCP",
+      "type": "Gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "MCP library of screens, flows, onboarding and paywalls from top-grossing iOS apps.",
+      "link": "https://appllama.io"
+    },
+    {
+      "name": "MotionSites",
+      "type": "Gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "800+ premium website prompts, 3D sites and motion sections for AI tools.",
+      "link": "https://motionsites.ai"
+    },
+    {
+      "name": "Wonderlist",
+      "type": "Template directory",
+      "route": "Galleries & UI inspiration",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Commercial catalog of 120+ whole-site Figma design templates ($329+ tiers).",
+      "link": "https://wonderlist.design/"
+    },
+    {
+      "name": "These Are the 4 Black Pencil Winners of the 2026 D&AD Awards",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Adweek coverage of the four 2026 D&AD Black Pencil winners.",
+      "link": "https://www.adweek.com/creativity/these-are-the-4-black-pencil-winners-of-the-2026-dad-awards/"
+    }
+  ]
+}

@@ -22,7 +22,8 @@ def escape(value):
 def render(root):
     validator.validate(root)
     lines = ["<!-- credits:start -->", "## Credits", "",
-             "- [@aunysillyme](https://github.com/aunysillyme): Curated the [Video tools and workflows](video/canonical.json), including the production pipeline and creative techniques."]
+             "- [@aunysillyme](https://github.com/aunysillyme): Curated the [Video tools and workflows](video/canonical.json), including the production pipeline and creative techniques.",
+             "- [@aunysillyme](https://github.com/aunysillyme): Curated the [Design tools and workflows](design/canonical.json) and the [design resource inventory](design/inventory.json)."]
     paths = (path for name in validator.category_names(root)
              for path in (root / name / "community").glob("*/*.json"))
     for path in sorted(paths):

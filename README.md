@@ -1,6 +1,6 @@
 # Stack
 
-**Stack is a collection of creative workflows showing which tools to use, in what order, and how to check the result.** Start with Auny’s video workflows or share a process you use for video or design.
+**Stack is a collection of creative workflows showing which tools to use, in what order, and how to check the result.** Start with Auny’s video or design workflows, or share a process you use.
 
 [Browse the guides](https://aunysillyme.dev/stack/) · [Submit a workflow](CONTRIBUTING.md) · [Open an issue](https://github.com/aunysillyme-dev/stack/issues) · [Join a discussion](https://github.com/aunysillyme-dev/stack/discussions)
 
@@ -9,7 +9,7 @@
 | Stack | Start here | What’s available |
 | --- | --- | --- |
 | [Video](video/) | [Read the video guide](https://aunysillyme.dev/stack/video/) | Auny’s tools and step-by-step workflows for storyboarding, consistent characters, animation and editing. The [model inventory](video/inventory.json) records dated access routes and evaluation notes. |
-| [Design](design/) | [Share a design workflow](CONTRIBUTING.md) | Community submissions are open. Auny’s curated design collection is planned. |
+| [Design](design/) | [Browse the design stack](design/) | Auny’s 26 core free/freemium tools, 4 workflows and 291-entry [resource inventory](design/inventory.json) across 13 categories, plus open [community submissions](design/community/). |
 
 ## Make a music video from stills
 
@@ -31,4 +31,5 @@ A maintainer can select a merged workflow for the separately published website g
 ## Credits
 
 - [@aunysillyme](https://github.com/aunysillyme): Curated the [Video tools and workflows](video/canonical.json), including the production pipeline and creative techniques.
+- [@aunysillyme](https://github.com/aunysillyme): Curated the [Design tools and workflows](design/canonical.json) and the [design resource inventory](design/inventory.json).
 <!-- credits:end -->

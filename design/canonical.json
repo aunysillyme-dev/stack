@@ -1,0 +1,183 @@
+{
+  "author": "aunysillyme",
+  "reviewed": "2026-11-18",
+  "source": "https://github.com/aunysillyme-dev/stack/blob/main/design/README.md",
+  "tools": [
+    {
+      "name": "Penpot",
+      "url": "https://github.com/penpot/penpot",
+      "use": "Open-source vector design, components and interactive prototyping with CSS-native layouts and SVG export."
+    },
+    {
+      "name": "Paper",
+      "url": "https://paper.design",
+      "use": "HTML and CSS design canvas that coding agents inspect and edit directly over MCP."
+    },
+    {
+      "name": "Figma",
+      "url": "https://www.figma.com/pricing/",
+      "use": "Collaborative UI layout, shared component libraries and design-system handoff on the free starter tier or paid seats."
+    },
+    {
+      "name": "Stageshow",
+      "url": "https://github.com/benjitaylor/skills",
+      "use": "MIT agent skill and React faux-UI component kit for hero product visuals, bento cards and recorded UI demos."
+    },
+    {
+      "name": "Impeccable",
+      "url": "https://impeccable.style/",
+      "use": "Open-source frontend craft commands, anti-slop detect audits and hierarchy polish guidance for coding agents."
+    },
+    {
+      "name": "unslop",
+      "url": "https://github.com/heydamir/unslop",
+      "use": "CC BY 4.0 review skill that strips generic AI UI habits across spacing, typography, icons, contrast and motion."
+    },
+    {
+      "name": "GradientDeck UI",
+      "url": "https://ui.gradientdeck.com/",
+      "use": "Free, no-signup library of over 1,270 DESIGN.md token and style rule files extracted from real shipped sites."
+    },
+    {
+      "name": "UI UX Pro Max",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "use": "MIT searchable design dataset (styles, palettes, font pairings and UX checklists) usable offline by coding agents."
+    },
+    {
+      "name": "shadcn/ui",
+      "url": "https://ui.shadcn.com/",
+      "use": "MIT accessible React and Tailwind component code owned directly in the project repository."
+    },
+    {
+      "name": "21st.dev",
+      "url": "https://21st.dev",
+      "use": "Community React and Tailwind UI pattern registry with CLI and MCP installation; check per-component license notes."
+    },
+    {
+      "name": "React Bits",
+      "url": "https://reactbits.dev",
+      "use": "Animated React text, background, card and micro-interaction primitives (MIT with Commons Clause)."
+    },
+    {
+      "name": "Astryx",
+      "url": "https://astryx.atmeta.com/",
+      "use": "MIT customizable React 19 and StyleX design system (180+ components) with CLI and MCP integration."
+    },
+    {
+      "name": "transitions.dev",
+      "url": "https://transitions.dev",
+      "use": "Copy-paste UI transitions, interactive components, agent skill and MCP server for web apps."
+    },
+    {
+      "name": "Lenis",
+      "url": "https://github.com/darkroomengineering/lenis",
+      "use": "MIT smooth-scroll engine for coordinated scroll-linked interface sections and editorial pages."
+    },
+    {
+      "name": "Paper Shaders",
+      "url": "https://shaders.paper.design/",
+      "use": "Apache-2.0 zero-dependency React WebGL2 shaders for mesh gradients, dithering, halftone and fluted glass."
+    },
+    {
+      "name": "Three.js",
+      "url": "https://threejs.org",
+      "use": "MIT 3D WebGL and WebGPU engine paired with React Three Fiber or postprocessing pipelines for interactive scenes."
+    },
+    {
+      "name": "Rive",
+      "url": "https://rive.app/",
+      "use": "Interactive vector state machines with MIT runtimes; free to browse community files and embed playback."
+    },
+    {
+      "name": "HyperFrames",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "use": "Programmatic HTML-to-video motion and explainer toolkit with local frame inspection and deterministic timing."
+    },
+    {
+      "name": "snapcn",
+      "url": "https://snapcn.dev",
+      "use": "Registry of 53 MIT Remotion demo components (captions, terminals, device frames) with CLI and MCP access."
+    },
+    {
+      "name": "Ideogram",
+      "url": "https://ideogram.ai",
+      "use": "Generative image creation with strong typography and clean graphic compositions (free tier plus paid plans)."
+    },
+    {
+      "name": "Recraft",
+      "url": "https://www.recraft.ai/docs/trust-and-security/ownership",
+      "use": "Generative raster and scalable vector illustration tool for icons, brand graphics and editable SVG output."
+    },
+    {
+      "name": "Style Dictionary",
+      "url": "https://styledictionary.com/",
+      "use": "Build pipeline that compiles W3C Design Tokens JSON into CSS custom properties, iOS, Android and JS targets."
+    },
+    {
+      "name": "Radix Colors",
+      "url": "https://www.radix-ui.com/colors/docs/palette-composition/understanding-the-scale",
+      "use": "12-step accessible color scale specification separating app backgrounds, interactive states and text contrast."
+    },
+    {
+      "name": "Phosphor Icons",
+      "url": "https://phosphoricons.com/",
+      "use": "MIT multi-weight icon system (Thin through Fill and Duotone) for matching optical weight to type scales."
+    },
+    {
+      "name": "SVGO",
+      "url": "https://github.com/svg/svgo/releases/tag/v4.0.0",
+      "use": "MIT SVG optimizer that strips editor metadata and shrinks icon and illustration payloads before commit."
+    },
+    {
+      "name": "Playwright",
+      "url": "https://github.com/microsoft/playwright",
+      "use": "Apache-2.0 headless browser runner used for light/dark viewport screenshots, visual regression checks and demo capture."
+    }
+  ],
+  "workflows": [
+    {
+      "name": "Design production from research to QA gate",
+      "source": "https://github.com/aunysillyme-dev/stack/blob/main/design/README.md#how-a-design-job-runs",
+      "steps": [
+        "Research before drawing. Collect the same artifact from 8 to 12 peer brands alongside recent award-winning work in the category, then record what holds up, what fails and which cliches to skip.",
+        "Choose directions by mechanism. Propose directions that differ in how they work (type-led system, structural metaphor or interactive behavior) rather than one idea styled three ways, and tie every brief adjective to something observable.",
+        "Build in layers. Separate background surfaces, environment texture, hero subjects, annotations, typography and brand marks so each layer renders and scales cleanly before compositing depth and contrast.",
+        "Render and look. Export and inspect real desktop, tablet and mobile views yourself before sharing; zoom in on generated imagery and vector exports to catch anatomical, text or alignment defects.",
+        "Pass the gate. Verify core message, contrast ratios (WCAG 2.2 AA), type ramp, spacing tokens and asset licenses first; verify brand marks at 16px, in monochrome, blurred and against unintended second readings."
+      ]
+    },
+    {
+      "name": "Web interface and landing-page build",
+      "source": "https://github.com/aunysillyme-dev/stack/blob/main/design/README.md#web-interface-workflow",
+      "steps": [
+        "Benchmark layout patterns and typography pairings against curated web galleries (Minimal Gallery, Footer.design, CTA Gallery) and pull relevant DESIGN.md rules before writing markup.",
+        "Lock color, spacing and type tokens first using Radix 12-step contrast semantics, OKLCH lightness checks and Style Dictionary or CSS custom properties.",
+        "Assemble accessible controls from headless and copy-owned primitives (Radix UI Primitives, shadcn/ui, Astryx, 21st.dev) and add subtle state transitions (transitions.dev, NumberFlow, Lenis) only where they clarify cause and effect.",
+        "Render full-page desktop and mobile screenshots in both light and dark modes with Playwright at real target viewports.",
+        "Run automated WCAG checks with axe-core alongside an anti-slop review pass (Impeccable, unslop) before shipping or publishing."
+      ]
+    },
+    {
+      "name": "Brand mark, icon system and token handoff",
+      "source": "https://github.com/aunysillyme-dev/stack/blob/main/design/README.md#brand-and-token-workflow",
+      "steps": [
+        "Audit peer brand guidelines and search USPTO Design Search Codes to confirm the visual direction does not collide with crowded category shapes.",
+        "Draft distinctive vector mark concepts in Penpot, Figma or Recraft and refine grid, clearspace and lockup geometry.",
+        "Run the four mark stress tests: readability at 16px favicon scale, single-color silhouette contrast, Gaussian blur balance and unintended second-reading inspection.",
+        "Pair licensed typography (Fontshare, Adobe Fonts, Realtime Colors) and match icon weight to body copy scale using open multi-weight families such as Phosphor Icons or Lucide.",
+        "Optimize final SVG assets with SVGO, assemble the 6-file modern favicon and Apple app-icon set, and export platform tokens through Style Dictionary."
+      ]
+    },
+    {
+      "name": "Interactive shader, 3D hero and product-demo motion",
+      "source": "https://github.com/aunysillyme-dev/stack/blob/main/design/README.md#motion-and-shader-workflow",
+      "steps": [
+        "Select camera motion, curve timing and pacing references from 60fps.design, Shot Cafe or Eyecannndy before building effects.",
+        "Build layered WebGL, 3D or faux-UI product scenes using Paper Shaders, Three.js, Stageshow or Rive state machines with explicit pointer and viewport budgets.",
+        "Wire prefers-reduced-motion static fallbacks and verify foreground text contrast over animated surfaces against WCAG failure F83.",
+        "Capture deterministic frames or product walkthrough clips via Playwright, HyperFrames or snapcn instead of relying on unverified screen recordings.",
+        "Inspect frame pacing, loop seams, alpha edges and compressed payload sizes before committing assets."
+      ]
+    }
+  ]
+}
