@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: Auny LLC and contributors
+# SPDX-License-Identifier: MIT
 """Offline regression tests for contribution scope and catalog validation."""
 import importlib.util
 import json

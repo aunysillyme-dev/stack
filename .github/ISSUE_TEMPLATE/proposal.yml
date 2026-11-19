@@ -8,3 +8,10 @@ body:
       description: Describe the need and any useful public sources. Do not include sensitive data.
     validations:
       required: true
+  - type: textarea
+    id: success
+    attributes:
+      label: Observable success check
+      description: How can someone see the workflow worked?
+    validations:
+      required: true

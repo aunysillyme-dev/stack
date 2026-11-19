@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: Auny LLC and contributors
+# SPDX-License-Identifier: MIT
 """Render credits offline; check a proposed README against a trusted base."""
 import html
 import importlib.util

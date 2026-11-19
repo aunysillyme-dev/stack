@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: Auny LLC and contributors
+# SPDX-License-Identifier: MIT
 """Validate the curated catalog and contributor documents without fetching any URLs."""
 
 import ipaddress

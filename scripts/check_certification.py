@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: Auny LLC and contributors
+# SPDX-License-Identifier: MIT
 """Check GitHub's current PR metadata and the first-line v1 certification."""
 
 import json

@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: Auny LLC and contributors
+# SPDX-License-Identifier: MIT
 """Offline tests for the PR certification check and the contributor-facing form."""
 
 import importlib.util

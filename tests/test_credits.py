@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: Auny LLC and contributors
+# SPDX-License-Identifier: MIT
 """Offline tests for generated credits and the trusted-base boundary."""
 import importlib.util
 import json
