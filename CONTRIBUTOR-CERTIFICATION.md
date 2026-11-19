@@ -13,3 +13,4 @@ When you submit a pull request to this repository, tick the checkbox on the firs
 You retain your rights, subject to the applicable licenses and permissions. This certification asks for no copyright assignment, separate patent grant or general right to relicense. Existing license terms and notices still apply. External tools, models and marks keep their own terms. Auny LLC may decide whether to publish or decline a submission. Posting an issue, review or discussion by itself gives no certification or permission to republish.
 
 This project-specific certification governs new submissions once adopted. Earlier permissions remain governed by the terms on which they were given. See the [previous agreement](https://github.com/aunysillyme-dev/stack/blob/b48cbbc58199a54cf85bb8000ea2fe3f2f9b8438/CLA.md).
+
