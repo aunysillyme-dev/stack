@@ -60,7 +60,7 @@ Copy [templates/workflow.json](templates/workflow.json), fill in the inputs, too
 
 ### Can I add a new kind of stack?
 
-Yes. Compute and other kinds of AI stacks are coming, and anyone can propose one. Open an issue or discussion with the kind of stack and the tools, models and workflows it would cover, following [CONTRIBUTING.md](CONTRIBUTING.md).
+Yes. Follow [Propose a new stack](CONTRIBUTING.md#propose-a-new-stack) and open a [New stack issue](https://github.com/aunysillyme-dev/stack/issues/new?template=new-stack.yml).
 
 ## Read next
 

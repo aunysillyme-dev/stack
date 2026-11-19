@@ -9,6 +9,12 @@ Document a workflow you use. Include its purpose, inputs, tools, steps, output a
 
 Find the available top-level category folders in [the catalog](catalog.json). A maintainer registers a new category before it accepts community entries. Outside contributors may change only JSON workflow files directly inside their own lowercase login folder in an existing category, plus the generated README credit block. The scope check uses the PR author, checks both paths of a rename, and rejects moves between folders. Additions and deletions across different folders cannot be combined in one outside PR. The README check reconstructs all bytes outside the block from the trusted base and checks the generated block exactly. It does not grant permission to edit another author's work. For each newly credited coauthor, include the PR-template confirmation line linking their own comment on this PR. Maintainers verify authorship and scope of the comment. A maintainer handles changes to another person’s prior credit after checking with that person. The author field must match the folder; automated checks cannot establish identity, ownership, accuracy or consent.
 
+## Propose a new stack
+
+A stack is a root folder like `video/` or `design/`, with a `README.md`, `stack.json`, `canonical.json` and `inventory.json`. Kinds could include compute, agents, audio or coding.
+
+Open a [New stack issue](https://github.com/aunysillyme-dev/stack/issues/new?template=new-stack.yml) with the kind, who it helps, at least three tools and one workflow with an observable success check. Once accepted, a maintainer-authored PR adds the folder in the same shape as `video/` and passes `python3 scripts/validate.py`.
+
 ## Rights, sources and credit
 
 Write original descriptions in your own words. Identify any third-party text, data, examples or components, their sources, applicable licenses and required attribution; link examples only when you have permission to share them. Do not assume that a public example can be republished. Explain material AI assistance and the provenance of its inputs and outputs so reviewers can assess the submission. Obtain employer permission from an authorized person where needed. Keep private, personal and client data, credentials and confidential material out of files, links, PRs and Git history. Use names and marks accurately and do not imply endorsement.

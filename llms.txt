@@ -28,7 +28,7 @@ Browse the Markdown and JSON directly on GitHub or in a local checkout.
 - [AI tools designers use](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/design/canonical.json): 26 core tools and 4 workflows, plus the 291-entry design/inventory.json.
 - [AI tools for UI design](https://github.com/aunysillyme-dev/stack/blob/main/design/README.md): The web interface workflow and the UI categories in the design inventory.
 - [How to submit a workflow](https://github.com/aunysillyme-dev/stack/blob/main/CONTRIBUTING.md): Start from templates/workflow.json.
-- [Add a new kind of stack](https://github.com/aunysillyme-dev/stack/blob/main/CONTRIBUTING.md): Anyone can propose a new stack. Compute and others are coming.
+- [Add a new kind of stack](https://github.com/aunysillyme-dev/stack/blob/main/CONTRIBUTING.md#propose-a-new-stack): Open a [New stack issue](https://github.com/aunysillyme-dev/stack/issues/new?template=new-stack.yml) with the proposed tools and workflow.
 
 ## Optional
 
