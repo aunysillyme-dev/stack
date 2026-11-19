@@ -3,7 +3,7 @@
 [![Stack review](https://github.com/aunysillyme-dev/stack/actions/workflows/checks.yml/badge.svg)](https://github.com/aunysillyme-dev/stack/actions/workflows/checks.yml)
 [![License: CC BY 4.0 data, MIT code](https://img.shields.io/badge/license-CC%20BY%204.0%20data%20%2F%20MIT%20code-blue)](LICENSE.md)
 
-**Stack is a collection of creative workflows and an AI tools list for video, animation, design and UI, showing which tools to use, in what order, and how to check the result.** Start with Auny’s video or design workflows, or share a process you use.
+**Stack is a growing directory of AI stacks for anything people build with AI: curated tools, models and workflows as open JSON. Video and design are the first two live stacks, compute and more are coming, and anyone can propose a new stack.** Start with the video or design stack, share a workflow, or propose a new stack.
 
 [Browse the guides](https://aunysillyme.dev/stack/) · [Submit a workflow](CONTRIBUTING.md) · [Open an issue](https://github.com/aunysillyme-dev/stack/issues) · [Join a discussion](https://github.com/aunysillyme-dev/stack/discussions)
 
@@ -11,7 +11,7 @@
 
 Without: scattered blog posts, dead links and lists nobody updates.
 
-With: curated tools, models and workflows for video, animation, design and UI, kept current by contributors.
+With: curated stacks of tools, models and workflows for any kind of AI work, kept current by contributors.
 
 ## Choose a stack
 
@@ -57,6 +57,10 @@ UI sits inside the design stack. The web interface workflow in [design/README.md
 ### How do I submit a workflow?
 
 Copy [templates/workflow.json](templates/workflow.json), fill in the inputs, tools, steps and how you verified the result, and open a pull request following [CONTRIBUTING.md](CONTRIBUTING.md).
+
+### Can I add a new kind of stack?
+
+Yes. Compute and other kinds of AI stacks are coming, and anyone can propose one. Open an issue or discussion with the kind of stack and the tools, models and workflows it would cover, following [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Read next
 
