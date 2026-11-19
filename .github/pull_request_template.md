@@ -1,12 +1,13 @@
-## Workflow or correction
+- [ ] I certify under Stack Contributor Certification v1 that I may submit this contribution under the applicable repository licenses.
 
-Link the category and describe the change, what you checked, and the specific work by each author. Include GitHub profiles and identify coauthors who consent to public credit.
+Read [the certification](https://github.com/aunysillyme-dev/stack/blob/main/CONTRIBUTOR-CERTIFICATION.md) and check the first line yourself if it is accurate. Keep that line first.
 
-## Sources, rights and agreement
+## What did you contribute?
 
-Identify outside material, examples and components with their sources, licenses and required attribution. Explain material AI assistance and provenance, employer authorization where applicable, and each rights holder. Do not include private, personal or client data or private email addresses. The submitter and each additional rights holder must confirm in a comment from their own account, or through a verified authorized representative, for this PR, its reviewed commit and the agreement’s permanent link. Add the comment links for manual maintainer verification. The automated check reads only the two boxes below.
+Link the category or entry. Describe the result, how you verified it and each author’s work.
 
-For each newly credited coauthor, add a line using the format `Credit confirmation @handle https://github.com/aunysillyme-dev/stack/pull/NUMBER#issuecomment-ID`. Link their comment on this PR. A maintainer verifies who wrote it and what they approved.
+## Sources and credit
 
-- [ ] I agree to the Contributor License Agreement in CLA.md
-- [ ] I can grant the rights required for my contribution and have identified its sources and coauthors.
+Identify external material, its source, applicable license, required credit, material AI assistance and any permissions needed. For original solo work, a short statement of origin is enough. Name coauthors with their permission. Identify any additional rights holder or authorized representative and link their own confirmation where needed. Arrange private verification with a maintainer for sensitive evidence.
+
+For each newly credited coauthor, include a line like `Credit confirmation @handle https://github.com/aunysillyme-dev/stack/pull/NUMBER#issuecomment-ID` linking their own comment on this PR. A maintainer verifies its author, consent and scope.
