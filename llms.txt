@@ -1,6 +1,6 @@
 # Stack
 
-> Stack is a collection of creative workflows showing which tools to use, in what order, and how to check the result.
+> Stack is a collection of creative workflows and an AI tools list for video, animation, design and UI, showing which tools to use, in what order, and how to check the result.
 
 Browse the Markdown and JSON directly on GitHub or in a local checkout.
 
@@ -20,6 +20,14 @@ Browse the Markdown and JSON directly on GitHub or in a local checkout.
 - [Workflow template](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/templates/workflow.json): Fields for a new community submission.
 - [License coverage](https://github.com/aunysillyme-dev/stack/blob/main/LICENSE.md): Terms for editorial data, original descriptions, scripts and GitHub Actions configuration.
 - [Contributor certification](https://github.com/aunysillyme-dev/stack/blob/main/CONTRIBUTOR-CERTIFICATION.md): How to confirm the right to submit a pull request under the repository licenses.
+
+## Common questions
+
+- [Best AI tools for video generation](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/video/inventory.json): Dated model and platform entries with access routes, costs and status. Workflows are in video/canonical.json.
+- [AI tools for animation](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/video/canonical.json): Animation is part of the video stack.
+- [AI tools designers use](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/design/canonical.json): 26 core tools and 4 workflows, plus the 291-entry design/inventory.json.
+- [AI tools for UI design](https://github.com/aunysillyme-dev/stack/blob/main/design/README.md): The web interface workflow and the UI categories in the design inventory.
+- [How to submit a workflow](https://github.com/aunysillyme-dev/stack/blob/main/CONTRIBUTING.md): Start from templates/workflow.json.
 
 ## Optional
 
