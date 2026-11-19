@@ -1,12 +1,25 @@
 name: Stack review
 on:
+  push:
+    branches: [main]
   pull_request:
     types: [opened, reopened, edited, synchronize]
 permissions:
   contents: read
 jobs:
+  main:
+    name: Validate main
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - run: python3 scripts/validate.py
+      - run: python3 -m unittest discover -s tests
   data:
     name: Validate stack data
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     steps:
       - name: Read the base branch validator
@@ -49,6 +62,7 @@ jobs:
             python3 -I trusted/scripts/credits.py --check trusted proposed
   certification:
     name: Contributor agreement
+    if: github.event_name == 'pull_request'
     concurrency:
       group: stack-certification-${{ github.event.pull_request.number }}
       cancel-in-progress: true
