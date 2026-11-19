@@ -25,7 +25,7 @@ Start with [the catalog](catalog.json). Each listed folder contains a `stack.jso
 
 Start with [the template](templates/workflow.json). Record the inputs, tools, access, steps, output and how you verified it. Workflows can use free tools, paid tools or both. An accepted entry stays under its author’s GitHub handle. The [generated credits](#credits) describe each contributor’s work. [Contribution and credit instructions](CONTRIBUTING.md)
 
-A maintainer can select a merged workflow for the separately published website guide and preserve its attribution there. See the [licenses for data and code](LICENSE.md) and the [contributor agreement](CLA.md). Use [private vulnerability reporting](https://github.com/aunysillyme-dev/stack/security/advisories/new) for security reports.
+A maintainer can select a merged workflow for the separately published website guide and preserve its attribution there. See the [licenses for data and code](LICENSE.md) and the [contributor certification](CONTRIBUTOR-CERTIFICATION.md). Use [private vulnerability reporting](https://github.com/aunysillyme-dev/stack/security/advisories/new) for security reports.
 
 <!-- credits:start -->
 ## Credits

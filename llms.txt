@@ -9,7 +9,7 @@ Browse the Markdown and JSON directly on GitHub or in a local checkout.
 - [Collection README](https://github.com/aunysillyme-dev/stack/blob/main/README.md): Categories, example workflow and contributor credits.
 - [Published guides](https://aunysillyme.dev/stack/): The separately maintained guide directory.
 - [Video guide](https://aunysillyme.dev/stack/video/): Read the illustrated workflows and model comparison.
-- [Contributing](https://github.com/aunysillyme-dev/stack/blob/main/CONTRIBUTING.md): Workflow format, author credit and agreement process.
+- [Contributing](https://github.com/aunysillyme-dev/stack/blob/main/CONTRIBUTING.md): Workflow format, author credit and certification process.
 
 ## Reference
 
@@ -18,7 +18,7 @@ Browse the Markdown and JSON directly on GitHub or in a local checkout.
 - [Design metadata](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/design/stack.json): Collection status and community entry location.
 - [Workflow template](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/templates/workflow.json): Fields for a new community submission.
 - [License coverage](https://github.com/aunysillyme-dev/stack/blob/main/LICENSE.md): Terms for editorial data, original descriptions, scripts and GitHub Actions configuration.
-- [Contributor agreement](https://github.com/aunysillyme-dev/stack/blob/main/CLA.md): Terms for pull request contributions.
+- [Contributor certification](https://github.com/aunysillyme-dev/stack/blob/main/CONTRIBUTOR-CERTIFICATION.md): How to confirm the right to submit a pull request under the repository licenses.
 
 ## Optional
 

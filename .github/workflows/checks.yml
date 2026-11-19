@@ -47,24 +47,33 @@ jobs:
           set -euo pipefail
           git -C proposed diff --no-ext-diff --no-textconv --name-status -z -M HEAD^1 HEAD -- |
             python3 -I trusted/scripts/credits.py --check trusted proposed
-  cla:
+  certification:
     name: Contributor agreement
+    concurrency:
+      group: stack-certification-${{ github.event.pull_request.number }}
+      cancel-in-progress: true
     runs-on: ubuntu-latest
-    permissions: {}
+    permissions:
+      contents: read
+      pull-requests: read
     steps:
-      - name: Check the agreement in the pull request
+      - name: Read only the certification checker from the base commit
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: trusted
+          persist-credentials: false
+      - name: Check the submitter's certification
         env:
-          PR_BODY: ${{ github.event.pull_request.body }}
-        shell: python
+          GH_TOKEN: ${{ github.token }}
+          PR_AUTHOR_ID: ${{ github.event.pull_request.user.id }}
+          PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        shell: bash
         run: |
-          import os
-          import re
-          body = re.sub(r"<!--[\s\S]*?(?:-->|$)", "", os.environ.get("PR_BODY", ""))
-          required = [
-              "I agree to the Contributor License Agreement in CLA.md",
-              "I can grant the rights required for my contribution and have identified its sources and coauthors.",
-          ]
-          for statement in required:
-              line = r"^[ \t]*[-*] \[[xX]\] " + re.escape(statement) + r"[ \t]*$"
-              if not re.search(line, body.replace("\r\n", "\n"), re.MULTILINE):
-                  raise SystemExit("Check the agreement and rights boxes in the pull request.")
+          set -euo pipefail
+          if [[ ! -f trusted/scripts/check_certification.py ]]; then
+            echo 'The trusted base does not yet contain the v1 certification checker. This policy transition needs owner review under the existing rules.'
+            exit 1
+          fi
+          python3 -I trusted/scripts/check_certification.py

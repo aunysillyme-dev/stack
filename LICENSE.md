@@ -4,4 +4,4 @@ Original workflow descriptions and structured editorial data in this repository 
 
 The repository’s validation scripts and workflow configuration use the [MIT License](LICENSES/MIT.txt).
 
-Linked tools, datasets, model weights, images, music, trademarks and other external works keep their respective terms. The [Contributor License Agreement](CLA.md) covers contributions to Auny LLC.
+Linked tools, datasets, model weights, images, music, trademarks and other external works keep their respective terms. For new pull requests, confirm your right to contribute under the applicable terms using the [Stack contributor certification](CONTRIBUTOR-CERTIFICATION.md).
