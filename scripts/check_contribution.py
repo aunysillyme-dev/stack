@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: Auny LLC and contributors
+# SPDX-License-Identifier: MIT
 """Check a NUL-delimited git diff --name-status against the PR author's scope."""
 
 import json
