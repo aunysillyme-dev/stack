@@ -18,7 +18,7 @@ With: curated stacks of tools, models and workflows for any kind of AI work, kep
 | Stack | Start here | What’s available |
 | --- | --- | --- |
 | [Video](video/) | [Read the video guide](https://aunysillyme.dev/stack/video/) | Auny’s tools and step-by-step workflows for storyboarding, consistent characters, animation and editing. The [model inventory](video/inventory.json) records dated access routes and evaluation notes. |
-| [Design](design/) | [Browse the design stack](design/) | Auny’s 26 core free/freemium tools, 4 workflows and 291-entry [resource inventory](design/inventory.json) across 13 categories, plus open [community submissions](design/community/). |
+| [Design](design/) | [Read the design guide](https://aunysillyme.dev/stack/design/) | Auny’s 26 core free/freemium tools, 4 workflows and 291-entry [resource inventory](design/inventory.json) across 13 categories, plus open [community submissions](design/community/). |
 
 ## Make a music video from stills
 

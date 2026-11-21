@@ -9,6 +9,7 @@ Browse the Markdown and JSON directly on GitHub or in a local checkout.
 - [Collection README](https://github.com/aunysillyme-dev/stack/blob/main/README.md): Categories, example workflow and contributor credits.
 - [Published guides](https://aunysillyme.dev/stack/): The separately maintained guide directory.
 - [Video guide](https://aunysillyme.dev/stack/video/): Read the illustrated workflows and model comparison.
+- [Design guide](https://aunysillyme.dev/stack/design/): Core design tools, step-by-step workflows and searchable free/freemium inventory.
 - [Design stack](https://github.com/aunysillyme-dev/stack/blob/main/design/README.md): Core design tools, step-by-step workflows and 13-category resource inventory.
 - [Contributing](https://github.com/aunysillyme-dev/stack/blob/main/CONTRIBUTING.md): Workflow format, author credit and certification process.
 
