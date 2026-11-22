@@ -159,6 +159,22 @@ def expected_outputs(root: Path) -> dict[Path, str]:
                         )
                     md_lines.append("")
                 outputs[folder / tier / f"{tier}.md"] = "\n".join(md_lines)
+                readme_lines = [
+                    f"# {title} stack: {tier}",
+                    "",
+                    TIER_DESCRIPTIONS[tier],
+                    "",
+                    f"Reviewed {inv['reviewed']} · {len(tier_entries)} entries.",
+                    "",
+                    "## Files",
+                    "",
+                    f"- [{tier}.md]({tier}.md): plain-text Markdown list for reading and browsing",
+                    f"- [{tier}.json]({tier}.json): structured JSON data for scripts and agents",
+                    "- [../inventory.md](../inventory.md): full stack inventory in Markdown",
+                    "- [../canonical.md](../canonical.md): core tools and workflows",
+                    "",
+                ]
+                outputs[folder / tier / "README.md"] = "\n".join(readme_lines)
     return outputs
 
 

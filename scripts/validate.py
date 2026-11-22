@@ -171,11 +171,12 @@ def category(path):
         for tier in ("free", "freemium", "premium"):
             tier_dir = path / tier
             require(tier_dir.is_dir(), f"missing tier directory: {tier_dir}")
-            require({p.name for p in tier_dir.iterdir()} == {f"{tier}.json", f"{tier}.md"}, f"unexpected tier files: {tier_dir}")
+            require({p.name for p in tier_dir.iterdir()} == {f"{tier}.json", f"{tier}.md", "README.md"}, f"unexpected tier files: {tier_dir}")
             tier_obj = read(tier_dir / f"{tier}.json")
             fields(tier_obj, "tier source reviewed entries")
             require(tier_obj["tier"] == tier and isinstance(tier_obj["entries"], list), f"invalid tier json: {tier_dir}")
             require((tier_dir / f"{tier}.md").is_file() and (tier_dir / f"{tier}.md").stat().st_size > 0, f"missing tier md: {tier_dir}")
+            require((tier_dir / "README.md").is_file() and (tier_dir / "README.md").stat().st_size > 0, f"missing tier README.md: {tier_dir}")
     require({p.name for p in path.iterdir()} == allowed, f"unexpected or missing category files: {path}")
     for author in (path / "community").iterdir():
         if author.name == "README.md" and author.is_file():

@@ -1,7 +1,7 @@
 version = 1
 
 [[annotations]]
-path = ["*.md", "llms.txt", "catalog.json", "templates/**", "*-stack/**", "docs/**"]
+path = ["*.md", "llms.txt", "catalog.json", "templates/**", "*-stack/**", "docs/**", "LICENSES/README.md"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Auny LLC and contributors"
 SPDX-License-Identifier = "CC-BY-4.0"
