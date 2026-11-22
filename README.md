@@ -22,8 +22,6 @@ With: curated stacks of tools, models and workflows for any kind of AI work, kep
 
 ## Make a music video from stills
 
-![Video Stack, from idea to finished video. A practical guide by Auny.](https://aunysillyme.dev/assets/video-stack-preview.png)
-
 Start with a finished track. Mark the changes in the song, plan a shot for each section and create stills that keep the character and palette consistent. Animate the selected stills, check motion and facial continuity, then cut the clips to the mastered audio. [Follow the music-video walkthrough](https://aunysillyme.dev/stack/video/#music) or [read the steps in plain text](02-video-stack/canonical.md) ([JSON](02-video-stack/canonical.json)).
 
 ## Use the collection as data
