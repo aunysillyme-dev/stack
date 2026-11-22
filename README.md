@@ -17,18 +17,18 @@ With: curated stacks of tools, models and workflows for any kind of AI work, kep
 
 | Stack | Start here | What’s available |
 | --- | --- | --- |
-| [Video](video/) | [Read the video guide](https://aunysillyme.dev/stack/video/) | Auny’s tools and step-by-step workflows for storyboarding, consistent characters, animation and editing. The [model inventory](video/inventory.json) records dated access routes and evaluation notes. |
-| [Design](design/) | [Read the design guide](https://aunysillyme.dev/stack/design/) | Auny’s 26 core free/freemium tools, 4 workflows and 291-entry [resource inventory](design/inventory.json) across 13 categories, plus open [community submissions](design/community/). |
+| [01 Design](01-design-stack/) | [Read the design guide](https://aunysillyme.dev/stack/design/) | 26 core tools and 4 workflows ([plain text](01-design-stack/canonical.md) · [JSON](01-design-stack/canonical.json)), plus 291 resources ([inventory.md](01-design-stack/inventory.md) · [free/](01-design-stack/free/free.md) · [freemium/](01-design-stack/freemium/freemium.md) · [premium/](01-design-stack/premium/premium.md)) and [community/](01-design-stack/community/). |
+| [02 Video](02-video-stack/) | [Read the video guide](https://aunysillyme.dev/stack/video/) | Storyboarding, consistent characters, animation and editing ([plain text](02-video-stack/canonical.md) · [JSON](02-video-stack/canonical.json)), plus 28 I2V model entries ([inventory.md](02-video-stack/inventory.md) · [free/](02-video-stack/free/free.md) · [freemium/](02-video-stack/freemium/freemium.md) · [premium/](02-video-stack/premium/premium.md)) and [community/](02-video-stack/community/). |
 
 ## Make a music video from stills
 
 ![Video Stack, from idea to finished video. A practical guide by Auny.](https://aunysillyme.dev/assets/video-stack-preview.png)
 
-Start with a finished track. Mark the changes in the song, plan a shot for each section and create stills that keep the character and palette consistent. Animate the selected stills, check motion and facial continuity, then cut the clips to the mastered audio. [Follow the music-video walkthrough](https://aunysillyme.dev/stack/video/#music) or [read the steps as JSON](video/canonical.json).
+Start with a finished track. Mark the changes in the song, plan a shot for each section and create stills that keep the character and palette consistent. Animate the selected stills, check motion and facial continuity, then cut the clips to the mastered audio. [Follow the music-video walkthrough](https://aunysillyme.dev/stack/video/#music) or [read the steps in plain text](02-video-stack/canonical.md) ([JSON](02-video-stack/canonical.json)).
 
 ## Use the collection as data
 
-Start with [the catalog](catalog.json). Each listed folder contains a `stack.json` with its publication status and the paths available for that category. For example, [Video’s metadata](video/stack.json) points to [curated workflows](video/canonical.json), the model inventory and the [community folder](video/community/). These committed files can be read offline. Check current pricing and terms with the provider when choosing a model.
+Start with [the catalog](catalog.json). Each numbered stack folder (`01-design-stack/`, `02-video-stack/`, and future stacks like `03-image-stack/`) contains a `stack.json`, human-readable Markdown (`canonical.md`, `inventory.md`), machine-readable JSON (`canonical.json`, `inventory.json`), and `free/`, `freemium/`, and `premium/` subfolders with both `.md` and `.json`. These committed files can be read offline. Check current pricing and terms with the provider when choosing a model.
 
 ## Share and reuse a workflow
 
@@ -77,6 +77,6 @@ For agents: start with [AGENTS.md](AGENTS.md) and [llms.txt](llms.txt).
 <!-- credits:start -->
 ## Credits
 
-- [@aunysillyme](https://github.com/aunysillyme): Curated the [Video tools and workflows](video/canonical.json), including the production pipeline and creative techniques.
-- [@aunysillyme](https://github.com/aunysillyme): Curated the [Design tools and workflows](design/canonical.json) and the [design resource inventory](design/inventory.json).
+- [@aunysillyme](https://github.com/aunysillyme): Curated the [Video tools and workflows](02-video-stack/canonical.json), including the production pipeline and creative techniques.
+- [@aunysillyme](https://github.com/aunysillyme): Curated the [Design tools and workflows](01-design-stack/canonical.json) and the [design resource inventory](01-design-stack/inventory.json).
 <!-- credits:end -->

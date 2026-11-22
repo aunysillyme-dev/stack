@@ -2,8 +2,9 @@
 
 [Read Auny’s complete guide](https://aunysillyme.dev/stack/video/) for the storyboards, prompts, finishing checklist and model comparison.
 
-- [Auny’s tools and workflows](canonical.json) includes image creation, character continuity, animation, editing and finishing.
-- [Image-to-video inventory](inventory.json) records the guide’s dated model and platform entries, including access routes, costs and evaluation status. “Evaluating” records a candidate. “Parked” records a choice set aside.
+- **Tools and workflows:** [canonical.md](canonical.md) (plain text) · [canonical.json](canonical.json) includes image creation, character continuity, animation, editing and finishing.
+- **Image-to-video inventory (28):** [inventory.md](inventory.md) (plain text) · [inventory.json](inventory.json) records the guide’s dated model and platform entries, including access routes, costs and evaluation status. “Evaluating” records a candidate. “Parked” records a choice set aside.
+- **Resources by tier:** [free/](free/free.md) ([JSON](free/free.json)) · [freemium/](freemium/freemium.md) ([JSON](freemium/freemium.json)) · [premium/](premium/premium.md) (`28`, [JSON](premium/premium.json))
 - [Community workflows](community/) are organized by contributor.
 - Access information is recorded per route in the inventory. A paid hosted route and downloadable weights can have different terms. Check the provider before you use either.
 - [Category metadata](stack.json) points software to those files.

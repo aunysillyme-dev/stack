@@ -50,42 +50,42 @@ class ScopeTests(unittest.TestCase):
         self.assertEqual(result.returncode == 0, expected, result.stderr.decode())
 
     def test_valid_contributions_and_maintainer(self):
-        self.check_scope("Alice", ["A", "design/community/alice/my-workflow.json"], True)
-        self.check_scope("alice", ["M", "video/community/alice/a.json"], True)
-        self.check_scope("aunysillyme", ["M", "video/canonical.json"], True)
-        self.check_scope("alice", ["R100", "design/community/alice/a.json",
-                                   "design/community/alice/b.json"], True)
+        self.check_scope("Alice", ["A", "01-design-stack/community/alice/my-workflow.json"], True)
+        self.check_scope("alice", ["M", "02-video-stack/community/alice/a.json"], True)
+        self.check_scope("aunysillyme", ["M", "02-video-stack/canonical.json"], True)
+        self.check_scope("alice", ["R100", "01-design-stack/community/alice/a.json",
+                                   "01-design-stack/community/alice/b.json"], True)
 
     def test_root_categories_only(self):
-        for path in ("stacks/video/community/alice/work.json", "templates/community/alice/work.json",
-                     "scripts/community/alice/work.json", "catalog.json", "/video/community/alice/work.json",
-                     "video/community/../alice/work.json", "video//community/alice/work.json"):
+        for path in ("stacks/02-video-stack/community/alice/work.json", "templates/community/alice/work.json",
+                     "scripts/community/alice/work.json", "catalog.json", "/02-video-stack/community/alice/work.json",
+                     "02-video-stack/community/../alice/work.json", "02-video-stack//community/alice/work.json"):
             self.check_scope("alice", ["A", path], False)
 
     def test_invalid_authors_and_paths(self):
-        for author, path in (("", "design/community/alice/a.json"),
-                             ("alice/../bob", "design/community/bob/a.json"),
-                             ("K", "design/community/k/a.json"),
-                             ("alice", "design/community/bob/a.json"),
-                             ("alice", "video/canonical.json"),
+        for author, path in (("", "01-design-stack/community/alice/a.json"),
+                             ("alice/../bob", "01-design-stack/community/bob/a.json"),
+                             ("K", "01-design-stack/community/k/a.json"),
+                             ("alice", "01-design-stack/community/bob/a.json"),
+                             ("alice", "02-video-stack/canonical.json"),
                              ("alice", ".github/workflows/checks.yml"),
                              ("alice", "fake/community/alice/a.json"),
-                             ("alice", "design/community/alice/nested/a.json")):
+                             ("alice", "01-design-stack/community/alice/nested/a.json")):
             with self.subTest(author=author, path=path):
                 self.check_scope(author, ["M", path], False)
 
     def test_cross_folder_rename_rejected_in_both_directions(self):
-        own = "design/community/alice/a.json"
-        other = "design/community/bob/a.json"
+        own = "01-design-stack/community/alice/a.json"
+        other = "01-design-stack/community/bob/a.json"
         self.check_scope("alice", ["R100", other, own], False)
         self.check_scope("alice", ["R100", own, other], False)
-        self.check_scope("alice", ["R100", own, "video/community/alice/a.json"], False)
-        self.check_scope("alice", ["D", own, "A", "video/community/alice/a.json"], False)
-        self.check_scope("alice", ["D", own, "A", "design/community/alice/b.json"], True)
+        self.check_scope("alice", ["R100", own, "02-video-stack/community/alice/a.json"], False)
+        self.check_scope("alice", ["D", own, "A", "02-video-stack/community/alice/a.json"], False)
+        self.check_scope("alice", ["D", own, "A", "01-design-stack/community/alice/b.json"], True)
 
     def test_malformed_diff_is_rejected(self):
-        for entries in (["R100", "design/community/alice/a.json"],
-                        ["U", "design/community/alice/a.json"],
+        for entries in (["R100", "01-design-stack/community/alice/a.json"],
+                        ["U", "01-design-stack/community/alice/a.json"],
                         ["M", ""]):
             with self.subTest(entries=entries):
                 self.check_scope("alice", entries, False)
@@ -94,15 +94,15 @@ class ScopeTests(unittest.TestCase):
 class PublishedStackTests(unittest.TestCase):
     def test_video_and_design_are_published_and_valid(self):
         self.assertEqual(validator.validate(ROOT), 2)
-        for name in ("video", "design"):
+        for name in ("01-design-stack", "02-video-stack"):
             meta = json.loads((ROOT / name / "stack.json").read_text(encoding="utf-8"))
             self.assertEqual(meta["status"], "published")
             self.assertEqual(meta["canonical"], "canonical.json")
             self.assertEqual(meta["inventory"], "inventory.json")
 
     def test_design_canonical_and_inventory_policies(self):
-        canonical = json.loads((ROOT / "design/canonical.json").read_text(encoding="utf-8"))
-        inventory = json.loads((ROOT / "design/inventory.json").read_text(encoding="utf-8"))
+        canonical = json.loads((ROOT / "01-design-stack/canonical.json").read_text(encoding="utf-8"))
+        inventory = json.loads((ROOT / "01-design-stack/inventory.json").read_text(encoding="utf-8"))
         tool_urls = [item["url"] for item in canonical["tools"]]
         self.assertEqual(len(tool_urls), len(set(tool_urls)))
         self.assertTrue(canonical["workflows"])
@@ -129,16 +129,23 @@ class PublishedStackTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp) / "repo"
             shutil.copytree(ROOT, root, ignore=shutil.ignore_patterns(".git", "__pycache__"))
-            stack_path = root / "design/stack.json"
+            stack_path = root / "01-design-stack/stack.json"
             meta = json.loads(stack_path.read_text(encoding="utf-8"))
             meta["guide"] = None
             stack_path.write_text(json.dumps(meta), encoding="utf-8")
-            validator.category(root / "design")
+            validator.category(root / "01-design-stack")
 
             meta["guide"] = "http://example.com"
             stack_path.write_text(json.dumps(meta), encoding="utf-8")
             with self.assertRaises(ValueError):
-                validator.category(root / "design")
+                validator.category(root / "01-design-stack")
+
+    def test_tier_and_markdown_sync_is_current(self):
+        result = subprocess.run(
+            [sys.executable, "-I", str(ROOT / "scripts/sync_tiers.py"), "--check", str(ROOT)],
+            stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True,
+        )
+        self.assertEqual(result.returncode, 0, result.stderr + result.stdout)
 
 
 if __name__ == "__main__":

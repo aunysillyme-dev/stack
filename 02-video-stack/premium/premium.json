@@ -1,0 +1,287 @@
+{
+  "tier": "premium",
+  "source": "https://aunysillyme.dev/stack/video/i2v-model-inventory.csv",
+  "reviewed": "2026-11-18",
+  "entries": [
+    {
+      "name": "Adobe Firefly Video",
+      "type": "Model",
+      "route": "Firefly",
+      "status": "Live in stack",
+      "cost_class": "subscription",
+      "model_id": "",
+      "notes": "First/last frame supported; account controls vary",
+      "link": "https://firefly.adobe.com/"
+    },
+    {
+      "name": "Grok Imagine",
+      "type": "Product / model route",
+      "route": "Grok",
+      "status": "Live in stack",
+      "cost_class": "subscription",
+      "model_id": "",
+      "notes": "Used for stills and animation",
+      "link": "https://grok.com/imagine"
+    },
+    {
+      "name": "LTX-2.5",
+      "type": "Model",
+      "route": "LTX API",
+      "status": "Live in stack",
+      "cost_class": "metered",
+      "model_id": "",
+      "notes": "Open weights; working API route recorded",
+      "link": "https://ltx.io/"
+    },
+    {
+      "name": "Fuser",
+      "type": "Platform",
+      "route": "Fuser",
+      "status": "Live in stack",
+      "cost_class": "metered",
+      "model_id": "",
+      "notes": "Node-based multi-model workspace",
+      "link": "https://app.fuser.studio/"
+    },
+    {
+      "name": "Creatify Boreal",
+      "type": "Model",
+      "route": "Creatify",
+      "status": "Evaluating",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Image, text or audio to ad video",
+      "link": "https://creatify.ai/"
+    },
+    {
+      "name": "Vivix W1",
+      "type": "Model",
+      "route": "Vivix",
+      "status": "Evaluating",
+      "cost_class": "metered",
+      "model_id": "",
+      "notes": "Playground observed; generation not verified",
+      "link": "https://platform.vivix.ai/video-gen/w1"
+    },
+    {
+      "name": "Cosmos3 Super I2V",
+      "type": "Model",
+      "route": "NVIDIA",
+      "status": "Parked",
+      "cost_class": "metered",
+      "model_id": "",
+      "notes": "Hardware requirements made it impractical in this setup",
+      "link": "https://huggingface.co/nvidia/Cosmos3-Super-Image2Video"
+    },
+    {
+      "name": "MiniMax H3",
+      "type": "Model",
+      "route": "Open weights",
+      "status": "Parked",
+      "cost_class": "metered",
+      "model_id": "",
+      "notes": "Recorded territorial license limits; check current terms",
+      "link": "https://huggingface.co/MiniMaxAI/MiniMax-H3"
+    },
+    {
+      "name": "OpenArt",
+      "type": "Platform",
+      "route": "OpenArt",
+      "status": "In progress; unconfirmed",
+      "cost_class": "metered",
+      "model_id": "",
+      "notes": "Multi-model platform; catalog presence does not prove generation",
+      "link": "https://openart.ai/"
+    },
+    {
+      "name": "OpenArt FLUX 3 Video",
+      "type": "Model",
+      "route": "OpenArt",
+      "status": "Evaluating; unconfirmed",
+      "cost_class": "metered",
+      "model_id": "flux-3-video",
+      "notes": "Catalogued modes: text + image",
+      "link": "https://openart.ai/"
+    },
+    {
+      "name": "OpenArt Gemini Omni 1.1 Flash",
+      "type": "Model",
+      "route": "OpenArt",
+      "status": "Evaluating; unconfirmed",
+      "cost_class": "metered",
+      "model_id": "gemini-omni-1-1-flash",
+      "notes": "Catalogued modes: text + image + elements",
+      "link": "https://openart.ai/"
+    },
+    {
+      "name": "OpenArt Gemini Omni Flash",
+      "type": "Model",
+      "route": "OpenArt",
+      "status": "Evaluating; unconfirmed",
+      "cost_class": "metered",
+      "model_id": "gemini-omni-flash",
+      "notes": "Catalogued modes: text + image + elements",
+      "link": "https://openart.ai/"
+    },
+    {
+      "name": "OpenArt Grok Imagine 1.5",
+      "type": "Model",
+      "route": "OpenArt",
+      "status": "Evaluating; unconfirmed",
+      "cost_class": "metered",
+      "model_id": "grok-imagine-1-5",
+      "notes": "Catalogued modes: text + image",
+      "link": "https://openart.ai/"
+    },
+    {
+      "name": "OpenArt Kling 3 Omni",
+      "type": "Model",
+      "route": "OpenArt",
+      "status": "Evaluating; unconfirmed",
+      "cost_class": "metered",
+      "model_id": "kling-3-omni",
+      "notes": "Catalogued modes: text + image + elements",
+      "link": "https://openart.ai/"
+    },
+    {
+      "name": "OpenArt Kling 3.0",
+      "type": "Model",
+      "route": "OpenArt",
+      "status": "Evaluating; unconfirmed",
+      "cost_class": "metered",
+      "model_id": "kling-v3",
+      "notes": "Catalogued modes: text + image",
+      "link": "https://openart.ai/"
+    },
+    {
+      "name": "OpenArt Kling 4.0",
+      "type": "Model",
+      "route": "OpenArt",
+      "status": "Evaluating; unconfirmed",
+      "cost_class": "metered",
+      "model_id": "kling-4-omni",
+      "notes": "Catalogued modes: text + image + elements",
+      "link": "https://openart.ai/"
+    },
+    {
+      "name": "OpenArt MiniMax H3 Max Turbo",
+      "type": "Model",
+      "route": "OpenArt",
+      "status": "Evaluating; unconfirmed",
+      "cost_class": "metered",
+      "model_id": "fal-h3-max-turbo",
+      "notes": "Catalogued modes: text + image",
+      "link": "https://openart.ai/"
+    },
+    {
+      "name": "OpenArt MiniMax H3 Max",
+      "type": "Model",
+      "route": "OpenArt",
+      "status": "Evaluating; unconfirmed",
+      "cost_class": "metered",
+      "model_id": "fal-h3-max",
+      "notes": "Catalogued modes: text + image + elements",
+      "link": "https://openart.ai/"
+    },
+    {
+      "name": "OpenArt MiniMax H3",
+      "type": "Model",
+      "route": "OpenArt",
+      "status": "Evaluating; unconfirmed",
+      "cost_class": "metered",
+      "model_id": "minimax-h3",
+      "notes": "Catalogued modes: text + image + elements",
+      "link": "https://openart.ai/"
+    },
+    {
+      "name": "OpenArt PixVerse V6",
+      "type": "Model",
+      "route": "OpenArt",
+      "status": "Evaluating; unconfirmed",
+      "cost_class": "metered",
+      "model_id": "pixverseV6",
+      "notes": "Catalogued modes: text + image",
+      "link": "https://openart.ai/"
+    },
+    {
+      "name": "OpenArt Seedance 2.0 Fast",
+      "type": "Model",
+      "route": "OpenArt",
+      "status": "Evaluating; unconfirmed",
+      "cost_class": "metered",
+      "model_id": "byte-plus-seedance-2-fast",
+      "notes": "Catalogued modes: text + image + elements",
+      "link": "https://openart.ai/"
+    },
+    {
+      "name": "OpenArt Seedance 2.0 Mini",
+      "type": "Model",
+      "route": "OpenArt",
+      "status": "Evaluating; unconfirmed",
+      "cost_class": "metered",
+      "model_id": "byte-plus-seedance-2-mini",
+      "notes": "Catalogued modes: text + image + elements",
+      "link": "https://openart.ai/"
+    },
+    {
+      "name": "OpenArt Seedance 2.0",
+      "type": "Model",
+      "route": "OpenArt",
+      "status": "Evaluating; unconfirmed",
+      "cost_class": "metered",
+      "model_id": "byte-plus-seedance-2",
+      "notes": "Catalogued modes: text + image + elements",
+      "link": "https://openart.ai/"
+    },
+    {
+      "name": "OpenArt Seedance 2.5 Draft",
+      "type": "Model",
+      "route": "OpenArt",
+      "status": "Evaluating; unconfirmed",
+      "cost_class": "metered",
+      "model_id": "byte-plus-seedance-2-5-draft",
+      "notes": "Catalogued modes: text + image + elements",
+      "link": "https://openart.ai/"
+    },
+    {
+      "name": "OpenArt Seedance 2.5",
+      "type": "Model",
+      "route": "OpenArt",
+      "status": "Evaluating; unconfirmed",
+      "cost_class": "metered",
+      "model_id": "byte-plus-seedance-2-5",
+      "notes": "Catalogued modes: text + image + elements",
+      "link": "https://openart.ai/"
+    },
+    {
+      "name": "OpenArt Veo 3.1",
+      "type": "Model",
+      "route": "OpenArt",
+      "status": "Evaluating; unconfirmed",
+      "cost_class": "metered",
+      "model_id": "veo3-1",
+      "notes": "Catalogued modes: text + image + elements",
+      "link": "https://openart.ai/"
+    },
+    {
+      "name": "OpenArt Wan 2.7",
+      "type": "Model",
+      "route": "OpenArt",
+      "status": "Evaluating; unconfirmed",
+      "cost_class": "metered",
+      "model_id": "wan2-7",
+      "notes": "Catalogued modes: text + image + elements",
+      "link": "https://openart.ai/"
+    },
+    {
+      "name": "OpenArt Wan 3.0",
+      "type": "Model",
+      "route": "OpenArt",
+      "status": "Evaluating; unconfirmed",
+      "cost_class": "metered",
+      "model_id": "wan3-0",
+      "notes": "Catalogued modes: text + image + elements",
+      "link": "https://openart.ai/"
+    }
+  ]
+}

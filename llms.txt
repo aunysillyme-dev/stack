@@ -10,24 +10,26 @@ Browse the Markdown and JSON directly on GitHub or in a local checkout.
 - [Published guides](https://aunysillyme.dev/stack/): The separately maintained guide directory.
 - [Video guide](https://aunysillyme.dev/stack/video/): Read the illustrated workflows and model comparison.
 - [Design guide](https://aunysillyme.dev/stack/design/): Core design tools, step-by-step workflows and searchable free/freemium inventory.
-- [Design stack](https://github.com/aunysillyme-dev/stack/blob/main/design/README.md): Core design tools, step-by-step workflows and 13-category resource inventory.
+- [Design stack](https://github.com/aunysillyme-dev/stack/blob/main/01-design-stack/README.md): Core design tools, step-by-step workflows and 13-category resource inventory.
+- [Design inventory (plain text)](https://github.com/aunysillyme-dev/stack/blob/main/01-design-stack/inventory.md): Full 291-entry table plus `free/`, `freemium/`, and `premium/` subfolders.
+- [Video stack (plain text)](https://github.com/aunysillyme-dev/stack/blob/main/02-video-stack/inventory.md): Video I2V model inventory plus `free/`, `freemium/`, and `premium/` subfolders.
 - [Contributing](https://github.com/aunysillyme-dev/stack/blob/main/CONTRIBUTING.md): Workflow format, author credit and certification process.
 
 ## Reference
 
-- [Category catalog](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/catalog.json): Names of the top-level category folders.
-- [Video metadata](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/video/stack.json): Paths for curated video workflows, model inventory and community entries.
-- [Design metadata](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/design/stack.json): Paths for curated design tools, workflows, resource inventory and community entries.
+- [Category catalog](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/catalog.json): Numbered top-level stack folders (`01-design-stack`, `02-video-stack`).
+- [Design metadata](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/01-design-stack/stack.json): Paths for curated design tools, workflows, resource inventory and community entries.
+- [Video metadata](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/02-video-stack/stack.json): Paths for curated video workflows, model inventory and community entries.
 - [Workflow template](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/templates/workflow.json): Fields for a new community submission.
 - [License coverage](https://github.com/aunysillyme-dev/stack/blob/main/LICENSE.md): Terms for editorial data, original descriptions, scripts and GitHub Actions configuration.
 - [Contributor certification](https://github.com/aunysillyme-dev/stack/blob/main/CONTRIBUTOR-CERTIFICATION.md): How to confirm the right to submit a pull request under the repository licenses.
 
 ## Common questions
 
-- [Best AI tools for video generation](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/video/inventory.json): Dated model and platform entries with access routes, costs and status. Workflows are in video/canonical.json.
-- [AI tools for animation](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/video/canonical.json): Animation is part of the video stack.
-- [AI tools designers use](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/design/canonical.json): 26 core tools and 4 workflows, plus the 291-entry design/inventory.json.
-- [AI tools for UI design](https://github.com/aunysillyme-dev/stack/blob/main/design/README.md): The web interface workflow and the UI categories in the design inventory.
+- [Best AI tools for video generation](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/02-video-stack/inventory.json): Dated model and platform entries with access routes, costs and status. Workflows are in 02-video-stack/canonical.json.
+- [AI tools for animation](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/02-video-stack/canonical.json): Animation is part of the video stack.
+- [AI tools designers use](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/01-design-stack/canonical.json): 26 core tools and 4 workflows, plus the 291-entry 01-design-stack/inventory.json and free/freemium/premium subfolders.
+- [AI tools for UI design](https://github.com/aunysillyme-dev/stack/blob/main/01-design-stack/README.md): The web interface workflow and the UI categories in the design inventory.
 - [How to submit a workflow](https://github.com/aunysillyme-dev/stack/blob/main/CONTRIBUTING.md): Start from templates/workflow.json.
 - [Add a new kind of stack](https://github.com/aunysillyme-dev/stack/blob/main/CONTRIBUTING.md#propose-a-new-stack): Open a [New stack issue](https://github.com/aunysillyme-dev/stack/issues/new?template=new-stack.yml) with the proposed tools and workflow.
 

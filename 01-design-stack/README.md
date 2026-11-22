@@ -1,11 +1,14 @@
 # Design stack
 
+[Read Auny's Design Stack guide](https://aunysillyme.dev/stack/design/) for the searchable web directory and workflow overview.
+
 Auny's curated design tools, step-by-step workflows and 291-entry resource inventory organized across 13 categories.
 
-- [Core tools and workflows](canonical.json): 26 free and freemium tools plus 4 repeatable design workflows.
-- [Resource inventory](inventory.json): 291 vetted links across 13 categories (275 free and freemium listed first, followed by 16 clearly labeled paid or paywalled resources).
-- [Community workflows](community/): Accepted contributor workflows organized by GitHub login. [Submit a workflow](../CONTRIBUTING.md).
-- [Category metadata](stack.json): Machine-readable paths and publication status.
+- **Core tools and workflows:** [canonical.md](canonical.md) (plain text) · [canonical.json](canonical.json)
+- **Full resource inventory (291):** [inventory.md](inventory.md) (plain text) · [inventory.json](inventory.json)
+- **Resources by tier:** [free/](free/free.md) (`244`, [JSON](free/free.json)) · [freemium/](freemium/freemium.md) (`31`, [JSON](freemium/freemium.json)) · [premium/](premium/premium.md) (`16`, [JSON](premium/premium.json))
+- **Community workflows:** [community/](community/) organized by GitHub login. [Submit a workflow](../CONTRIBUTING.md).
+- **Category metadata:** [stack.json](stack.json)
 
 ## How a design job runs
 

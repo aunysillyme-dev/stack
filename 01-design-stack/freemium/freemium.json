@@ -1,0 +1,317 @@
+{
+  "tier": "freemium",
+  "source": "https://github.com/aunysillyme-dev/stack/blob/main/design/README.md#inventory",
+  "reviewed": "2026-11-18",
+  "entries": [
+    {
+      "name": "UI UX Pro Max",
+      "type": "Agent skill",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Broad UI and UX rule set for agents.",
+      "link": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
+    },
+    {
+      "name": "Uizze",
+      "type": "Agent skill",
+      "route": "Agent skills & DESIGN.md",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Anti-slop UI design skill and tooling for coding agents; verify tier limits on site.",
+      "link": "https://uizze.com/"
+    },
+    {
+      "name": "Magic UI",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Animated UI components for React and Tailwind.",
+      "link": "https://magicui.design"
+    },
+    {
+      "name": "21st.dev",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Community React component registry.",
+      "link": "https://21st.dev"
+    },
+    {
+      "name": "transitions.dev",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "44+ copy-paste UI transitions and 30+ interactive components, also as a skill and MCP.",
+      "link": "https://transitions.dev"
+    },
+    {
+      "name": "Bencho",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Live, editable React UI blocks and micro-interactions you can copy into projects.",
+      "link": "https://bencho.dev"
+    },
+    {
+      "name": "Arc UI",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Animated React and Next.js blocks with CLI and MCP install plus Pro templates.",
+      "link": "https://uiarc.dev/"
+    },
+    {
+      "name": "Detent",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Product and AI-interface UI blocks (free subset plus full Pro library).",
+      "link": "https://detentui.com/"
+    },
+    {
+      "name": "BoardUI",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "MIT React and Tailwind dashboard components and Recharts cards with optional paid Pro pack.",
+      "link": "https://boardui.com/"
+    },
+    {
+      "name": "Aceternity UI",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "100+ free animated Next.js/Tailwind components with optional paid Pro templates.",
+      "link": "https://ui.aceternity.com/"
+    },
+    {
+      "name": "Snapblocks",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Scroll-driven cinematic React components with copyable code and paid tiers.",
+      "link": "https://snapblocks.site/"
+    },
+    {
+      "name": "Spline",
+      "type": "3D / shader",
+      "route": "Shaders & 3D",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Browser-based 3D design tool.",
+      "link": "https://spline.design"
+    },
+    {
+      "name": "ShaderGradient",
+      "type": "Shader tool",
+      "route": "Shaders & 3D",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Interactive animated 3D WebGL gradient designer with React export and Pro options.",
+      "link": "https://www.shadergradient.co/"
+    },
+    {
+      "name": "LottieFiles",
+      "type": "Animation / motion",
+      "route": "Animation, video & film",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Lottie animation library and tooling.",
+      "link": "https://lottiefiles.com"
+    },
+    {
+      "name": "Rive",
+      "type": "Interactive vector",
+      "route": "Animation, video & film",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "MIT open-source state-machine vector runtimes paired with paid editor plans.",
+      "link": "https://rive.app/"
+    },
+    {
+      "name": "AlignCanvas",
+      "type": "Motion templates",
+      "route": "Animation, video & film",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Browser animation canvas applying 3D and liquid-glass templates exported to MP4, WebM or GIF.",
+      "link": "https://aligncanvas.com/"
+    },
+    {
+      "name": "Ideogram",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Image generation with strong in-image text.",
+      "link": "https://ideogram.ai"
+    },
+    {
+      "name": "Recraft",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Image and vector generation.",
+      "link": "https://www.recraft.ai/docs/trust-and-security/ownership"
+    },
+    {
+      "name": "Adobe Firefly",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Adobe's generative image and video models.",
+      "link": "https://business.adobe.com/products/firefly-business/firefly-ai-approach.html"
+    },
+    {
+      "name": "Canva",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Template-driven design in the browser.",
+      "link": "https://www.canva.com/policies/ai-product-terms/"
+    },
+    {
+      "name": "Adobe Express",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Quick design, templates and resizing.",
+      "link": "https://business.adobe.com/products/express-business/scale-on-brand-content.html"
+    },
+    {
+      "name": "Figma",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Collaborative interface design.",
+      "link": "https://www.figma.com/pricing/"
+    },
+    {
+      "name": "Modulify",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "AI website builder with a templates library.",
+      "link": "https://modulify.ai"
+    },
+    {
+      "name": "Paper",
+      "type": "Design tool",
+      "route": "Software, type & colour tools",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Design canvas built on HTML and CSS that agents read and write through MCP.",
+      "link": "https://paper.design"
+    },
+    {
+      "name": "Devault",
+      "type": "UI inspiration",
+      "route": "Galleries & UI inspiration",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Curated real-world UIs, product flows, gradients and interface evolution timelines.",
+      "link": "https://devault.design/"
+    },
+    {
+      "name": "Refero Styles",
+      "type": "UI system gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Visual design-system and style reference library from shipped web products.",
+      "link": "https://styles.refero.design/"
+    },
+    {
+      "name": "Hugeicons",
+      "type": "Icon library",
+      "route": "Logo, brand & icons",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Open free stroke icon pack paired with paid multi-style Pro icon library.",
+      "link": "https://hugeicons.com/"
+    },
+    {
+      "name": "Nucleo",
+      "type": "Icon library",
+      "route": "Logo, brand & icons",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Free open-source icon subset plus commercial 40,000+ SVG icon suite and manager.",
+      "link": "https://nucleoapp.com/"
+    },
+    {
+      "name": "Iconsax",
+      "type": "Icon library",
+      "route": "Logo, brand & icons",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Multi-style UI icon set with free core icons; check current commercial license terms.",
+      "link": "https://iconsax.io/"
+    },
+    {
+      "name": "Isocons",
+      "type": "Icon library",
+      "route": "Logo, brand & icons",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Isometric SVG icon library with free starter set and paid bundles.",
+      "link": "https://isocons.app/"
+    },
+    {
+      "name": "Morphicons",
+      "type": "Icon library",
+      "route": "Logo, brand & icons",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Morphing animated icon set; confirm free vs commercial license terms on site.",
+      "link": "https://morphicons.com/"
+    }
+  ]
+}

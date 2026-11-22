@@ -1,0 +1,167 @@
+{
+  "tier": "premium",
+  "source": "https://github.com/aunysillyme-dev/stack/blob/main/design/README.md#inventory",
+  "reviewed": "2026-11-18",
+  "entries": [
+    {
+      "name": "Scrolltide",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Scroll-driven web patterns.",
+      "link": "https://scrolltide.co"
+    },
+    {
+      "name": "Mobbin",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Library of real app screens and flows.",
+      "link": "https://mobbin.com"
+    },
+    {
+      "name": "motionin.design",
+      "type": "UI library",
+      "route": "UI libraries & systems",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Premium physics and cursor-reactive web sections sold as spec files.",
+      "link": "https://motionin.design"
+    },
+    {
+      "name": "HorizonX",
+      "type": "UI kit & assets",
+      "route": "UI libraries & systems",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Subscription library of shader backgrounds, mockups, Figma kits and React blocks (free Drops + paid plans).",
+      "link": "https://horizonx.so/"
+    },
+    {
+      "name": "Three.js Journey",
+      "type": "3D / shader",
+      "route": "Shaders & 3D",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Course on building with three.js.",
+      "link": "https://threejs-journey.com"
+    },
+    {
+      "name": "Scroll Shaders",
+      "type": "Shader library",
+      "route": "Shaders & 3D",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Commercial library of animated WebGL shader hero backgrounds exported as code, video or images.",
+      "link": "https://scrollshaders.com/"
+    },
+    {
+      "name": "Grainient Supply",
+      "type": "Gradient & texture pack",
+      "route": "Shaders & 3D",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Commercial pack of animated gradients, grainy textures and background assets.",
+      "link": "https://grainient.supply/"
+    },
+    {
+      "name": "Reelfolio",
+      "type": "Showreel SaaS",
+      "route": "Animation, video & film",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Paid browser showreel studio converting UI screenshots and clips into motion reels.",
+      "link": "https://reelfolio.io/"
+    },
+    {
+      "name": "Uberdesigner",
+      "type": "Prompt library",
+      "route": "Animation, video & film",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Commercial library of prompts and recipes for UI motion films.",
+      "link": "https://uberdesigner.ai/"
+    },
+    {
+      "name": "Midjourney",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Image generation.",
+      "link": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans"
+    },
+    {
+      "name": "MotionSites Studio",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "AI tool that builds a website design from a business description.",
+      "link": "https://studio.motionsites.ai"
+    },
+    {
+      "name": "LogoLounge",
+      "type": "Gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Logo archive and annual trend report.",
+      "link": "https://www.logolounge.com/"
+    },
+    {
+      "name": "Appllama MCP",
+      "type": "Gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "MCP library of screens, flows, onboarding and paywalls from top-grossing iOS apps.",
+      "link": "https://appllama.io"
+    },
+    {
+      "name": "MotionSites",
+      "type": "Gallery",
+      "route": "Galleries & UI inspiration",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "800+ premium website prompts, 3D sites and motion sections for AI tools.",
+      "link": "https://motionsites.ai"
+    },
+    {
+      "name": "Wonderlist",
+      "type": "Template directory",
+      "route": "Galleries & UI inspiration",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Commercial catalog of 120+ whole-site Figma design templates ($329+ tiers).",
+      "link": "https://wonderlist.design/"
+    },
+    {
+      "name": "These Are the 4 Black Pencil Winners of the 2026 D&AD Awards",
+      "type": "Trends & rules",
+      "route": "Trends & award rules",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Adweek coverage of the four 2026 D&AD Black Pencil winners.",
+      "link": "https://www.adweek.com/creativity/these-are-the-4-black-pencil-winners-of-the-2026-dad-awards/"
+    }
+  ]
+}

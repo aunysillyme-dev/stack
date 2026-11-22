@@ -145,7 +145,7 @@ def inventory(obj):
 
 
 def category(path):
-    require(path.is_dir() and re.fullmatch(r"[a-z][a-z0-9-]*", path.name), "invalid category")
+    require(path.is_dir() and re.fullmatch(r"[0-9]{2}-[a-z0-9-]+-stack", path.name), "invalid category")
     for entry in path.rglob("*"):
         require(not entry.is_symlink(), f"symlink: {entry}")
     obj = read(path / "stack.json")
@@ -153,17 +153,29 @@ def category(path):
     require(obj["id"] == path.name and obj["community"] == "community/", "category paths mismatch")
     string(obj["title"])
     require(obj["status"] in ("planned", "published"), "invalid category status")
+    allowed = {"README.md", "stack.json", "community"}
     if obj["status"] == "published":
         if obj["guide"] is not None:
             url(obj["guide"])
         require(obj["canonical"] == "canonical.json", "published category requires canonical.json")
         curated(read(path / "canonical.json"))
+        require((path / "canonical.md").is_file() and (path / "canonical.md").stat().st_size > 0, "missing canonical.md")
+        allowed |= {"canonical.json", "canonical.md"}
     else:
         require(obj["guide"] is None and obj["canonical"] is None, "planned category cannot advertise a guide")
     if obj["inventory"] is not None:
         require(obj["inventory"] == "inventory.json", "unexpected inventory path")
         inventory(read(path / "inventory.json"))
-    allowed = {"README.md", "stack.json", "community"} | {s for s in (obj["canonical"], obj["inventory"]) if s}
+        require((path / "inventory.md").is_file() and (path / "inventory.md").stat().st_size > 0, "missing inventory.md")
+        allowed |= {"inventory.json", "inventory.md", "free", "freemium", "premium"}
+        for tier in ("free", "freemium", "premium"):
+            tier_dir = path / tier
+            require(tier_dir.is_dir(), f"missing tier directory: {tier_dir}")
+            require({p.name for p in tier_dir.iterdir()} == {f"{tier}.json", f"{tier}.md"}, f"unexpected tier files: {tier_dir}")
+            tier_obj = read(tier_dir / f"{tier}.json")
+            fields(tier_obj, "tier source reviewed entries")
+            require(tier_obj["tier"] == tier and isinstance(tier_obj["entries"], list), f"invalid tier json: {tier_dir}")
+            require((tier_dir / f"{tier}.md").is_file() and (tier_dir / f"{tier}.md").stat().st_size > 0, f"missing tier md: {tier_dir}")
     require({p.name for p in path.iterdir()} == allowed, f"unexpected or missing category files: {path}")
     for author in (path / "community").iterdir():
         if author.name == "README.md" and author.is_file():
@@ -184,10 +196,10 @@ def category_names(root):
     require(isinstance(names, list) and names, "catalog.json must list category names")
     reserved = {"scripts", "tests", "templates", "stacks", "licenses", "docs"}
     for name in names:
-        require(isinstance(name, str) and re.fullmatch(r"[a-z][a-z0-9-]*", name)
+        require(isinstance(name, str) and re.fullmatch(r"[0-9]{2}-[a-z0-9-]+-stack", name)
                 and name not in reserved, "invalid root category name")
     require(len(set(names)) == len(names), "duplicate root category")
-    require({"design", "video"} <= set(names), "missing a required root category")
+    require({"01-design-stack", "02-video-stack"} <= set(names), "missing a required root category")
     return names
 
 
