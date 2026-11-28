@@ -1,0 +1,9 @@
+{
+  "id": "03-compute-stack",
+  "title": "Compute",
+  "status": "published",
+  "guide": null,
+  "canonical": "canonical.json",
+  "inventory": "inventory.json",
+  "community": "community/"
+}

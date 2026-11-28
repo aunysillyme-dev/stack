@@ -2,7 +2,7 @@
 
 Tools and platforms with a free tier alongside paid upgrades.
 
-Reviewed 2026-11-18 · 0 entries.
+Reviewed 2026-11-28 · 18 entries.
 
 ## Files
 

@@ -78,6 +78,32 @@ def day(value):
     require(reviewed <= datetime.now(timezone.utc).date(), "review date cannot be in the future (UTC)")
 
 
+# Public catalog entry: name, link, one-line description, and a free/freemium/paid tag.
+# JSON stores the link as url (curated tools) or link (inventory) and the description as use or notes.
+ENTRY_FIELDS = ("name", "link", "description", "tier")
+PUBLIC_TIERS = {"free", "freemium", "paid"}
+# subscription and metered are legacy video cost classes. Both count as paid.
+COST_TO_TIER = {
+    "free": "free",
+    "freemium": "freemium",
+    "paid": "paid",
+    "subscription": "paid",
+    "metered": "paid",
+}
+REQUIRED_CATEGORIES = {
+    "01-design-stack",
+    "02-video-stack",
+    "03-compute-stack",
+    "04-agentic-stack",
+}
+
+
+def one_line(value, limit=400):
+    string(value)
+    require("\n" not in value and "\r" not in value and len(value) <= limit,
+            "expected a single-line description")
+
+
 def tool(obj):
     fields(obj, "name url access")
     string(obj["name"])
@@ -121,7 +147,7 @@ def curated(obj):
         fields(item, "name url use")
         string(item["name"])
         url(item["url"])
-        string(item["use"])
+        one_line(item["use"])
     for item in obj["workflows"]:
         fields(item, "name source steps")
         string(item["name"])
@@ -131,14 +157,18 @@ def curated(obj):
             and obj["workflows"], "curated category needs tools and workflows")
 
 
-def inventory(obj):
+def inventory(obj, category_id):
     fields(obj, "source reviewed entries")
     url(obj["source"])
     day(obj["reviewed"])
     def entry(item):
         fields(item, "name type route status cost_class model_id notes link")
-        for field in ("name", "type", "route", "status", "cost_class", "notes"):
+        for field in ("name", "type", "route", "status", "cost_class"):
             string(item[field])
+        one_line(item["notes"])
+        require(item["cost_class"] in COST_TO_TIER, "unsupported cost class")
+        if category_id != "02-video-stack":
+            require(item["cost_class"] in PUBLIC_TIERS, "cost class must be free, freemium, or paid")
         require(isinstance(item["model_id"], str), "model ID must be a string")
         url(item["link"])
     sequence(obj["entries"], entry)
@@ -165,7 +195,7 @@ def category(path):
         require(obj["guide"] is None and obj["canonical"] is None, "planned category cannot advertise a guide")
     if obj["inventory"] is not None:
         require(obj["inventory"] == "inventory.json", "unexpected inventory path")
-        inventory(read(path / "inventory.json"))
+        inventory(read(path / "inventory.json"), path.name)
         require((path / "inventory.md").is_file() and (path / "inventory.md").stat().st_size > 0, "missing inventory.md")
         allowed |= {"inventory.json", "inventory.md", "free", "freemium", "premium"}
         for tier in ("free", "freemium", "premium"):
@@ -200,7 +230,7 @@ def category_names(root):
         require(isinstance(name, str) and re.fullmatch(r"[0-9]{2}-[a-z0-9-]+-stack", name)
                 and name not in reserved, "invalid root category name")
     require(len(set(names)) == len(names), "duplicate root category")
-    require({"01-design-stack", "02-video-stack"} <= set(names), "missing a required root category")
+    require(REQUIRED_CATEGORIES <= set(names), "missing a required root category")
     return names
 
 

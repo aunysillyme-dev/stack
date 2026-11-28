@@ -2,7 +2,7 @@
 
 Paid, subscription, metered API, or paywalled resources.
 
-Reviewed 2026-11-18 · 28 entries · Source: https://aunysillyme.dev/stack/video/i2v-model-inventory.csv
+Reviewed 2026-11-28 · 32 entries · Source: https://aunysillyme.dev/stack/video/i2v-model-inventory.csv
 
 - **[Adobe Firefly Video](https://firefly.adobe.com/)**: Firefly | Model | Live in stack (`subscription`): First/last frame supported; account controls vary
 - **[Grok Imagine](https://grok.com/imagine)**: Grok | Product / model route | Live in stack (`subscription`): Used for stills and animation
@@ -32,3 +32,7 @@ Reviewed 2026-11-18 · 28 entries · Source: https://aunysillyme.dev/stack/video
 - **[OpenArt Veo 3.1](https://openart.ai/)** (`veo3-1`): OpenArt | Model | Evaluating; unconfirmed (`metered`): Catalogued modes: text + image + elements
 - **[OpenArt Wan 2.7](https://openart.ai/)** (`wan2-7`): OpenArt | Model | Evaluating; unconfirmed (`metered`): Catalogued modes: text + image + elements
 - **[OpenArt Wan 3.0](https://openart.ai/)** (`wan3-0`): OpenArt | Model | Evaluating; unconfirmed (`metered`): Catalogued modes: text + image + elements
+- **[Runway](https://runway.com/)**: Video generation | Platform | Paid / paywalled (`paid`): Runway's current product home for AI video and content tools. The homepage offers an enterprise trial.
+- **[Topaz Video](https://www.topazlabs.com/topaz-video)**: Upscaling | Upscaler | Paid / paywalled (`paid`): Desktop video enhancer for upscaling, smoothing, stabilizing, and sharpening footage.
+- **[D-ID](https://www.d-id.com/)**: Lip-sync | Lip-sync | Paid / paywalled (`paid`): Platform for AI-generated presenter and talking-head video.
+- **[Synthesia](https://www.synthesia.io/)**: Lip-sync | Lip-sync | Paid / paywalled (`paid`): Business AI video platform for presenter-style training and communication videos.

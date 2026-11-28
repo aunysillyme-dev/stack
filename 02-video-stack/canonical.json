@@ -1,6 +1,6 @@
 {
   "author": "aunysillyme",
-  "reviewed": "2026-11-18",
+  "reviewed": "2026-11-28",
   "source": "https://aunysillyme.dev/stack/video/",
   "tools": [
     {
@@ -67,6 +67,61 @@
       "name": "Remotion",
       "url": "https://www.remotion.dev/",
       "use": "Reference material for animation techniques and templates that can be rebuilt in HyperFrames; check the applicable license before reuse."
+    },
+    {
+      "name": "Runway",
+      "url": "https://runway.com/",
+      "use": "Paid. Runway's current product home for AI video and content tools. The homepage offers an enterprise trial."
+    },
+    {
+      "name": "Kling AI",
+      "url": "https://kling.ai/",
+      "use": "Freemium. Video and image studio for text, image, and reference prompts."
+    },
+    {
+      "name": "Luma",
+      "url": "https://lumalabs.ai/",
+      "use": "Freemium. Video and image platform using Ray and Uni. The site says to try it free."
+    },
+    {
+      "name": "Veo",
+      "url": "https://deepmind.google/models/veo/",
+      "use": "Freemium. Google DeepMind page for Veo 3.1."
+    },
+    {
+      "name": "Hailuo",
+      "url": "https://hailuoai.video/",
+      "use": "Freemium. MiniMax video studio. The homepage currently features MiniMax H3."
+    },
+    {
+      "name": "Descript",
+      "url": "https://www.descript.com/",
+      "use": "Freemium. Text-based editor for cutting video and audio. The site says to try it free."
+    },
+    {
+      "name": "DaVinci Resolve",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "use": "Freemium. Editor and color tool with a free version and a paid Studio upgrade."
+    },
+    {
+      "name": "Opus Clip",
+      "url": "https://www.opus.pro/",
+      "use": "Freemium. Turns a long video into short social clips."
+    },
+    {
+      "name": "Topaz Video",
+      "url": "https://www.topazlabs.com/topaz-video",
+      "use": "Paid. Desktop upscaler and enhancer for selected shots."
+    },
+    {
+      "name": "Sync",
+      "url": "https://sync.so/",
+      "use": "Freemium. Lip-sync and visual dubbing for a picture plus a voice track."
+    },
+    {
+      "name": "Magnific",
+      "url": "https://www.magnific.com/",
+      "use": "Freemium. Creative platform for generation and for image and video upscaling."
     }
   ],
   "workflows": [
@@ -127,6 +182,26 @@
         "Fill the gaps. Ask for additional images in the same style, without text, for intros, instrumental sections and outros.",
         "Animate the selections. Generate clips from the images. Specify subject or environmental motion when the result needs more direction.",
         "Cut to the actual track. Export to CapCut, arrange the clips in order and trim them to the lyrics and music. For strict continuity, use the character-reference workflow and review each shot closely."
+      ]
+    },
+    {
+      "name": "Finish a talking shot with lip-sync and upscale",
+      "source": "https://sync.so/",
+      "steps": [
+        "Generate the picture with a current video model such as Kling, Veo, Runway, Luma, or Hailuo, and keep the still or clip that holds the face.",
+        "Record or pick a clean voice track. Send the picture and the audio to a lip-sync tool such as Sync or HeyGen.",
+        "Watch the mouth, teeth, and jaw against the words. Regenerate the take if the face, teeth, or identity drift.",
+        "Upscale only the selected take with Topaz Video, Magnific, or an open upscaler such as Upscayl, then cut it into the edit in Descript, DaVinci Resolve, or CapCut."
+      ]
+    },
+    {
+      "name": "Cut short clips from a long generation",
+      "source": "https://www.opus.pro/",
+      "steps": [
+        "Export the approved long cut with its mastered audio and keep that master.",
+        "Run it through a clipping editor such as Opus Clip, VEED, Kapwing, or Captions and mark the lines that carry the point of the video.",
+        "Keep the strongest vertical and landscape cuts. Drop clips with bad motion, broken captions, or identity drift.",
+        "Export the selected cuts at the sizes the destination needs and store them next to the long master."
       ]
     }
   ]

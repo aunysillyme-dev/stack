@@ -1,10 +1,10 @@
 # Design stack: core tools and workflows
 
-Curated by @aunysillyme · Reviewed 2026-11-18
+Curated by @aunysillyme · Reviewed 2026-11-28
 
 Source: https://github.com/aunysillyme-dev/stack/blob/main/design/README.md
 
-## Core tools (26)
+## Core tools (35)
 
 - **[Penpot](https://github.com/penpot/penpot):** Open-source vector design, components and interactive prototyping with CSS-native layouts and SVG export.
 - **[Paper](https://paper.design):** HTML and CSS design canvas that coding agents inspect and edit directly over MCP.
@@ -32,8 +32,17 @@ Source: https://github.com/aunysillyme-dev/stack/blob/main/design/README.md
 - **[Phosphor Icons](https://phosphoricons.com/):** MIT multi-weight icon system (Thin through Fill and Duotone) for matching optical weight to type scales.
 - **[SVGO](https://github.com/svg/svgo/releases/tag/v4.0.0):** MIT SVG optimizer that strips editor metadata and shrinks icon and illustration payloads before commit.
 - **[Playwright](https://github.com/microsoft/playwright):** Apache-2.0 headless browser runner used for light/dark viewport screenshots, visual regression checks and demo capture.
+- **[v0](https://v0.app/):** Freemium. Vercel AI builder for designing and shipping full-stack web apps.
+- **[Google Stitch](https://stitch.google.com/):** Freemium. Google AI UI generator for mobile and web application screens.
+- **[Leonardo.Ai](https://leonardo.ai/):** Freemium. Generative image and video platform for prompts, custom models, edits, and upscaling.
+- **[Krea](https://www.krea.ai/):** Freemium. Generative image workspace on the Krea product homepage.
+- **[Lovable](https://lovable.dev/):** Freemium. AI app builder that turns a prompt into hosted full-stack software.
+- **[Looka](https://looka.com/):** Freemium. AI logo and brand-kit maker for colors, files, and marketing templates.
+- **[Framer](https://www.framer.com/):** Freemium. Website builder with an AI design agent, hosting, and a free start.
+- **[Black Forest Labs](https://bfl.ai/):** Freemium. API home for FLUX image models from Black Forest Labs.
+- **[Onlook](https://www.onlook.com/):** Free. Free local-first visual editor for building interfaces in code.
 
-## Workflows (4)
+## Workflows (5)
 
 ### Design production from research to QA gate
 
@@ -74,3 +83,12 @@ Source: https://github.com/aunysillyme-dev/stack/blob/main/design/README.md#moti
 3. Wire prefers-reduced-motion static fallbacks and verify foreground text contrast over animated surfaces against WCAG failure F83.
 4. Capture deterministic frames or product walkthrough clips via Playwright, HyperFrames or snapcn instead of relying on unverified screen recordings.
 5. Inspect frame pacing, loop seams, alpha edges and compressed payload sizes before committing assets.
+
+### Turn a brand still into an interface
+
+Source: https://stitch.google.com/
+
+1. Make or choose a brand still in Leonardo, Krea, Reve, or another image tool and lock the palette, type mood, and subject before drawing screens.
+2. Generate a first UI pass in Google Stitch or v0 from that still and a short brief that names the page, the audience, and the one action.
+3. Move the chosen layout into an editable codebase with Lovable, Bolt, Onlook, Locofy, or Anima, and keep the components in the repo.
+4. Check desktop and mobile, text contrast, and the brand mark at small sizes, then fix the layout in the same tool before publishing.

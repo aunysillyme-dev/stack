@@ -1,7 +1,7 @@
 {
   "tier": "premium",
   "source": "https://aunysillyme.dev/stack/video/i2v-model-inventory.csv",
-  "reviewed": "2026-11-18",
+  "reviewed": "2026-11-28",
   "entries": [
     {
       "name": "Adobe Firefly Video",
@@ -282,6 +282,46 @@
       "model_id": "wan3-0",
       "notes": "Catalogued modes: text + image + elements",
       "link": "https://openart.ai/"
+    },
+    {
+      "name": "Runway",
+      "type": "Platform",
+      "route": "Video generation",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Runway's current product home for AI video and content tools. The homepage offers an enterprise trial.",
+      "link": "https://runway.com/"
+    },
+    {
+      "name": "Topaz Video",
+      "type": "Upscaler",
+      "route": "Upscaling",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Desktop video enhancer for upscaling, smoothing, stabilizing, and sharpening footage.",
+      "link": "https://www.topazlabs.com/topaz-video"
+    },
+    {
+      "name": "D-ID",
+      "type": "Lip-sync",
+      "route": "Lip-sync",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Platform for AI-generated presenter and talking-head video.",
+      "link": "https://www.d-id.com/"
+    },
+    {
+      "name": "Synthesia",
+      "type": "Lip-sync",
+      "route": "Lip-sync",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Business AI video platform for presenter-style training and communication videos.",
+      "link": "https://www.synthesia.io/"
     }
   ]
 }

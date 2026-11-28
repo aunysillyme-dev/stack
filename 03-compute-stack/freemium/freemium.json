@@ -1,0 +1,137 @@
+{
+  "tier": "freemium",
+  "source": "https://modal.com/",
+  "reviewed": "2026-11-28",
+  "entries": [
+    {
+      "name": "Modal",
+      "type": "GPU cloud",
+      "route": "GPU cloud",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "GPU and CPU cloud that bills per second. The pricing page includes $30 of monthly free credit.",
+      "link": "https://modal.com/"
+    },
+    {
+      "name": "Groq",
+      "type": "Inference API",
+      "route": "Inference API",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Fast inference platform for running models at low latency.",
+      "link": "https://groq.com/"
+    },
+    {
+      "name": "Cerebras",
+      "type": "Inference API",
+      "route": "Inference API",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Fast inference API. The product page offers $5 of free credit on a new account.",
+      "link": "https://www.cerebras.ai/inference"
+    },
+    {
+      "name": "OpenRouter",
+      "type": "Inference API",
+      "route": "Inference API",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "One API that routes prompts across many models and prices.",
+      "link": "https://openrouter.ai/"
+    },
+    {
+      "name": "Hugging Face Inference",
+      "type": "Inference API",
+      "route": "Inference API",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Inference Providers docs for running models through Hugging Face.",
+      "link": "https://huggingface.co/docs/inference-providers/index"
+    },
+    {
+      "name": "Cloudflare Workers AI",
+      "type": "Inference API",
+      "route": "Inference API",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Serverless model inference on Cloudflare's network.",
+      "link": "https://developers.cloudflare.com/workers-ai/"
+    },
+    {
+      "name": "Google AI Studio",
+      "type": "Inference API",
+      "route": "Inference API",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Browser console for prompting and shipping with the Gemini API.",
+      "link": "https://aistudio.google.com/"
+    },
+    {
+      "name": "NVIDIA NIM",
+      "type": "Inference API",
+      "route": "Inference API",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Catalog for trying NVIDIA NIM model APIs.",
+      "link": "https://build.nvidia.com/"
+    },
+    {
+      "name": "Fireworks",
+      "type": "Inference API",
+      "route": "Inference API",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Platform for inference and for training specialized models.",
+      "link": "https://fireworks.ai/"
+    },
+    {
+      "name": "Together AI",
+      "type": "Inference API",
+      "route": "Inference API",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Cloud for inference, fine-tuning, and GPU clusters.",
+      "link": "https://www.together.ai/"
+    },
+    {
+      "name": "fal",
+      "type": "Inference API",
+      "route": "Inference API",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "API for generative image, video, and audio models on serverless GPUs.",
+      "link": "https://fal.ai/"
+    },
+    {
+      "name": "Replicate",
+      "type": "Inference API",
+      "route": "Inference API",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Cloud API for running machine-learning models.",
+      "link": "https://replicate.com/"
+    },
+    {
+      "name": "DeepInfra",
+      "type": "Inference API",
+      "route": "Inference API",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Hosted inference for open models with usage-based pricing.",
+      "link": "https://deepinfra.com/"
+    }
+  ]
+}

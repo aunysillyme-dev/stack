@@ -1,0 +1,67 @@
+{
+  "tier": "premium",
+  "source": "https://modal.com/",
+  "reviewed": "2026-11-28",
+  "entries": [
+    {
+      "name": "RunPod",
+      "type": "GPU cloud",
+      "route": "GPU cloud",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "On-demand GPUs and serverless compute for training, inference, and batch jobs.",
+      "link": "https://www.runpod.io/"
+    },
+    {
+      "name": "Lambda",
+      "type": "GPU cloud",
+      "route": "GPU cloud",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Cloud GPUs and clusters for training and scaling models.",
+      "link": "https://lambda.com/"
+    },
+    {
+      "name": "Paperspace",
+      "type": "GPU cloud",
+      "route": "GPU cloud",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "DigitalOcean GPU cloud that still serves NVIDIA GPUs on Paperspace.",
+      "link": "https://www.paperspace.com/"
+    },
+    {
+      "name": "Lightning AI",
+      "type": "GPU cloud",
+      "route": "GPU cloud",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "PyTorch-oriented cloud for training, on-demand GPUs, and deploying models.",
+      "link": "https://lightning.ai/"
+    },
+    {
+      "name": "Vast.ai",
+      "type": "GPU cloud",
+      "route": "GPU cloud",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Marketplace for renting cloud GPUs by the job.",
+      "link": "https://vast.ai/"
+    },
+    {
+      "name": "CoreWeave",
+      "type": "GPU cloud",
+      "route": "GPU cloud",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Cloud platform built for large AI training and inference workloads.",
+      "link": "https://www.coreweave.com/"
+    }
+  ]
+}

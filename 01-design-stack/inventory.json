@@ -1,6 +1,6 @@
 {
   "source": "https://github.com/aunysillyme-dev/stack/blob/main/design/README.md#inventory",
-  "reviewed": "2026-11-18",
+  "reviewed": "2026-11-28",
   "entries": [
     {
       "name": "Stageshow",
@@ -2753,6 +2753,276 @@
       "link": "https://pomax.github.io/bezierinfo/"
     },
     {
+      "name": "Leonardo.Ai",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Generative image and video platform for prompts, custom models, edits, and upscaling.",
+      "link": "https://leonardo.ai/"
+    },
+    {
+      "name": "Krea",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Generative image workspace on the Krea product homepage.",
+      "link": "https://www.krea.ai/"
+    },
+    {
+      "name": "Black Forest Labs",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "API home for FLUX image models from Black Forest Labs.",
+      "link": "https://bfl.ai/"
+    },
+    {
+      "name": "Gemini Image",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "gemini-image",
+      "notes": "Google DeepMind page for the Gemini image model, also called Nano Banana.",
+      "link": "https://deepmind.google/models/gemini-image/"
+    },
+    {
+      "name": "Reve",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Image creation and editing workspace.",
+      "link": "https://reve.art/"
+    },
+    {
+      "name": "Photoroom",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "AI photo and video editor for product images, listing videos, and ads.",
+      "link": "https://www.photoroom.com/"
+    },
+    {
+      "name": "Magnific",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "AI creative platform for image, video, audio, upscaling, and brand workflows. Freepik now uses this name.",
+      "link": "https://www.magnific.com/"
+    },
+    {
+      "name": "Napkin AI",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Turns text into diagrams and other visuals.",
+      "link": "https://www.napkin.ai/"
+    },
+    {
+      "name": "Framer",
+      "type": "Website builder",
+      "route": "UI and website builders",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Website builder with an AI design agent, hosting, and a free start.",
+      "link": "https://www.framer.com/"
+    },
+    {
+      "name": "Relume",
+      "type": "Website builder",
+      "route": "UI and website builders",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "AI website builder for small businesses, free to start.",
+      "link": "https://www.relume.ai/"
+    },
+    {
+      "name": "Webflow",
+      "type": "Website builder",
+      "route": "UI and website builders",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Visual web platform for designing, hosting, and optimizing sites.",
+      "link": "https://webflow.com/"
+    },
+    {
+      "name": "Uizard",
+      "type": "UI design",
+      "route": "UI and website builders",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "AI-assisted UI design for apps, websites, and desktop software.",
+      "link": "https://uizard.io/"
+    },
+    {
+      "name": "v0",
+      "type": "Design to code",
+      "route": "Design to code",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Vercel AI builder for designing and shipping full-stack web apps.",
+      "link": "https://v0.app/"
+    },
+    {
+      "name": "Google Stitch",
+      "type": "Design to code",
+      "route": "Design to code",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Google AI UI generator for mobile and web application screens.",
+      "link": "https://stitch.google.com/"
+    },
+    {
+      "name": "Lovable",
+      "type": "Design to code",
+      "route": "Design to code",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "AI app builder that turns a prompt into hosted full-stack software.",
+      "link": "https://lovable.dev/"
+    },
+    {
+      "name": "Bolt",
+      "type": "Design to code",
+      "route": "Design to code",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Prompt-to-app builder for websites, prototypes, and web apps.",
+      "link": "https://bolt.new/"
+    },
+    {
+      "name": "Builder.io",
+      "type": "Design to code",
+      "route": "Design to code",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Visual development platform where teams and AI agents build on the same project.",
+      "link": "https://www.builder.io/"
+    },
+    {
+      "name": "Anima",
+      "type": "Design to code",
+      "route": "Design to code",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Design-to-code agent that turns Figma files, URLs, or prompts into apps.",
+      "link": "https://www.animaapp.com/"
+    },
+    {
+      "name": "Locofy",
+      "type": "Design to code",
+      "route": "Design to code",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Converts Figma and Penpot designs into frontend code.",
+      "link": "https://www.locofy.ai/"
+    },
+    {
+      "name": "Onlook",
+      "type": "Design to code",
+      "route": "Design to code",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Free local-first visual editor for building interfaces in code.",
+      "link": "https://www.onlook.com/"
+    },
+    {
+      "name": "Subframe",
+      "type": "Design to code",
+      "route": "Design to code",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Design canvas connected to a codebase, with a coding agent.",
+      "link": "https://www.subframe.com/"
+    },
+    {
+      "name": "Looka",
+      "type": "Brand",
+      "route": "Logo, brand & icons",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "AI logo and brand-kit maker for colors, files, and marketing templates.",
+      "link": "https://looka.com/"
+    },
+    {
+      "name": "Kittl",
+      "type": "Brand",
+      "route": "Logo, brand & icons",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "AI-first design platform for graphics and brand assets.",
+      "link": "https://www.kittl.com/"
+    },
+    {
+      "name": "Khroma",
+      "type": "Color",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Free AI color tool for discovering and saving palettes.",
+      "link": "https://www.khroma.co/"
+    },
+    {
+      "name": "Huemint",
+      "type": "Color",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Free AI color palette generator.",
+      "link": "https://huemint.com/"
+    },
+    {
+      "name": "Fontjoy",
+      "type": "Typography",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Free font-pairing generator.",
+      "link": "https://fontjoy.com/"
+    },
+    {
+      "name": "Brandmark",
+      "type": "Brand",
+      "route": "Logo, brand & icons",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "AI logo maker that also builds cards and social graphics.",
+      "link": "https://brandmark.io/"
+    },
+    {
       "name": "Scrolltide",
       "type": "UI library",
       "route": "UI libraries & systems",
@@ -2911,6 +3181,16 @@
       "model_id": "",
       "notes": "Adweek coverage of the four 2026 D&AD Black Pencil winners.",
       "link": "https://www.adweek.com/creativity/these-are-the-4-black-pencil-winners-of-the-2026-dad-awards/"
+    },
+    {
+      "name": "Stability AI",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Enterprise generative image and video tools from the Stable Diffusion lab.",
+      "link": "https://stability.ai/"
     }
   ]
 }
