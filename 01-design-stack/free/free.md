@@ -2,7 +2,7 @@
 
 Free and open-access tools and resources.
 
-Reviewed 2026-11-18 · 244 entries · Source: https://github.com/aunysillyme-dev/stack/blob/main/design/README.md#inventory
+Reviewed 2026-11-28 · 248 entries · Source: https://github.com/aunysillyme-dev/stack/blob/main/design/README.md#inventory
 
 - **[Stageshow](https://github.com/benjitaylor/skills)**: Agent skills & DESIGN.md | Agent skill | Free / open access (`free`): Build faux product UI and animated cursor demos for hero images and feature cards.
 - **[frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design)**: Agent skills & DESIGN.md | Agent skill | Free / open access (`free`): Anthropic's skill for distinctive, production-grade front ends.
@@ -248,3 +248,7 @@ Reviewed 2026-11-18 · 244 entries · Source: https://github.com/aunysillyme-dev
 - **[Verbalized Sampling paper](https://arxiv.org/abs/2510.01171)**: Vector & generative research | Research | Free / open access (`free`): Verbalized Sampling paper on recovering output diversity in aligned generative models.
 - **[W3C SVG 2](https://www.w3.org/TR/SVG2/)**: Vector & generative research | Research | Free / open access (`free`): The SVG 2 specification.
 - **[A Primer on Bézier Curves](https://pomax.github.io/bezierinfo/)**: Vector & generative research | Research | Free / open access (`free`): Interactive primer on Bézier curves.
+- **[Onlook](https://www.onlook.com/)**: Design to code | Design to code | Free / open access (`free`): Free local-first visual editor for building interfaces in code.
+- **[Khroma](https://www.khroma.co/)**: Logo, brand & icons | Color | Free / open access (`free`): Free AI color tool for discovering and saving palettes.
+- **[Huemint](https://huemint.com/)**: Logo, brand & icons | Color | Free / open access (`free`): Free AI color palette generator.
+- **[Fontjoy](https://fontjoy.com/)**: Logo, brand & icons | Typography | Free / open access (`free`): Free font-pairing generator.

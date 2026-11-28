@@ -1,0 +1,87 @@
+{
+  "tier": "free",
+  "source": "https://code.claude.com/docs/en/overview",
+  "reviewed": "2026-11-28",
+  "entries": [
+    {
+      "name": "Model Context Protocol",
+      "type": "Protocol",
+      "route": "Protocol",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Open protocol for connecting agents to tools and data.",
+      "link": "https://modelcontextprotocol.io/"
+    },
+    {
+      "name": "MCP reference servers",
+      "type": "Server",
+      "route": "MCP server",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Official reference MCP servers maintained with the protocol.",
+      "link": "https://github.com/modelcontextprotocol/servers"
+    },
+    {
+      "name": "GitHub MCP server",
+      "type": "Server",
+      "route": "MCP server",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "GitHub's official MCP server for repository, issue, and pull request tools.",
+      "link": "https://github.com/github/github-mcp-server"
+    },
+    {
+      "name": "Playwright MCP",
+      "type": "Server",
+      "route": "MCP server",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Microsoft's MCP server that lets an agent drive a browser through Playwright.",
+      "link": "https://github.com/microsoft/playwright-mcp"
+    },
+    {
+      "name": "Gemini CLI",
+      "type": "Coding agent",
+      "route": "Coding agent",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Open-source terminal agent that brings Gemini into the shell. API usage is billed by Google.",
+      "link": "https://github.com/google-gemini/gemini-cli"
+    },
+    {
+      "name": "Google ADK",
+      "type": "Framework",
+      "route": "Framework",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Open-source Agent Development Kit for building, debugging, and deploying agents.",
+      "link": "https://adk.dev/"
+    },
+    {
+      "name": "LangGraph",
+      "type": "Framework",
+      "route": "Framework",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Open framework for durable agent workflows, memory, streaming, and human review.",
+      "link": "https://www.langchain.com/langgraph"
+    },
+    {
+      "name": "AutoGen",
+      "type": "Framework",
+      "route": "Framework",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Microsoft's open programming framework for agentic applications.",
+      "link": "https://github.com/microsoft/autogen"
+    }
+  ]
+}

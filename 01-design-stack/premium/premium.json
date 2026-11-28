@@ -1,7 +1,7 @@
 {
   "tier": "premium",
   "source": "https://github.com/aunysillyme-dev/stack/blob/main/design/README.md#inventory",
-  "reviewed": "2026-11-18",
+  "reviewed": "2026-11-28",
   "entries": [
     {
       "name": "Scrolltide",
@@ -162,6 +162,16 @@
       "model_id": "",
       "notes": "Adweek coverage of the four 2026 D&AD Black Pencil winners.",
       "link": "https://www.adweek.com/creativity/these-are-the-4-black-pencil-winners-of-the-2026-dad-awards/"
+    },
+    {
+      "name": "Stability AI",
+      "type": "AI generation",
+      "route": "AI image & design generation",
+      "status": "Paid / paywalled",
+      "cost_class": "paid",
+      "model_id": "",
+      "notes": "Enterprise generative image and video tools from the Stable Diffusion lab.",
+      "link": "https://stability.ai/"
     }
   ]
 }

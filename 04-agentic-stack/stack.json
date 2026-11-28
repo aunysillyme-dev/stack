@@ -1,0 +1,9 @@
+{
+  "id": "04-agentic-stack",
+  "title": "Agentic tools",
+  "status": "published",
+  "guide": null,
+  "canonical": "canonical.json",
+  "inventory": "inventory.json",
+  "community": "community/"
+}

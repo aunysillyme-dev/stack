@@ -1,0 +1,123 @@
+{
+  "author": "aunysillyme",
+  "reviewed": "2026-11-28",
+  "source": "https://modal.com/",
+  "tools": [
+    {
+      "name": "Modal",
+      "url": "https://modal.com/",
+      "use": "Freemium. GPU and CPU cloud that bills per second. The pricing page includes $30 of monthly free credit."
+    },
+    {
+      "name": "RunPod",
+      "url": "https://www.runpod.io/",
+      "use": "Paid. On-demand GPUs and serverless compute for training, inference, and batch jobs."
+    },
+    {
+      "name": "Lambda",
+      "url": "https://lambda.com/",
+      "use": "Paid. Cloud GPUs and clusters for training and scaling models."
+    },
+    {
+      "name": "Paperspace",
+      "url": "https://www.paperspace.com/",
+      "use": "Paid. DigitalOcean GPU cloud that still serves NVIDIA GPUs on Paperspace."
+    },
+    {
+      "name": "Lightning AI",
+      "url": "https://lightning.ai/",
+      "use": "Paid. PyTorch-oriented cloud for training, on-demand GPUs, and deploying models."
+    },
+    {
+      "name": "Vast.ai",
+      "url": "https://vast.ai/",
+      "use": "Paid. Marketplace for renting cloud GPUs by the job."
+    },
+    {
+      "name": "CoreWeave",
+      "url": "https://www.coreweave.com/",
+      "use": "Paid. Cloud platform built for large AI training and inference workloads."
+    },
+    {
+      "name": "Groq",
+      "url": "https://groq.com/",
+      "use": "Freemium. Fast inference platform for running models at low latency."
+    },
+    {
+      "name": "Cerebras",
+      "url": "https://www.cerebras.ai/inference",
+      "use": "Freemium. Fast inference API. The product page offers $5 of free credit on a new account."
+    },
+    {
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai/",
+      "use": "Freemium. One API that routes prompts across many models and prices."
+    },
+    {
+      "name": "Hugging Face Inference",
+      "url": "https://huggingface.co/docs/inference-providers/index",
+      "use": "Freemium. Inference Providers docs for running models through Hugging Face."
+    },
+    {
+      "name": "Cloudflare Workers AI",
+      "url": "https://developers.cloudflare.com/workers-ai/",
+      "use": "Freemium. Serverless model inference on Cloudflare's network."
+    },
+    {
+      "name": "Google AI Studio",
+      "url": "https://aistudio.google.com/",
+      "use": "Freemium. Browser console for prompting and shipping with the Gemini API."
+    },
+    {
+      "name": "NVIDIA NIM",
+      "url": "https://build.nvidia.com/",
+      "use": "Freemium. Catalog for trying NVIDIA NIM model APIs."
+    },
+    {
+      "name": "Fireworks",
+      "url": "https://fireworks.ai/",
+      "use": "Freemium. Platform for inference and for training specialized models."
+    },
+    {
+      "name": "Together AI",
+      "url": "https://www.together.ai/",
+      "use": "Freemium. Cloud for inference, fine-tuning, and GPU clusters."
+    },
+    {
+      "name": "fal",
+      "url": "https://fal.ai/",
+      "use": "Freemium. API for generative image, video, and audio models on serverless GPUs."
+    },
+    {
+      "name": "Replicate",
+      "url": "https://replicate.com/",
+      "use": "Freemium. Cloud API for running machine-learning models."
+    },
+    {
+      "name": "DeepInfra",
+      "url": "https://deepinfra.com/",
+      "use": "Freemium. Hosted inference for open models with usage-based pricing."
+    }
+  ],
+  "workflows": [
+    {
+      "name": "Burst a GPU job, then serve cheaper tokens",
+      "source": "https://modal.com/pricing",
+      "steps": [
+        "Put the training, batch image, or video job on a GPU cloud such as Modal, RunPod, Lambda, Lightning, or Vast.ai and set a runtime cap before it starts.",
+        "Write the weights or outputs to durable storage before the machine stops so the next step does not depend on that instance.",
+        "Serve the interactive text or small-model calls from an inference API such as Groq, Cerebras, OpenRouter, Workers AI, or Google AI Studio.",
+        "Run the same short prompt set on two providers, compare latency and cost, and keep the provider, model id, and sample response with the workflow."
+      ]
+    },
+    {
+      "name": "Prototype in a free inference console",
+      "source": "https://aistudio.google.com/",
+      "steps": [
+        "Draft the prompt in Google AI Studio, Groq, Cerebras, or NVIDIA NIM and write down the model id that produced the useful answer.",
+        "If the free quota is too small, send the same request shape to OpenRouter, Hugging Face Inference, Fireworks, Together, fal, Replicate, or DeepInfra.",
+        "Record the provider, model id, a sample response, and what the call costs before leaving the prototype on that route."
+      ]
+    }
+  ]
+}

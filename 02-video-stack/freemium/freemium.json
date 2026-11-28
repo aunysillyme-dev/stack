@@ -1,6 +1,187 @@
 {
   "tier": "freemium",
   "source": "https://aunysillyme.dev/stack/video/i2v-model-inventory.csv",
-  "reviewed": "2026-11-18",
-  "entries": []
+  "reviewed": "2026-11-28",
+  "entries": [
+    {
+      "name": "Kling AI",
+      "type": "Platform",
+      "route": "Video generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Video and image studio for text, image, and reference prompts.",
+      "link": "https://kling.ai/"
+    },
+    {
+      "name": "Luma",
+      "type": "Platform",
+      "route": "Video generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Creative platform for video and image generation with Ray and Uni models. The site says to try it free.",
+      "link": "https://lumalabs.ai/"
+    },
+    {
+      "name": "Pika",
+      "type": "Platform",
+      "route": "Video generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Creative platform for AI video, image, and audio, including hosted routes to other generators.",
+      "link": "https://pika.art/"
+    },
+    {
+      "name": "Veo",
+      "type": "Model",
+      "route": "Video generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "veo-3.1",
+      "notes": "Google DeepMind page for Veo 3.1 video generation.",
+      "link": "https://deepmind.google/models/veo/"
+    },
+    {
+      "name": "Hailuo",
+      "type": "Platform",
+      "route": "Video generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "MiniMax-H3",
+      "notes": "MiniMax video and image studio. The homepage currently features MiniMax H3.",
+      "link": "https://hailuoai.video/"
+    },
+    {
+      "name": "Seedance",
+      "type": "Model",
+      "route": "Video generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "Seedance-1.0",
+      "notes": "Official ByteDance Seedance page, including Seedance 1.0 video examples and benchmarks.",
+      "link": "https://seed.bytedance.com/en/seedance"
+    },
+    {
+      "name": "Vidu",
+      "type": "Platform",
+      "route": "Video generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "AI video generator for text, image, and reference workflows.",
+      "link": "https://www.vidu.com/"
+    },
+    {
+      "name": "Viggle",
+      "type": "Platform",
+      "route": "Video generation",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Video and 3D workspace for remakes, scenes, characters, and motion.",
+      "link": "https://viggle.ai/"
+    },
+    {
+      "name": "Descript",
+      "type": "Editor",
+      "route": "Editing",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Text-based AI editor for video and audio. The site says to try it free.",
+      "link": "https://www.descript.com/"
+    },
+    {
+      "name": "Kapwing",
+      "type": "Editor",
+      "route": "Editing",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Browser editor that generates and edits videos from a prompt.",
+      "link": "https://www.kapwing.com/"
+    },
+    {
+      "name": "Opus Clip",
+      "type": "Editor",
+      "route": "Editing",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Turns long videos into short clips and can publish them to social platforms.",
+      "link": "https://www.opus.pro/"
+    },
+    {
+      "name": "VEED",
+      "type": "Editor",
+      "route": "Editing",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Video workspace for generation, editing, dubbing, and subtitles.",
+      "link": "https://www.veed.io/"
+    },
+    {
+      "name": "Captions",
+      "type": "Editor",
+      "route": "Editing",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "AI video generator and editor aimed at ready-to-share social cuts.",
+      "link": "https://captions.ai/"
+    },
+    {
+      "name": "DaVinci Resolve",
+      "type": "Editor",
+      "route": "Editing",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Blackmagic editor and color tool with a free version and a paid Studio upgrade.",
+      "link": "https://www.blackmagicdesign.com/products/davinciresolve"
+    },
+    {
+      "name": "invideo",
+      "type": "Editor",
+      "route": "Editing",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "AI video editor for creating and revising clips in the browser.",
+      "link": "https://invideo.io/"
+    },
+    {
+      "name": "Magnific",
+      "type": "Upscaler",
+      "route": "Upscaling",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Creative platform whose tools include video and image upscaling plus generation.",
+      "link": "https://www.magnific.com/"
+    },
+    {
+      "name": "Sync",
+      "type": "Lip-sync",
+      "route": "Lip-sync",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Lip-sync and visual dubbing studio and API.",
+      "link": "https://sync.so/"
+    },
+    {
+      "name": "HeyGen",
+      "type": "Lip-sync",
+      "route": "Lip-sync",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Avatar and talking-video platform. The site says to try it free.",
+      "link": "https://www.heygen.com/"
+    }
+  ]
 }

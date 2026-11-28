@@ -1,6 +1,47 @@
 {
   "tier": "free",
   "source": "https://aunysillyme.dev/stack/video/i2v-model-inventory.csv",
-  "reviewed": "2026-11-18",
-  "entries": []
+  "reviewed": "2026-11-28",
+  "entries": [
+    {
+      "name": "Wan 2.2",
+      "type": "Model",
+      "route": "Video generation",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "Wan2.2",
+      "notes": "Open weights and code for the Wan 2.2 large-scale video model.",
+      "link": "https://github.com/Wan-Video/Wan2.2"
+    },
+    {
+      "name": "Upscayl",
+      "type": "Upscaler",
+      "route": "Upscaling",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Free and open-source desktop AI image upscaler.",
+      "link": "https://github.com/upscayl/upscayl"
+    },
+    {
+      "name": "Video2X",
+      "type": "Upscaler",
+      "route": "Upscaling",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Open-source framework for machine-learning video super-resolution and frame interpolation.",
+      "link": "https://github.com/k4yt3x/video2x"
+    },
+    {
+      "name": "LivePortrait",
+      "type": "Lip-sync",
+      "route": "Lip-sync",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Open-source portrait animation project, now under Kling AI Research.",
+      "link": "https://github.com/KlingAIResearch/LivePortrait"
+    }
+  ]
 }

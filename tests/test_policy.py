@@ -55,6 +55,8 @@ class ScopeTests(unittest.TestCase):
         self.check_scope("aunysillyme", ["M", "02-video-stack/canonical.json"], True)
         self.check_scope("alice", ["R100", "01-design-stack/community/alice/a.json",
                                    "01-design-stack/community/alice/b.json"], True)
+        self.check_scope("alice", ["A", "03-compute-stack/community/alice/job.json"], True)
+        self.check_scope("alice", ["A", "04-agentic-stack/community/alice/job.json"], True)
 
     def test_root_categories_only(self):
         for path in ("stacks/02-video-stack/community/alice/work.json", "templates/community/alice/work.json",
@@ -93,12 +95,42 @@ class ScopeTests(unittest.TestCase):
 
 class PublishedStackTests(unittest.TestCase):
     def test_video_and_design_are_published_and_valid(self):
-        self.assertEqual(validator.validate(ROOT), 2)
-        for name in ("01-design-stack", "02-video-stack"):
+        self.assertEqual(validator.validate(ROOT), 4)
+        for name in ("01-design-stack", "02-video-stack", "03-compute-stack", "04-agentic-stack"):
             meta = json.loads((ROOT / name / "stack.json").read_text(encoding="utf-8"))
             self.assertEqual(meta["status"], "published")
             self.assertEqual(meta["canonical"], "canonical.json")
             self.assertEqual(meta["inventory"], "inventory.json")
+
+    def test_original_entries_are_kept(self):
+        pairs = (
+            ("01-design-stack", "original-design-names.json", "original-design-links.json", "name", "link"),
+            ("02-video-stack", "original-video-names.json", "original-video-links.json", "name", "link"),
+        )
+        for folder, names_file, links_file, name_key, link_key in pairs:
+            entries = json.loads((ROOT / folder / "inventory.json").read_text(encoding="utf-8"))["entries"]
+            current_names = {entry[name_key] for entry in entries}
+            current_links = {entry[link_key] for entry in entries}
+            original_names = json.loads((ROOT / "tests/fixtures" / names_file).read_text(encoding="utf-8"))
+            original_links = json.loads((ROOT / "tests/fixtures" / links_file).read_text(encoding="utf-8"))
+            self.assertTrue(set(original_names) <= current_names)
+            self.assertTrue(set(original_links) <= current_links)
+            self.assertEqual(len(original_names), len(set(original_names)))
+
+    def test_new_stacks_use_the_public_entry_fields(self):
+        self.assertEqual(validator.ENTRY_FIELDS, ("name", "link", "description", "tier"))
+        for name in ("03-compute-stack", "04-agentic-stack"):
+            inventory = json.loads((ROOT / name / "inventory.json").read_text(encoding="utf-8"))
+            canonical = json.loads((ROOT / name / "canonical.json").read_text(encoding="utf-8"))
+            self.assertTrue(inventory["entries"])
+            self.assertTrue(canonical["tools"])
+            self.assertTrue(canonical["workflows"])
+            for entry in inventory["entries"]:
+                self.assertIn(entry["cost_class"], validator.PUBLIC_TIERS)
+                self.assertNotIn("\n", entry["notes"])
+                validator.url(entry["link"])
+            links = [entry["link"] for entry in inventory["entries"]]
+            self.assertEqual(len(links), len(set(links)))
 
     def test_design_canonical_and_inventory_policies(self):
         canonical = json.loads((ROOT / "01-design-stack/canonical.json").read_text(encoding="utf-8"))

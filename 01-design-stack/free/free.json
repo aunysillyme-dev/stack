@@ -1,7 +1,7 @@
 {
   "tier": "free",
   "source": "https://github.com/aunysillyme-dev/stack/blob/main/design/README.md#inventory",
-  "reviewed": "2026-11-18",
+  "reviewed": "2026-11-28",
   "entries": [
     {
       "name": "Stageshow",
@@ -2442,6 +2442,46 @@
       "model_id": "",
       "notes": "Interactive primer on B\u00e9zier curves.",
       "link": "https://pomax.github.io/bezierinfo/"
+    },
+    {
+      "name": "Onlook",
+      "type": "Design to code",
+      "route": "Design to code",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Free local-first visual editor for building interfaces in code.",
+      "link": "https://www.onlook.com/"
+    },
+    {
+      "name": "Khroma",
+      "type": "Color",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Free AI color tool for discovering and saving palettes.",
+      "link": "https://www.khroma.co/"
+    },
+    {
+      "name": "Huemint",
+      "type": "Color",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Free AI color palette generator.",
+      "link": "https://huemint.com/"
+    },
+    {
+      "name": "Fontjoy",
+      "type": "Typography",
+      "route": "Logo, brand & icons",
+      "status": "Free / open access",
+      "cost_class": "free",
+      "model_id": "",
+      "notes": "Free font-pairing generator.",
+      "link": "https://fontjoy.com/"
     }
   ]
 }

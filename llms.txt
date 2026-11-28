@@ -1,39 +1,46 @@
 # Stack
 
-> Stack is a growing directory of AI stacks for anything people build with AI: curated tools, models and workflows as open JSON. Video and design are the first two live stacks, compute and more are coming, and anyone can propose a new stack.
+> Stack is a directory of AI stacks for anything people build with AI: curated tools, models, and workflows as open JSON. Design, video, compute, and agentic tools are the live stacks, and anyone can propose another.
 
-Browse the Markdown and JSON directly on GitHub or in a local checkout.
+Browse the Markdown and JSON directly on GitHub or in a local checkout. Every catalog entry uses the same four fields: name, link, one-line description, and a free, freemium, or paid tag.
 
 ## Docs
 
-- [Collection README](https://github.com/aunysillyme-dev/stack/blob/main/README.md): Categories, example workflow and contributor credits.
+- [Collection README](https://github.com/aunysillyme-dev/stack/blob/main/README.md): Taxonomy, table of contents, category highlights, example workflow, and contributor credits.
 - [Published guides](https://aunysillyme.dev/stack/): The separately maintained guide directory.
 - [Video guide](https://aunysillyme.dev/stack/video/): Read the illustrated workflows and model comparison.
-- [Design guide](https://aunysillyme.dev/stack/design/): Core design tools, step-by-step workflows and searchable free/freemium inventory.
-- [Design stack](https://github.com/aunysillyme-dev/stack/blob/main/01-design-stack/README.md): Core design tools, step-by-step workflows and 13-category resource inventory.
-- [Design inventory (plain text)](https://github.com/aunysillyme-dev/stack/blob/main/01-design-stack/inventory.md): Full 291-entry table plus `free/`, `freemium/`, and `premium/` subfolders.
-- [Video stack (plain text)](https://github.com/aunysillyme-dev/stack/blob/main/02-video-stack/inventory.md): Video I2V model inventory plus `free/`, `freemium/`, and `premium/` subfolders.
-- [Contributing](https://github.com/aunysillyme-dev/stack/blob/main/CONTRIBUTING.md): Workflow format, author credit and certification process.
+- [Design guide](https://aunysillyme.dev/stack/design/): Core design tools, step-by-step workflows, and the searchable inventory.
+- [Design stack](https://github.com/aunysillyme-dev/stack/blob/main/01-design-stack/README.md): 35 core tools, 5 workflows, and a 319-entry inventory across 15 categories.
+- [Design inventory (plain text)](https://github.com/aunysillyme-dev/stack/blob/main/01-design-stack/inventory.md): Full 319-entry table plus `free/`, `freemium/`, and `premium/` subfolders.
+- [Video stack](https://github.com/aunysillyme-dev/stack/blob/main/02-video-stack/README.md): Generation, editing, upscaling, lip-sync, and the original image-to-video inventory.
+- [Video inventory (plain text)](https://github.com/aunysillyme-dev/stack/blob/main/02-video-stack/inventory.md): 54 video entries plus `free/`, `freemium/`, and `premium/` subfolders.
+- [Compute stack](https://github.com/aunysillyme-dev/stack/blob/main/03-compute-stack/README.md): 19 GPU cloud and inference API entries.
+- [Agentic tools](https://github.com/aunysillyme-dev/stack/blob/main/04-agentic-stack/README.md): 18 coding agents, MCP servers, and frameworks.
+- [Contributing](https://github.com/aunysillyme-dev/stack/blob/main/CONTRIBUTING.md): Entry fields, workflow format, author credit, and certification.
 
 ## Reference
 
-- [Category catalog](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/catalog.json): Numbered top-level stack folders (`01-design-stack`, `02-video-stack`).
-- [Design metadata](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/01-design-stack/stack.json): Paths for curated design tools, workflows, resource inventory and community entries.
-- [Video metadata](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/02-video-stack/stack.json): Paths for curated video workflows, model inventory and community entries.
+- [Category catalog](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/catalog.json): Numbered top-level stack folders (`01-design-stack`, `02-video-stack`, `03-compute-stack`, `04-agentic-stack`).
+- [Design metadata](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/01-design-stack/stack.json): Paths for curated design tools, workflows, resource inventory, and community entries.
+- [Video metadata](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/02-video-stack/stack.json): Paths for curated video workflows, model inventory, and community entries.
+- [Compute metadata](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/03-compute-stack/stack.json): Paths for GPU clouds, inference APIs, and community entries.
+- [Agentic metadata](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/04-agentic-stack/stack.json): Paths for coding agents, MCP, frameworks, and community entries.
 - [Workflow template](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/templates/workflow.json): Fields for a new community submission.
-- [License coverage](https://github.com/aunysillyme-dev/stack/blob/main/LICENSE.md): Terms for editorial data, original descriptions, scripts and GitHub Actions configuration.
+- [License coverage](https://github.com/aunysillyme-dev/stack/blob/main/LICENSE.md): Terms for editorial data, original descriptions, scripts, and GitHub Actions configuration.
 - [Contributor certification](https://github.com/aunysillyme-dev/stack/blob/main/CONTRIBUTOR-CERTIFICATION.md): How to confirm the right to submit a pull request under the repository licenses.
 
 ## Common questions
 
-- [Best AI tools for video generation](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/02-video-stack/inventory.json): Dated model and platform entries with access routes, costs and status. Workflows are in 02-video-stack/canonical.json.
+- [Best AI tools for video generation](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/02-video-stack/inventory.json): Dated model and platform entries plus newer generation, editing, upscaling, and lip-sync pages. Workflows are in 02-video-stack/canonical.json.
 - [AI tools for animation](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/02-video-stack/canonical.json): Animation is part of the video stack.
-- [AI tools designers use](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/01-design-stack/canonical.json): 26 core tools and 4 workflows, plus the 291-entry 01-design-stack/inventory.json and free/freemium/premium subfolders.
-- [AI tools for UI design](https://github.com/aunysillyme-dev/stack/blob/main/01-design-stack/README.md): The web interface workflow and the UI categories in the design inventory.
+- [AI tools designers use](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/01-design-stack/canonical.json): 35 core tools and 5 workflows, plus the 319-entry 01-design-stack/inventory.json and free/freemium/premium subfolders.
+- [AI tools for UI design](https://github.com/aunysillyme-dev/stack/blob/main/01-design-stack/README.md): The web interface workflow, UI libraries, UI builders, and design-to-code.
+- [Where to run a model](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/03-compute-stack/inventory.json): GPU clouds and inference APIs with a free, freemium, or paid tag.
+- [Coding agents and MCP](https://raw.githubusercontent.com/aunysillyme-dev/stack/main/04-agentic-stack/inventory.json): Claude Code, the Agent SDK, MCP, Gemini CLI, ADK, Jules, Codex, Cursor, and agent frameworks.
 - [How to submit a workflow](https://github.com/aunysillyme-dev/stack/blob/main/CONTRIBUTING.md): Start from templates/workflow.json.
 - [Add a new kind of stack](https://github.com/aunysillyme-dev/stack/blob/main/CONTRIBUTING.md#propose-a-new-stack): Open a [New stack issue](https://github.com/aunysillyme-dev/stack/issues/new?template=new-stack.yml) with the proposed tools and workflow.
 
 ## Optional
 
 - [Agent instructions](https://github.com/aunysillyme-dev/stack/blob/main/AGENTS.md): Editing and offline validation.
-- [Maintainer review](https://github.com/aunysillyme-dev/stack/blob/main/.github/MAINTAINING.md): Review, consent and credit checks.
+- [Maintainer review](https://github.com/aunysillyme-dev/stack/blob/main/.github/MAINTAINING.md): Review, consent, and credit checks.

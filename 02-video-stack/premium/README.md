@@ -2,7 +2,7 @@
 
 Paid, subscription, metered API, or paywalled resources.
 
-Reviewed 2026-11-18 · 28 entries.
+Reviewed 2026-11-28 · 32 entries.
 
 ## Files
 

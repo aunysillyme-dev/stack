@@ -2,7 +2,7 @@
 
 Tools and platforms with a free tier alongside paid upgrades.
 
-Reviewed 2026-11-18 · 31 entries · Source: https://github.com/aunysillyme-dev/stack/blob/main/design/README.md#inventory
+Reviewed 2026-11-28 · 54 entries · Source: https://github.com/aunysillyme-dev/stack/blob/main/design/README.md#inventory
 
 - **[UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)**: Agent skills & DESIGN.md | Agent skill | Freemium (`freemium`): Broad UI and UX rule set for agents.
 - **[Uizze](https://uizze.com/)**: Agent skills & DESIGN.md | Agent skill | Freemium (`freemium`): Anti-slop UI design skill and tooling for coding agents; verify tier limits on site.
@@ -35,3 +35,26 @@ Reviewed 2026-11-18 · 31 entries · Source: https://github.com/aunysillyme-dev/
 - **[Iconsax](https://iconsax.io/)**: Logo, brand & icons | Icon library | Freemium (`freemium`): Multi-style UI icon set with free core icons; check current commercial license terms.
 - **[Isocons](https://isocons.app/)**: Logo, brand & icons | Icon library | Freemium (`freemium`): Isometric SVG icon library with free starter set and paid bundles.
 - **[Morphicons](https://morphicons.com/)**: Logo, brand & icons | Icon library | Freemium (`freemium`): Morphing animated icon set; confirm free vs commercial license terms on site.
+- **[Leonardo.Ai](https://leonardo.ai/)**: AI image & design generation | AI generation | Freemium (`freemium`): Generative image and video platform for prompts, custom models, edits, and upscaling.
+- **[Krea](https://www.krea.ai/)**: AI image & design generation | AI generation | Freemium (`freemium`): Generative image workspace on the Krea product homepage.
+- **[Black Forest Labs](https://bfl.ai/)**: AI image & design generation | AI generation | Freemium (`freemium`): API home for FLUX image models from Black Forest Labs.
+- **[Gemini Image](https://deepmind.google/models/gemini-image/)** (`gemini-image`): AI image & design generation | AI generation | Freemium (`freemium`): Google DeepMind page for the Gemini image model, also called Nano Banana.
+- **[Reve](https://reve.art/)**: AI image & design generation | AI generation | Freemium (`freemium`): Image creation and editing workspace.
+- **[Photoroom](https://www.photoroom.com/)**: AI image & design generation | AI generation | Freemium (`freemium`): AI photo and video editor for product images, listing videos, and ads.
+- **[Magnific](https://www.magnific.com/)**: AI image & design generation | AI generation | Freemium (`freemium`): AI creative platform for image, video, audio, upscaling, and brand workflows. Freepik now uses this name.
+- **[Napkin AI](https://www.napkin.ai/)**: AI image & design generation | AI generation | Freemium (`freemium`): Turns text into diagrams and other visuals.
+- **[Framer](https://www.framer.com/)**: UI and website builders | Website builder | Freemium (`freemium`): Website builder with an AI design agent, hosting, and a free start.
+- **[Relume](https://www.relume.ai/)**: UI and website builders | Website builder | Freemium (`freemium`): AI website builder for small businesses, free to start.
+- **[Webflow](https://webflow.com/)**: UI and website builders | Website builder | Freemium (`freemium`): Visual web platform for designing, hosting, and optimizing sites.
+- **[Uizard](https://uizard.io/)**: UI and website builders | UI design | Freemium (`freemium`): AI-assisted UI design for apps, websites, and desktop software.
+- **[v0](https://v0.app/)**: Design to code | Design to code | Freemium (`freemium`): Vercel AI builder for designing and shipping full-stack web apps.
+- **[Google Stitch](https://stitch.google.com/)**: Design to code | Design to code | Freemium (`freemium`): Google AI UI generator for mobile and web application screens.
+- **[Lovable](https://lovable.dev/)**: Design to code | Design to code | Freemium (`freemium`): AI app builder that turns a prompt into hosted full-stack software.
+- **[Bolt](https://bolt.new/)**: Design to code | Design to code | Freemium (`freemium`): Prompt-to-app builder for websites, prototypes, and web apps.
+- **[Builder.io](https://www.builder.io/)**: Design to code | Design to code | Freemium (`freemium`): Visual development platform where teams and AI agents build on the same project.
+- **[Anima](https://www.animaapp.com/)**: Design to code | Design to code | Freemium (`freemium`): Design-to-code agent that turns Figma files, URLs, or prompts into apps.
+- **[Locofy](https://www.locofy.ai/)**: Design to code | Design to code | Freemium (`freemium`): Converts Figma and Penpot designs into frontend code.
+- **[Subframe](https://www.subframe.com/)**: Design to code | Design to code | Freemium (`freemium`): Design canvas connected to a codebase, with a coding agent.
+- **[Looka](https://looka.com/)**: Logo, brand & icons | Brand | Freemium (`freemium`): AI logo and brand-kit maker for colors, files, and marketing templates.
+- **[Kittl](https://www.kittl.com/)**: Logo, brand & icons | Brand | Freemium (`freemium`): AI-first design platform for graphics and brand assets.
+- **[Brandmark](https://brandmark.io/)**: Logo, brand & icons | Brand | Freemium (`freemium`): AI logo maker that also builds cards and social graphics.

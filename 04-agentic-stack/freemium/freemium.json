@@ -1,0 +1,107 @@
+{
+  "tier": "freemium",
+  "source": "https://code.claude.com/docs/en/overview",
+  "reviewed": "2026-11-28",
+  "entries": [
+    {
+      "name": "Claude Code",
+      "type": "Coding agent",
+      "route": "Coding agent",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Agentic coding tool that reads a repo, edits files, and runs commands in the terminal, IDE, desktop app, or browser.",
+      "link": "https://code.claude.com/docs/en/overview"
+    },
+    {
+      "name": "Claude Code subagents",
+      "type": "Feature",
+      "route": "Coding agent",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Specialized workers inside one Claude Code session. Each returns a summary instead of filling the main context.",
+      "link": "https://code.claude.com/docs/en/sub-agents"
+    },
+    {
+      "name": "Claude Code agent teams",
+      "type": "Feature",
+      "route": "Coding agent",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Experimental teams of Claude Code sessions with a shared task list and messages between teammates. Off unless enabled.",
+      "link": "https://code.claude.com/docs/en/agent-teams"
+    },
+    {
+      "name": "Claude Code dynamic workflows",
+      "type": "Feature",
+      "route": "Coding agent",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Scripted orchestration that runs many Claude Code subagents and cross-checks their results.",
+      "link": "https://code.claude.com/docs/en/workflows"
+    },
+    {
+      "name": "Claude Agent SDK",
+      "type": "SDK",
+      "route": "SDK",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Python and TypeScript library for the Claude Code agent loop, tools, permissions, and sessions.",
+      "link": "https://code.claude.com/docs/en/agent-sdk/overview"
+    },
+    {
+      "name": "Jules",
+      "type": "Coding agent",
+      "route": "Coding agent",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Google's autonomous coding agent that plans a change in a GitHub repo and opens a pull request.",
+      "link": "https://jules.google/"
+    },
+    {
+      "name": "OpenAI Codex",
+      "type": "Coding agent",
+      "route": "Coding agent",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "OpenAI coding agent for planning, building, reviewing, and shipping code across ChatGPT, the editor, and the terminal.",
+      "link": "https://openai.com/codex/"
+    },
+    {
+      "name": "Cursor",
+      "type": "Coding agent",
+      "route": "Coding agent",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "AI coding agent and editor for handing tasks to agents inside a repository.",
+      "link": "https://cursor.com/"
+    },
+    {
+      "name": "CrewAI",
+      "type": "Framework",
+      "route": "Framework",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Framework and platform for crews of agents that share a task.",
+      "link": "https://crewai.com/"
+    },
+    {
+      "name": "OpenHands",
+      "type": "Coding agent",
+      "route": "Coding agent",
+      "status": "Freemium",
+      "cost_class": "freemium",
+      "model_id": "",
+      "notes": "Open-source coding agent with a cloud option that can work from GitHub issues.",
+      "link": "https://docs.openhands.dev/"
+    }
+  ]
+}

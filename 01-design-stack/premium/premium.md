@@ -2,7 +2,7 @@
 
 Paid, subscription, metered API, or paywalled resources.
 
-Reviewed 2026-11-18 · 16 entries · Source: https://github.com/aunysillyme-dev/stack/blob/main/design/README.md#inventory
+Reviewed 2026-11-28 · 17 entries · Source: https://github.com/aunysillyme-dev/stack/blob/main/design/README.md#inventory
 
 - **[Scrolltide](https://scrolltide.co)**: UI libraries & systems | UI library | Paid / paywalled (`paid`): Scroll-driven web patterns.
 - **[Mobbin](https://mobbin.com)**: UI libraries & systems | UI library | Paid / paywalled (`paid`): Library of real app screens and flows.
@@ -20,3 +20,4 @@ Reviewed 2026-11-18 · 16 entries · Source: https://github.com/aunysillyme-dev/
 - **[MotionSites](https://motionsites.ai)**: Galleries & UI inspiration | Gallery | Paid / paywalled (`paid`): 800+ premium website prompts, 3D sites and motion sections for AI tools.
 - **[Wonderlist](https://wonderlist.design/)**: Galleries & UI inspiration | Template directory | Paid / paywalled (`paid`): Commercial catalog of 120+ whole-site Figma design templates ($329+ tiers).
 - **[These Are the 4 Black Pencil Winners of the 2026 D&AD Awards](https://www.adweek.com/creativity/these-are-the-4-black-pencil-winners-of-the-2026-dad-awards/)**: Trends & award rules | Trends & rules | Paid / paywalled (`paid`): Adweek coverage of the four 2026 D&AD Black Pencil winners.
+- **[Stability AI](https://stability.ai/)**: AI image & design generation | AI generation | Paid / paywalled (`paid`): Enterprise generative image and video tools from the Stable Diffusion lab.

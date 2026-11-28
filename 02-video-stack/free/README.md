@@ -2,7 +2,7 @@
 
 Free and open-access tools and resources.
 
-Reviewed 2026-11-18 · 0 entries.
+Reviewed 2026-11-28 · 4 entries.
 
 ## Files
 

@@ -1,10 +1,10 @@
 # Video stack: core tools and workflows
 
-Curated by @aunysillyme · Reviewed 2026-11-18
+Curated by @aunysillyme · Reviewed 2026-11-28
 
 Source: https://aunysillyme.dev/stack/video/
 
-## Core tools (13)
+## Core tools (24)
 
 - **[ChatGPT Images](https://chatgpt.com/):** GPT Image for detailed scenes, character reference sheets, infographics and thumbnails.
 - **[Grok Imagine](https://grok.com/imagine):** Cinematic and surreal images, character visuals, storyboards and short animated clips.
@@ -19,8 +19,19 @@ Source: https://aunysillyme.dev/stack/video/
 - **[FFmpeg](https://ffmpeg.org/):** Open-source media toolkit for assembling, scaling, color adjustment, encoding and checking the finished file.
 - **[ElevenLabs](https://elevenlabs.io/):** Voiceover, transcription and sound effects when a project calls for them. The workspace also exposes creative image and video routes.
 - **[Remotion](https://www.remotion.dev/):** Reference material for animation techniques and templates that can be rebuilt in HyperFrames; check the applicable license before reuse.
+- **[Runway](https://runway.com/):** Paid. Runway's current product home for AI video and content tools. The homepage offers an enterprise trial.
+- **[Kling AI](https://kling.ai/):** Freemium. Video and image studio for text, image, and reference prompts.
+- **[Luma](https://lumalabs.ai/):** Freemium. Video and image platform using Ray and Uni. The site says to try it free.
+- **[Veo](https://deepmind.google/models/veo/):** Freemium. Google DeepMind page for Veo 3.1.
+- **[Hailuo](https://hailuoai.video/):** Freemium. MiniMax video studio. The homepage currently features MiniMax H3.
+- **[Descript](https://www.descript.com/):** Freemium. Text-based editor for cutting video and audio. The site says to try it free.
+- **[DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve):** Freemium. Editor and color tool with a free version and a paid Studio upgrade.
+- **[Opus Clip](https://www.opus.pro/):** Freemium. Turns a long video into short social clips.
+- **[Topaz Video](https://www.topazlabs.com/topaz-video):** Paid. Desktop upscaler and enhancer for selected shots.
+- **[Sync](https://sync.so/):** Freemium. Lip-sync and visual dubbing for a picture plus a voice track.
+- **[Magnific](https://www.magnific.com/):** Freemium. Creative platform for generation and for image and video upscaling.
 
-## Workflows (5)
+## Workflows (7)
 
 ### Video production from brief to delivery
 
@@ -75,3 +86,21 @@ Source: https://aunysillyme.dev/stack/video/#storyboard
 2. Fill the gaps. Ask for additional images in the same style, without text, for intros, instrumental sections and outros.
 3. Animate the selections. Generate clips from the images. Specify subject or environmental motion when the result needs more direction.
 4. Cut to the actual track. Export to CapCut, arrange the clips in order and trim them to the lyrics and music. For strict continuity, use the character-reference workflow and review each shot closely.
+
+### Finish a talking shot with lip-sync and upscale
+
+Source: https://sync.so/
+
+1. Generate the picture with a current video model such as Kling, Veo, Runway, Luma, or Hailuo, and keep the still or clip that holds the face.
+2. Record or pick a clean voice track. Send the picture and the audio to a lip-sync tool such as Sync or HeyGen.
+3. Watch the mouth, teeth, and jaw against the words. Regenerate the take if the face, teeth, or identity drift.
+4. Upscale only the selected take with Topaz Video, Magnific, or an open upscaler such as Upscayl, then cut it into the edit in Descript, DaVinci Resolve, or CapCut.
+
+### Cut short clips from a long generation
+
+Source: https://www.opus.pro/
+
+1. Export the approved long cut with its mastered audio and keep that master.
+2. Run it through a clipping editor such as Opus Clip, VEED, Kapwing, or Captions and mark the lines that carry the point of the video.
+3. Keep the strongest vertical and landscape cuts. Drop clips with bad motion, broken captions, or identity drift.
+4. Export the selected cuts at the sizes the destination needs and store them next to the long master.

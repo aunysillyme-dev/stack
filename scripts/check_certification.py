@@ -9,6 +9,20 @@ import sys
 
 
 STATEMENT = "I certify under Stack Contributor Certification v1 that I may submit this contribution under the applicable repository licenses."
+# The same v1 statement covers every live stack and the entry fields
+# name, link, description, and tier. New categories do not get a new certification.
+CATALOG_CATEGORIES = (
+    "01-design-stack",
+    "02-video-stack",
+    "03-compute-stack",
+    "04-agentic-stack",
+)
+
+
+def statement_for(category_id):
+    if category_id not in CATALOG_CATEGORIES:
+        raise ValueError("The v1 certification does not cover an unknown category.")
+    return STATEMENT
 QUERY = """
 query($owner: String!, $name: String!, $number: Int!) {
   repository(owner: $owner, name: $name) {

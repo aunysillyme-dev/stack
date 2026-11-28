@@ -1,6 +1,6 @@
 {
   "author": "aunysillyme",
-  "reviewed": "2026-11-18",
+  "reviewed": "2026-11-28",
   "source": "https://github.com/aunysillyme-dev/stack/blob/main/design/README.md",
   "tools": [
     {
@@ -132,6 +132,51 @@
       "name": "Playwright",
       "url": "https://github.com/microsoft/playwright",
       "use": "Apache-2.0 headless browser runner used for light/dark viewport screenshots, visual regression checks and demo capture."
+    },
+    {
+      "name": "v0",
+      "url": "https://v0.app/",
+      "use": "Freemium. Vercel AI builder for designing and shipping full-stack web apps."
+    },
+    {
+      "name": "Google Stitch",
+      "url": "https://stitch.google.com/",
+      "use": "Freemium. Google AI UI generator for mobile and web application screens."
+    },
+    {
+      "name": "Leonardo.Ai",
+      "url": "https://leonardo.ai/",
+      "use": "Freemium. Generative image and video platform for prompts, custom models, edits, and upscaling."
+    },
+    {
+      "name": "Krea",
+      "url": "https://www.krea.ai/",
+      "use": "Freemium. Generative image workspace on the Krea product homepage."
+    },
+    {
+      "name": "Lovable",
+      "url": "https://lovable.dev/",
+      "use": "Freemium. AI app builder that turns a prompt into hosted full-stack software."
+    },
+    {
+      "name": "Looka",
+      "url": "https://looka.com/",
+      "use": "Freemium. AI logo and brand-kit maker for colors, files, and marketing templates."
+    },
+    {
+      "name": "Framer",
+      "url": "https://www.framer.com/",
+      "use": "Freemium. Website builder with an AI design agent, hosting, and a free start."
+    },
+    {
+      "name": "Black Forest Labs",
+      "url": "https://bfl.ai/",
+      "use": "Freemium. API home for FLUX image models from Black Forest Labs."
+    },
+    {
+      "name": "Onlook",
+      "url": "https://www.onlook.com/",
+      "use": "Free. Free local-first visual editor for building interfaces in code."
     }
   ],
   "workflows": [
@@ -177,6 +222,16 @@
         "Wire prefers-reduced-motion static fallbacks and verify foreground text contrast over animated surfaces against WCAG failure F83.",
         "Capture deterministic frames or product walkthrough clips via Playwright, HyperFrames or snapcn instead of relying on unverified screen recordings.",
         "Inspect frame pacing, loop seams, alpha edges and compressed payload sizes before committing assets."
+      ]
+    },
+    {
+      "name": "Turn a brand still into an interface",
+      "source": "https://stitch.google.com/",
+      "steps": [
+        "Make or choose a brand still in Leonardo, Krea, Reve, or another image tool and lock the palette, type mood, and subject before drawing screens.",
+        "Generate a first UI pass in Google Stitch or v0 from that still and a short brief that names the page, the audience, and the one action.",
+        "Move the chosen layout into an editable codebase with Lovable, Bolt, Onlook, Locofy, or Anima, and keep the components in the repo.",
+        "Check desktop and mobile, text contrast, and the brand mark at small sizes, then fix the layout in the same tool before publishing."
       ]
     }
   ]

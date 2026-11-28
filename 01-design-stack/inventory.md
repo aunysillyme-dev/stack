@@ -1,8 +1,8 @@
 # Design stack: full inventory
 
-Plain-text index of all 291 recorded resources in `01-design-stack/inventory.json`.
+Plain-text index of all 319 recorded resources in `01-design-stack/inventory.json`.
 
-Reviewed 2026-11-18 · Source: https://github.com/aunysillyme-dev/stack/blob/main/design/README.md#inventory
+Reviewed 2026-11-28 · Source: https://github.com/aunysillyme-dev/stack/blob/main/design/README.md#inventory
 
 - [Free resources](free/free.md)
 - [Freemium resources](freemium/freemium.md)
@@ -285,6 +285,33 @@ Reviewed 2026-11-18 · Source: https://github.com/aunysillyme-dev/stack/blob/mai
 | [Verbalized Sampling paper](https://arxiv.org/abs/2510.01171) | Vector & generative research | Research | Free / open access | `free` | Verbalized Sampling paper on recovering output diversity in aligned generative models. |
 | [W3C SVG 2](https://www.w3.org/TR/SVG2/) | Vector & generative research | Research | Free / open access | `free` | The SVG 2 specification. |
 | [A Primer on Bézier Curves](https://pomax.github.io/bezierinfo/) | Vector & generative research | Research | Free / open access | `free` | Interactive primer on Bézier curves. |
+| [Leonardo.Ai](https://leonardo.ai/) | AI image & design generation | AI generation | Freemium | `freemium` | Generative image and video platform for prompts, custom models, edits, and upscaling. |
+| [Krea](https://www.krea.ai/) | AI image & design generation | AI generation | Freemium | `freemium` | Generative image workspace on the Krea product homepage. |
+| [Black Forest Labs](https://bfl.ai/) | AI image & design generation | AI generation | Freemium | `freemium` | API home for FLUX image models from Black Forest Labs. |
+| [Gemini Image](https://deepmind.google/models/gemini-image/) | AI image & design generation | AI generation | Freemium | `freemium` | Google DeepMind page for the Gemini image model, also called Nano Banana. |
+| [Reve](https://reve.art/) | AI image & design generation | AI generation | Freemium | `freemium` | Image creation and editing workspace. |
+| [Photoroom](https://www.photoroom.com/) | AI image & design generation | AI generation | Freemium | `freemium` | AI photo and video editor for product images, listing videos, and ads. |
+| [Magnific](https://www.magnific.com/) | AI image & design generation | AI generation | Freemium | `freemium` | AI creative platform for image, video, audio, upscaling, and brand workflows. Freepik now uses this name. |
+| [Napkin AI](https://www.napkin.ai/) | AI image & design generation | AI generation | Freemium | `freemium` | Turns text into diagrams and other visuals. |
+| [Framer](https://www.framer.com/) | UI and website builders | Website builder | Freemium | `freemium` | Website builder with an AI design agent, hosting, and a free start. |
+| [Relume](https://www.relume.ai/) | UI and website builders | Website builder | Freemium | `freemium` | AI website builder for small businesses, free to start. |
+| [Webflow](https://webflow.com/) | UI and website builders | Website builder | Freemium | `freemium` | Visual web platform for designing, hosting, and optimizing sites. |
+| [Uizard](https://uizard.io/) | UI and website builders | UI design | Freemium | `freemium` | AI-assisted UI design for apps, websites, and desktop software. |
+| [v0](https://v0.app/) | Design to code | Design to code | Freemium | `freemium` | Vercel AI builder for designing and shipping full-stack web apps. |
+| [Google Stitch](https://stitch.google.com/) | Design to code | Design to code | Freemium | `freemium` | Google AI UI generator for mobile and web application screens. |
+| [Lovable](https://lovable.dev/) | Design to code | Design to code | Freemium | `freemium` | AI app builder that turns a prompt into hosted full-stack software. |
+| [Bolt](https://bolt.new/) | Design to code | Design to code | Freemium | `freemium` | Prompt-to-app builder for websites, prototypes, and web apps. |
+| [Builder.io](https://www.builder.io/) | Design to code | Design to code | Freemium | `freemium` | Visual development platform where teams and AI agents build on the same project. |
+| [Anima](https://www.animaapp.com/) | Design to code | Design to code | Freemium | `freemium` | Design-to-code agent that turns Figma files, URLs, or prompts into apps. |
+| [Locofy](https://www.locofy.ai/) | Design to code | Design to code | Freemium | `freemium` | Converts Figma and Penpot designs into frontend code. |
+| [Onlook](https://www.onlook.com/) | Design to code | Design to code | Free / open access | `free` | Free local-first visual editor for building interfaces in code. |
+| [Subframe](https://www.subframe.com/) | Design to code | Design to code | Freemium | `freemium` | Design canvas connected to a codebase, with a coding agent. |
+| [Looka](https://looka.com/) | Logo, brand & icons | Brand | Freemium | `freemium` | AI logo and brand-kit maker for colors, files, and marketing templates. |
+| [Kittl](https://www.kittl.com/) | Logo, brand & icons | Brand | Freemium | `freemium` | AI-first design platform for graphics and brand assets. |
+| [Khroma](https://www.khroma.co/) | Logo, brand & icons | Color | Free / open access | `free` | Free AI color tool for discovering and saving palettes. |
+| [Huemint](https://huemint.com/) | Logo, brand & icons | Color | Free / open access | `free` | Free AI color palette generator. |
+| [Fontjoy](https://fontjoy.com/) | Logo, brand & icons | Typography | Free / open access | `free` | Free font-pairing generator. |
+| [Brandmark](https://brandmark.io/) | Logo, brand & icons | Brand | Freemium | `freemium` | AI logo maker that also builds cards and social graphics. |
 | [Scrolltide](https://scrolltide.co) | UI libraries & systems | UI library | Paid / paywalled | `paid` | Scroll-driven web patterns. |
 | [Mobbin](https://mobbin.com) | UI libraries & systems | UI library | Paid / paywalled | `paid` | Library of real app screens and flows. |
 | [motionin.design](https://motionin.design) | UI libraries & systems | UI library | Paid / paywalled | `paid` | Premium physics and cursor-reactive web sections sold as spec files. |
@@ -301,3 +328,4 @@ Reviewed 2026-11-18 · Source: https://github.com/aunysillyme-dev/stack/blob/mai
 | [MotionSites](https://motionsites.ai) | Galleries & UI inspiration | Gallery | Paid / paywalled | `paid` | 800+ premium website prompts, 3D sites and motion sections for AI tools. |
 | [Wonderlist](https://wonderlist.design/) | Galleries & UI inspiration | Template directory | Paid / paywalled | `paid` | Commercial catalog of 120+ whole-site Figma design templates ($329+ tiers). |
 | [These Are the 4 Black Pencil Winners of the 2026 D&AD Awards](https://www.adweek.com/creativity/these-are-the-4-black-pencil-winners-of-the-2026-dad-awards/) | Trends & award rules | Trends & rules | Paid / paywalled | `paid` | Adweek coverage of the four 2026 D&AD Black Pencil winners. |
+| [Stability AI](https://stability.ai/) | AI image & design generation | AI generation | Paid / paywalled | `paid` | Enterprise generative image and video tools from the Stable Diffusion lab. |

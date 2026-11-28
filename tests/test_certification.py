@@ -54,6 +54,12 @@ class CertificationTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             certification.check(self.pr, "12", "")
 
+    def test_v1_statement_covers_every_live_category(self):
+        for category_id in certification.CATALOG_CATEGORIES:
+            self.assertEqual(certification.statement_for(category_id), certification.STATEMENT)
+        with self.assertRaises(ValueError):
+            certification.statement_for("05-image-stack")
+
     def test_template_matches_policy_and_checker(self):
         first_line = (ROOT / ".github/pull_request_template.md").read_text().splitlines()[0]
         self.assertEqual(first_line, self.line.replace("[x]", "[ ]"))
