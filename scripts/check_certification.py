@@ -23,6 +23,18 @@ def statement_for(category_id):
     if category_id not in CATALOG_CATEGORIES:
         raise ValueError("The v1 certification does not cover an unknown category.")
     return STATEMENT
+
+
+# Cursor's pull request publisher inserts this comment above the description.
+# The v1 statement must still be the next line.
+PLATFORM_BODY_MARKER = "<!-- CURSOR_AGENT_PR_BODY_BEGIN -->"
+
+
+def certification_body(body):
+    lines = body.split("\n")
+    if lines and lines[0].removesuffix("\r") == PLATFORM_BODY_MARKER:
+        return "\n".join(lines[1:])
+    return body
 QUERY = """
 query($owner: String!, $name: String!, $number: Int!) {
   repository(owner: $owner, name: $name) {
@@ -47,8 +59,8 @@ def check(pr, author_id, head):
     editor = pr["editor"]
     if editor != author and (editor is not None or pr["lastEditedAt"] is not None):
         raise ValueError("The submitter must personally review the description, then clear and recheck the first-line box if accurate.")
-    lines = pr["body"].split("\n", 1)
-    if lines[0].removesuffix("\r") not in (
+    lines = certification_body(pr["body"]).split("\n", 1)
+    if not lines or lines[0].removesuffix("\r") not in (
         "- [x] " + STATEMENT, "- [X] " + STATEMENT
     ):
         raise ValueError("Read the Stack v1 certification and check the first line if accurate.")

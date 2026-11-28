@@ -54,6 +54,15 @@ class CertificationTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             certification.check(self.pr, "12", "")
 
+    def test_platform_comment_can_precede_the_certification_line(self):
+        marker = certification.PLATFORM_BODY_MARKER
+        self.check(body=marker + "\n" + self.line + "\n\nSources.")
+        self.check(body=marker + "\r\n" + self.line.replace("[x]", "[X]"))
+        with self.assertRaises(ValueError):
+            self.check(body="<!-- other -->\n" + self.line)
+        with self.assertRaises(ValueError):
+            self.check(body=marker + "\n" + self.line.replace("[x]", "[ ]"))
+
     def test_v1_statement_covers_every_live_category(self):
         for category_id in certification.CATALOG_CATEGORIES:
             self.assertEqual(certification.statement_for(category_id), certification.STATEMENT)
